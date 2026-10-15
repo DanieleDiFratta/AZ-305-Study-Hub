@@ -2,7 +2,7 @@
 
 Piano personalizzato per esperienza professionale Azure, .NET, microservizi, AKS, Functions, App Service, Cosmos DB, Key Vault e Azure DevOps, oltre allo studio AZ-104. Questa esperienza è dichiarata dall’utente; non sono stati ancora verificati risultati o lacune personali.
 
-Le ore sono **stime redazionali da calibrare**, comprensive di lettura, confronto e attività, non durate Microsoft né un impegno settimanale concordato. Non si importa la disponibilità del progetto Magistrale. Nessuna data d’esame è fissata.
+Le ore sono **stime redazionali da calibrare**, comprensive di lettura, confronto e attività, non durate Microsoft né un impegno settimanale concordato. Non si importa la disponibilità del progetto Magistrale. Data d’esame indicata dall’utente: **1 dicembre 2026**; disponibilità settimanale da concordare.
 
 ## Ordine e dipendenze
 

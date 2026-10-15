@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "updated_on": "2026-10-15",
+  "exam_date": "2026-12-01",
+  "resume": {
+    "block_id": "S00",
+    "summary": "Il percorso è pronto. La prima sessione di studio deve ancora iniziare.",
+    "next_action": "Scegliere il tempo della sessione e svolgere la diagnosi mirata su identità, reti, dati e continuità operativa.",
+    "source_id": null,
+    "section": null
+  },
+  "blocks": {},
+  "objectives": {},
+  "sessions": [],
+  "doubts": [],
+  "reviews": []
+}

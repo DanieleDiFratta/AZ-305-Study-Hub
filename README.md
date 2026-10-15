@@ -2,7 +2,20 @@
 
 Biblioteca e percorso personale per preparare **AZ-305** attraverso decisioni architetturali motivate. Repository: [DanieleDiFratta/AZ-305-Study-Hub](https://github.com/DanieleDiFratta/AZ-305-Study-Hub).
 
-**Fase attuale: ricerca e catalogazione.** Nessuna dashboard, lezione completa, flashcard o raccolta di appunti definitivi. Studio personale non ancora iniziato.
+**Fase attuale: dashboard statica implementata.** Percorso, biblioteca, progressi e raccolta di ripasso consultabili anche da telefono. Studio personale non ancora iniziato: nessuna lezione completa, flashcard, mappa o raccolta di appunti definitivi prodotta.
+
+## Aprire la dashboard
+
+Serve soltanto Python 3.10 o successivo, senza dipendenze esterne:
+
+```powershell
+python -B scripts/build_site.py
+python -m http.server 8000 --bind 127.0.0.1 --directory _site
+```
+
+Aprire `http://127.0.0.1:8000`, oppure direttamente `_site/index.html`. La dashboard mostra il punto di ripresa, i 12 blocchi, i 49 obiettivi e le fonti ricercabili. Appunti, mappe e flashcard compariranno dopo le sessioni effettive. Esame indicato dall’utente: **1 dicembre 2026**.
+
+Pubblicazione prevista su GitHub Pages pubblico con il workflow incluso; progressi ed elaborati inclusi nel sito saranno pubblici. Non ci sono database o salvataggi dal browser. Per attivazione Pages e aggiornamenti leggere [DASHBOARD.md](docs/DASHBOARD.md). Nessuna impostazione remota è stata cambiata dall’implementazione locale.
 
 ## Da dove partire
 
@@ -31,6 +44,8 @@ Questa è copertura documentale del programma, non una dichiarazione di padronan
 | `templates/` | Modelli vuoti per sessioni e decisioni future |
 | `materiali/` | Regole per eventuali file locali; nessun originale Microsoft redistribuito |
 | `scripts/` | Ricerca, aggiornamento e controlli riproducibili con Python |
+| `web/` | Sorgenti HTML, CSS e JavaScript della dashboard |
+| `_site/` | Sito generato localmente, escluso da Git |
 
 ## Verificare e mantenere
 

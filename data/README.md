@@ -2,6 +2,8 @@
 
 I JSON sono UTF-8. Sono conservati metadati, non copie degli articoli o delle soluzioni.
 
+La dashboard legge il catalogo senza modificarlo. I progressi personali sono in `studio/progressi.json` e il manifesto dei materiali di ripasso in `studio/materiali.json`, entrambi mantenuti durante le sessioni. Non scrivere i progressi in `catalog.json`, `coverage.json` o nel campo storico `learning_status` di `objectives.json`. Vedere [DASHBOARD.md](../docs/DASHBOARD.md).
+
 | File | Ruolo |
 | --- | --- |
 | `objectives.json` | Baseline, pesi, 12 gruppi e 49 obiettivi; etichette italiane concise originali, URL/anchor e posizione del bullet |

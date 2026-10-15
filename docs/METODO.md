@@ -6,7 +6,7 @@ Metodo adattato da [Magistrale Dashboard](https://github.com/DanieleDiFratta/-Ma
 
 La sessione parte dalla scheda del dominio e dal punto di ripresa. L’assistente apre le fonti pertinenti e propone un blocco con ID degli obiettivi, URL, sezioni, prerequisiti e durata orientativa. Un’unità Learn può essere affiancata da una pagina di confronto o da un diagramma: il criterio è la decisione da comprendere, non un numero fisso di pagine.
 
-L’utente legge autonomamente. L’assistente risponde ai dubbi e attende che l’utente sia pronto prima della spiegazione integrata. La spiegazione futura approfondirà motivazioni, condizioni, limiti ed esempi, conservando i riferimenti e distinguendo gli esempi originali da quelli Microsoft. Questa prima fase non contiene tali lezioni.
+L’utente legge autonomamente. L’assistente risponde ai dubbi e attende che l’utente sia pronto prima della spiegazione integrata. La spiegazione approfondirà motivazioni, condizioni, limiti ed esempi, conservando i riferimenti e distinguendo gli esempi originali da quelli Microsoft. L’implementazione della dashboard non avvia automaticamente lo studio e non genera tali lezioni.
 
 Una breve verifica chiude il blocco: spiegare una scelta, scartare un’alternativa plausibile e indicare quale requisito potrebbe cambiare la decisione. Se emerge una difficoltà si restringe il blocco successivo. I concetti già acquisiti non vengono ripetuti per riorganizzare il percorso.
 
@@ -31,4 +31,6 @@ Le attività potranno essere analisi su carta, lettura di diagrammi, review di c
 
 ## Chiusura e ripresa
 
-Registrare fonti/sezioni effettivamente trattate, stati separati, errori e prossima azione precisa. Durante le future sessioni gli appunti e le mappe verranno sviluppati progressivamente per blocco tematico, senza riprodurre gli articoli Microsoft. In questa fase si salvano solo catalogo, piano e registri iniziali.
+Registrare fonti/sezioni effettivamente trattate, stati separati, errori e prossima azione precisa. Alla fine delle sessioni sviluppare appunti approfonditi, mappe e flashcard per il blocco effettivamente trattato, senza riprodurre gli articoli Microsoft; ampliarli nel tempo con riferimenti, precisazioni e domande.
+
+Aggiornare insieme riepilogo della sessione, scheda del dominio, piano generale e `studio/progressi.json`. Pubblicare i materiali nel manifesto `studio/materiali.json` secondo [DASHBOARD.md](DASHBOARD.md). Il sito mostra lo stato registrato nei file, senza scritture dal browser. Le sessioni di studio non sono ancora iniziate: la raccolta di ripasso è vuota.

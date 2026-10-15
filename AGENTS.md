@@ -1,7 +1,7 @@
 # Istruzioni del progetto AZ-305
 
 - Rispondere in italiano. Leggere `README.md`, `studio/PIANO-GENERALE.md`, `docs/METODO.md` e la scheda del dominio prima di lavorare.
-- Questa prima fase riguarda ricerca, catalogazione e piano. Non costruire dashboard, lezioni complete, flashcard, mappe di ripasso o appunti definitivi finché l’utente non avvia le sessioni di studio o cambia esplicitamente fase.
+- Dal 15 ottobre 2026 l’utente ha autorizzato l’implementazione della dashboard statica personale su GitHub Pages, senza database. La ricerca iniziale resta la baseline. Non generare lezioni complete, flashcard, mappe o appunti definitivi prima delle sessioni effettive.
 - Usare la Study Guide ufficiale corrente come programma. Conservare tutti i bullet, anche quando sembrano già noti all’utente; gli ID locali sono ancorati a sezione e posizione, non sono ID Microsoft.
 - Privilegiare Microsoft Learn, documentazione Microsoft, Azure Architecture Center, Well-Architected Framework e Cloud Adoption Framework. Non utilizzare exam dumps né materiale riservato dell’esame.
 - Non inventare titoli, URL, disponibilità, prezzi, limiti, SLA, date di ritiro o risultati personali. Verificare online le informazioni Azure instabili e registrare la data e la fonte. Distinguere dati attuali, materiali storici e ipotesi.
@@ -13,5 +13,6 @@
 - Registrare separatamente blocco proposto, lettura dichiarata, discussione svolta, esercizio svolto e comprensione verificata. Preservare punto di ripresa e dubbi nelle schede del dominio; non trasferire risultati o impegni settimanali dal progetto Magistrale.
 - L’esperienza Azure dichiarata è un prerequisito, non prova di padronanza di tutti i trade-off AZ-305. Verificare prima le competenze praticate e dare maggiore spazio alle aree meno frequentate.
 - Le decisioni architetturali future devono esplicitare requisiti, almeno due alternative, scelta, rinunce, costi/operabilità, failure mode e fonti. Ogni esempio originale va identificato come tale.
-- Nelle future sessioni gli appunti saranno sviluppati per blocco tematico, ampliandoli nel tempo e mantenendo riferimenti, precisazioni e domande. Non generarli automaticamente in questa fase.
+- Alla fine delle sessioni sviluppare appunti approfonditi, mappe e flashcard per il blocco effettivamente trattato; ampliarli nel tempo mantenendo riferimenti, precisazioni e domande. Pubblicarli tramite `studio/materiali.json` secondo `docs/DASHBOARD.md`.
+- I progressi della dashboard sono in `studio/progressi.json`, separati dal catalogo generato. Aggiornarli insieme al riepilogo e al punto di ripresa, con date ed evidenze effettive e stati indipendenti. Il sito e i materiali inclusi sono pubblici: scelta confermata dall’utente. Non aggiungere database, login, sincronizzazione o scritture dal browser.
 - Alla chiusura di una sessione salvare riepilogo, stato distinto e punto di ripresa. Commit e push quando autorizzati dalla sessione, controllando il diff ed escludendo cache, segreti e modifiche estranee. Mai force push o cancellazioni del lavoro altrui.

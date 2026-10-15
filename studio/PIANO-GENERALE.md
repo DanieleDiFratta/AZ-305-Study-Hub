@@ -2,17 +2,19 @@
 
 ## Stato corrente — 15 ottobre 2026
 
-Prima fase predisposta: biblioteca verificabile, copertura del programma e percorso didattico. Gli esiti tecnici sono in [audit-summary.json](../data/audit-summary.json); il [rapporto](../docs/RAPPORTO-RICERCA.md) ne esplicita i limiti. Nessuna dashboard, lezione completa, flashcard o nota definitiva prodotta. **Nessuna sessione di studio svolta e nessun obiettivo personale completato.**
+Biblioteca verificabile, copertura del programma e percorso didattico predisposti nella prima fase. Dashboard statica implementata su richiesta dell’utente: panoramica, blocchi, biblioteca e raccolta di ripasso. Gli esiti della ricerca sono in [audit-summary.json](../data/audit-summary.json); il [rapporto](../docs/RAPPORTO-RICERCA.md) ne esplicita i limiti. Nessuna lezione completa, mappa, flashcard o nota definitiva prodotta. **Nessuna sessione di studio svolta e nessun obiettivo personale completato.**
 
-Profilo dichiarato: esperienza professionale con Azure, .NET, microservizi, AKS, Functions, App Service, Cosmos DB, Key Vault e Azure DevOps; studio AZ-104. Possesso della certificazione AZ-104/Azure Administrator Associate non dichiarato. Tempo settimanale, data d’esame e lingua d’esame ancora non concordati; non impediscono di iniziare il percorso.
+Profilo dichiarato: esperienza professionale con Azure, .NET, microservizi, AKS, Functions, App Service, Cosmos DB, Key Vault e Azure DevOps; studio AZ-104. Possesso della certificazione AZ-104/Azure Administrator Associate non dichiarato. Esame indicato dall’utente: **1 dicembre 2026**. Tempo settimanale e lingua d’esame ancora non concordati.
 
 ## Decisioni confermate
 
 - Usare il repository esistente `DanieleDiFratta/AZ-305-Study-Hub`, come chiarito dall’utente in questa sessione.
-- Limitare questa fase a ricerca/catalogazione/piano. Privilegiare le fonti Microsoft, mantenere la tracciabilità e non usare exam dumps.
+- Implementazione autorizzata dopo la pianificazione: sito statico semplice, senza database, su GitHub Pages pubblico. Progressi ed elaborati inclusi sono pubblici; nessun login, backend o sincronizzazione da introdurre.
+- Privilegiare le fonti Microsoft, mantenere la tracciabilità e non usare exam dumps.
 - Adattare il metodo da [Magistrale Dashboard](https://github.com/DanieleDiFratta/-Magistrale-Dashboard): blocchi coerenti, lettura autonoma, dubbi, resoconto e verifica; stati distinti e memoria su file.
 - Baseline ufficiale corrente: obiettivi dal 17 aprile 2026, verificati il 15 ottobre 2026. Le etichette locali rimandano ai bullet della guida.
 - Preparazione centrata sulle decisioni architetturali e sulle lacune dimostrate; nessun corso introduttivo obbligatorio se i prerequisiti vengono verificati.
+- A fine sessione sviluppare appunti approfonditi, mappe e flashcard, salvare il punto di ripresa e aggiornare gli stati distinti in [progressi.json](progressi.json). I materiali pubblicati sono elencati in [materiali.json](materiali.json). Istruzioni in [DASHBOARD.md](../docs/DASHBOARD.md).
 
 ## Schede dei domini
 
@@ -38,4 +40,4 @@ Segue S01: requisiti/WAF/CAF e governance, usando `WAF-HOME`, `CAF-LZ`, `GOV-HIE
 
 ## Avvio di una nuova chat
 
-> Questa chat riguarda AZ-305. Leggi AGENTS.md, studio/PIANO-GENERALE.md, docs/METODO.md e la scheda del dominio pertinente. Riprendi dal punto registrato, usando le fonti verificate e distinguendo lettura, discussione, esercizi e comprensione. Prima fase conclusa come catalogazione: avvia lo studio soltanto quando lo richiedo; non costruire la dashboard senza una richiesta successiva.
+> Questa chat riguarda AZ-305. Leggi AGENTS.md, studio/PIANO-GENERALE.md, docs/METODO.md e la scheda del dominio pertinente. Riprendi dal punto registrato, usando le fonti verificate e distinguendo lettura, discussione, esercizi e comprensione. La dashboard statica è implementata; lo studio non è ancora iniziato. A fine sessione salva riepilogo, appunti/mappe/flashcard del blocco trattato, stati distinti e punto di ripresa anche nei dati della dashboard. Segui docs/DASHBOARD.md; commit e push soltanto quando autorizzati.
