@@ -1,0 +1,923 @@
+[
+  {
+    "id": "LAB-01",
+    "url": "https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/01-Governance.html",
+    "title_hint": "Design a governance solution",
+    "kind": "official_case",
+    "parent_id": "LAB-INDEX",
+    "objective_ids": [],
+    "selection_reason_it": "Caso MicrosoftLearning individuato nell’indice ufficiale; nessuna soluzione copiata.",
+    "mapping_scope": "support",
+    "review_status": "pending_content_review",
+    "title": "Design a governance solution",
+    "language": "en-us",
+    "publisher": "Microsoft",
+    "access": {
+      "requested_url": "https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/01-Governance.html",
+      "resolved_url": "https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/01-Governance.html",
+      "http_status": 200,
+      "checked_at": "2026-10-15T16:53:18+02:00",
+      "content_type": "text/html; charset=utf-8",
+      "response_sha256": "71ac0a7416347b0dd694b8f4257778de0f9be93e9e7eb45086d24dc06a0304d4",
+      "method": "GET",
+      "status": "public_content",
+      "notes": []
+    },
+    "verified_on": "2026-10-15",
+    "recheck_days": 60,
+    "next_review_on": "2026-12-14",
+    "source_updated_at": null,
+    "source_ms_date": null,
+    "source_commit_url": null,
+    "source_uid": null,
+    "headings": [
+      {
+        "level": "h1",
+        "anchor": "design-a-governance-solution",
+        "title": "Design a governance solution"
+      },
+      {
+        "level": "h2",
+        "anchor": "requirements",
+        "title": "Requirements"
+      },
+      {
+        "level": "h2",
+        "anchor": "tasks",
+        "title": "Tasks"
+      }
+    ],
+    "content_review": "",
+    "outgoing_relevant_links": [],
+    "images": [],
+    "exercise_status": "case_available_not_performed"
+  },
+  {
+    "id": "LAB-02",
+    "url": "https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/02-Compute.html",
+    "title_hint": "Design a compute solution",
+    "kind": "official_case",
+    "parent_id": "LAB-INDEX",
+    "objective_ids": [],
+    "selection_reason_it": "Caso MicrosoftLearning individuato nell’indice ufficiale; nessuna soluzione copiata.",
+    "mapping_scope": "support",
+    "review_status": "pending_content_review",
+    "title": "Design a compute solution",
+    "language": "en-us",
+    "publisher": "Microsoft",
+    "access": {
+      "requested_url": "https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/02-Compute.html",
+      "resolved_url": "https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/02-Compute.html",
+      "http_status": 200,
+      "checked_at": "2026-10-15T16:53:18+02:00",
+      "content_type": "text/html; charset=utf-8",
+      "response_sha256": "a0901f63138c40bfd4b7fde09cb3bfc41cde04098f899de175187ca73eed0325",
+      "method": "GET",
+      "status": "public_content",
+      "notes": []
+    },
+    "verified_on": "2026-10-15",
+    "recheck_days": 60,
+    "next_review_on": "2026-12-14",
+    "source_updated_at": null,
+    "source_ms_date": null,
+    "source_commit_url": null,
+    "source_uid": null,
+    "headings": [
+      {
+        "level": "h1",
+        "anchor": "design-a-compute-solution",
+        "title": "Design a compute solution"
+      },
+      {
+        "level": "h2",
+        "anchor": "requirements",
+        "title": "Requirements"
+      },
+      {
+        "level": "h2",
+        "anchor": "tasks",
+        "title": "Tasks"
+      }
+    ],
+    "content_review": "",
+    "outgoing_relevant_links": [],
+    "images": [
+      {
+        "url": "https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/media/compute.png",
+        "alt": "compute architecture",
+        "access_status": "embedded_reference_not_downloaded"
+      }
+    ],
+    "exercise_status": "case_available_not_performed"
+  },
+  {
+    "id": "LAB-03",
+    "url": "https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/03-Nonrelationalstorage.html",
+    "title_hint": "Design a non-relational storage solution",
+    "kind": "official_case",
+    "parent_id": "LAB-INDEX",
+    "objective_ids": [],
+    "selection_reason_it": "Caso MicrosoftLearning individuato nell’indice ufficiale; nessuna soluzione copiata.",
+    "mapping_scope": "support",
+    "review_status": "pending_content_review",
+    "title": "Design Non-relational Storage Case Study",
+    "language": "en-us",
+    "publisher": "Microsoft",
+    "access": {
+      "requested_url": "https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/03-Nonrelationalstorage.html",
+      "resolved_url": "https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/03-Nonrelationalstorage.html",
+      "http_status": 200,
+      "checked_at": "2026-10-15T16:53:18+02:00",
+      "content_type": "text/html; charset=utf-8",
+      "response_sha256": "f98fec8378ec14e793fe965cda8fa579b13f1ad34e4ef2a84f95bac4b8a3024c",
+      "method": "GET",
+      "status": "public_content",
+      "notes": []
+    },
+    "verified_on": "2026-10-15",
+    "recheck_days": 60,
+    "next_review_on": "2026-12-14",
+    "source_updated_at": null,
+    "source_ms_date": null,
+    "source_commit_url": null,
+    "source_uid": null,
+    "headings": [
+      {
+        "level": "h1",
+        "anchor": "design-non-relational-storage-case-study",
+        "title": "Design Non-relational Storage Case Study"
+      },
+      {
+        "level": "h2",
+        "anchor": "requirements",
+        "title": "Requirements"
+      },
+      {
+        "level": "h2",
+        "anchor": "tasks",
+        "title": "Tasks"
+      }
+    ],
+    "content_review": "",
+    "outgoing_relevant_links": [],
+    "images": [],
+    "exercise_status": "case_available_not_performed"
+  },
+  {
+    "id": "LAB-04",
+    "url": "https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/04-Relationalstorage.html",
+    "title_hint": "Design a relational storage solution",
+    "kind": "official_case",
+    "parent_id": "LAB-INDEX",
+    "objective_ids": [],
+    "selection_reason_it": "Caso MicrosoftLearning individuato nell’indice ufficiale; nessuna soluzione copiata.",
+    "mapping_scope": "support",
+    "review_status": "pending_content_review",
+    "title": "Design Relational Storage Case Study",
+    "language": "en-us",
+    "publisher": "Microsoft",
+    "access": {
+      "requested_url": "https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/04-Relationalstorage.html",
+      "resolved_url": "https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/04-Relationalstorage.html",
+      "http_status": 200,
+      "checked_at": "2026-10-15T16:53:18+02:00",
+      "content_type": "text/html; charset=utf-8",
+      "response_sha256": "39863d52c3a24a028d4f1c2b5767ce53ff9f97e2dc80d959ececf6d1c48cfded",
+      "method": "GET",
+      "status": "public_content",
+      "notes": []
+    },
+    "verified_on": "2026-10-15",
+    "recheck_days": 60,
+    "next_review_on": "2026-12-14",
+    "source_updated_at": null,
+    "source_ms_date": null,
+    "source_commit_url": null,
+    "source_uid": null,
+    "headings": [
+      {
+        "level": "h1",
+        "anchor": "design-relational-storage-case-study",
+        "title": "Design Relational Storage Case Study"
+      },
+      {
+        "level": "h2",
+        "anchor": "requirements",
+        "title": "Requirements"
+      },
+      {
+        "level": "h2",
+        "anchor": "tasks",
+        "title": "Tasks"
+      }
+    ],
+    "content_review": "",
+    "outgoing_relevant_links": [],
+    "images": [],
+    "exercise_status": "case_available_not_performed"
+  },
+  {
+    "id": "LAB-05",
+    "url": "https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/05-Dataintegration.html",
+    "title_hint": "No formal case study",
+    "kind": "official_case",
+    "parent_id": "LAB-INDEX",
+    "objective_ids": [],
+    "selection_reason_it": "Caso MicrosoftLearning individuato nell’indice ufficiale; nessuna soluzione copiata.",
+    "mapping_scope": "support",
+    "review_status": "pending_content_review",
+    "title": "No formal case study",
+    "language": "en-us",
+    "publisher": "Microsoft",
+    "access": {
+      "requested_url": "https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/05-Dataintegration.html",
+      "resolved_url": "https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/05-Dataintegration.html",
+      "http_status": 200,
+      "checked_at": "2026-10-15T16:53:18+02:00",
+      "content_type": "text/html; charset=utf-8",
+      "response_sha256": "423850e9752b7214b8b98e353e58c65dbc2ef3041ae6797295bf428c5b797b59",
+      "method": "GET",
+      "status": "unverified",
+      "notes": []
+    },
+    "verified_on": "2026-10-15",
+    "recheck_days": 60,
+    "next_review_on": "2026-12-14",
+    "source_updated_at": null,
+    "source_ms_date": null,
+    "source_commit_url": null,
+    "source_uid": null,
+    "headings": [],
+    "content_review": "",
+    "outgoing_relevant_links": [],
+    "images": [],
+    "exercise_status": "no_formal_case_study"
+  },
+  {
+    "id": "LAB-06",
+    "url": "https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/06-Apparchitecture.html",
+    "title_hint": "Design an app architecture solution",
+    "kind": "official_case",
+    "parent_id": "LAB-INDEX",
+    "objective_ids": [],
+    "selection_reason_it": "Caso MicrosoftLearning individuato nell’indice ufficiale; nessuna soluzione copiata.",
+    "mapping_scope": "support",
+    "review_status": "pending_content_review",
+    "title": "Design an app architecture solution",
+    "language": "en-us",
+    "publisher": "Microsoft",
+    "access": {
+      "requested_url": "https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/06-Apparchitecture.html",
+      "resolved_url": "https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/06-Apparchitecture.html",
+      "http_status": 200,
+      "checked_at": "2026-10-15T16:53:18+02:00",
+      "content_type": "text/html; charset=utf-8",
+      "response_sha256": "e77bf62773dae210027a677387bda1bd40dc290dbf3910469cec197b52330e1e",
+      "method": "GET",
+      "status": "public_content",
+      "notes": []
+    },
+    "verified_on": "2026-10-15",
+    "recheck_days": 60,
+    "next_review_on": "2026-12-14",
+    "source_updated_at": null,
+    "source_ms_date": null,
+    "source_commit_url": null,
+    "source_uid": null,
+    "headings": [
+      {
+        "level": "h1",
+        "anchor": "design-an-app-architecture-solution",
+        "title": "Design an app architecture solution"
+      },
+      {
+        "level": "h2",
+        "anchor": "requirements",
+        "title": "Requirements"
+      },
+      {
+        "level": "h2",
+        "anchor": "task",
+        "title": "Task"
+      }
+    ],
+    "content_review": "",
+    "outgoing_relevant_links": [],
+    "images": [
+      {
+        "url": "https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/media/Apparchitecture.png",
+        "alt": "App architecture",
+        "access_status": "embedded_reference_not_downloaded"
+      }
+    ],
+    "exercise_status": "case_available_not_performed"
+  },
+  {
+    "id": "LAB-07",
+    "url": "https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/07-Access.html",
+    "title_hint": "Design authentication and authorization solutions",
+    "kind": "official_case",
+    "parent_id": "LAB-INDEX",
+    "objective_ids": [],
+    "selection_reason_it": "Caso MicrosoftLearning individuato nell’indice ufficiale; nessuna soluzione copiata.",
+    "mapping_scope": "support",
+    "review_status": "pending_content_review",
+    "title": "Design authentication and authorization solutions",
+    "language": "en-us",
+    "publisher": "Microsoft",
+    "access": {
+      "requested_url": "https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/07-Access.html",
+      "resolved_url": "https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/07-Access.html",
+      "http_status": 200,
+      "checked_at": "2026-10-15T16:53:18+02:00",
+      "content_type": "text/html; charset=utf-8",
+      "response_sha256": "8a30a042e00bbc4ad0a139746701819e94cb45a397c71677dc3bbc17b745c192",
+      "method": "GET",
+      "status": "public_content",
+      "notes": []
+    },
+    "verified_on": "2026-10-15",
+    "recheck_days": 60,
+    "next_review_on": "2026-12-14",
+    "source_updated_at": null,
+    "source_ms_date": null,
+    "source_commit_url": null,
+    "source_uid": null,
+    "headings": [
+      {
+        "level": "h1",
+        "anchor": "design-authentication-and-authorization-solutions",
+        "title": "Design authentication and authorization solutions"
+      },
+      {
+        "level": "h2",
+        "anchor": "requirements",
+        "title": "Requirements"
+      },
+      {
+        "level": "h2",
+        "anchor": "tasks",
+        "title": "Tasks"
+      }
+    ],
+    "content_review": "",
+    "outgoing_relevant_links": [],
+    "images": [],
+    "exercise_status": "case_available_not_performed"
+  },
+  {
+    "id": "LAB-08",
+    "url": "https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/08-Logging.html",
+    "title_hint": "Fabrikam Residences",
+    "kind": "official_case",
+    "parent_id": "LAB-INDEX",
+    "objective_ids": [],
+    "selection_reason_it": "Caso MicrosoftLearning individuato nell’indice ufficiale; nessuna soluzione copiata.",
+    "mapping_scope": "support",
+    "review_status": "pending_content_review",
+    "title": "Case Study: Fabrikam Residences",
+    "language": "en-us",
+    "publisher": "Microsoft",
+    "access": {
+      "requested_url": "https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/08-Logging.html",
+      "resolved_url": "https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/08-Logging.html",
+      "http_status": 200,
+      "checked_at": "2026-10-15T16:53:18+02:00",
+      "content_type": "text/html; charset=utf-8",
+      "response_sha256": "ee285f01741f67433aad26adec6ec43080162b1c885e7aea9ef44b9e8ecc1a0e",
+      "method": "GET",
+      "status": "public_content",
+      "notes": []
+    },
+    "verified_on": "2026-10-15",
+    "recheck_days": 60,
+    "next_review_on": "2026-12-14",
+    "source_updated_at": null,
+    "source_ms_date": null,
+    "source_commit_url": null,
+    "source_uid": null,
+    "headings": [
+      {
+        "level": "h1",
+        "anchor": "case-study-fabrikam-residences",
+        "title": "Case Study: Fabrikam Residences"
+      },
+      {
+        "level": "h2",
+        "anchor": "requirements",
+        "title": "Requirements"
+      },
+      {
+        "level": "h2",
+        "anchor": "current-situation",
+        "title": "Current Situation"
+      },
+      {
+        "level": "h2",
+        "anchor": "requirements-1",
+        "title": "Requirements"
+      },
+      {
+        "level": "h2",
+        "anchor": "tasks",
+        "title": "Tasks"
+      }
+    ],
+    "content_review": "",
+    "outgoing_relevant_links": [],
+    "images": [
+      {
+        "url": "https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/media/fabrikam.png",
+        "alt": "Project managment software architecture",
+        "access_status": "embedded_reference_not_downloaded"
+      },
+      {
+        "url": "https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/media/software.png",
+        "alt": "Diagram of HVAC, Security, and Automation app",
+        "access_status": "embedded_reference_not_downloaded"
+      }
+    ],
+    "exercise_status": "case_available_not_performed"
+  },
+  {
+    "id": "LAB-09",
+    "url": "https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/09-Networkingoption2.html",
+    "title_hint": "Design a network solution -BI enterprise application",
+    "kind": "official_case",
+    "parent_id": "LAB-INDEX",
+    "objective_ids": [],
+    "selection_reason_it": "Caso MicrosoftLearning individuato nell’indice ufficiale; nessuna soluzione copiata.",
+    "mapping_scope": "support",
+    "review_status": "pending_content_review",
+    "title": "Design a network infrastructure solution",
+    "language": "en-us",
+    "publisher": "Microsoft",
+    "access": {
+      "requested_url": "https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/09-Networkingoption2.html",
+      "resolved_url": "https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/09-Networkingoption2.html",
+      "http_status": 200,
+      "checked_at": "2026-10-15T16:53:18+02:00",
+      "content_type": "text/html; charset=utf-8",
+      "response_sha256": "11e21ddc2ab3e3bc00aa9bdf452575423f2769910ef68be3b5877f2814ac0432",
+      "method": "GET",
+      "status": "public_content",
+      "notes": []
+    },
+    "verified_on": "2026-10-15",
+    "recheck_days": 60,
+    "next_review_on": "2026-12-14",
+    "source_updated_at": null,
+    "source_ms_date": null,
+    "source_commit_url": null,
+    "source_uid": null,
+    "headings": [
+      {
+        "level": "h1",
+        "anchor": "design-a-network-infrastructure-solution",
+        "title": "Design a network infrastructure solution"
+      },
+      {
+        "level": "h2",
+        "anchor": "requirements",
+        "title": "Requirements"
+      },
+      {
+        "level": "h2",
+        "anchor": "design---bi-enterprise-application",
+        "title": "Design - BI enterprise application"
+      },
+      {
+        "level": "h2",
+        "anchor": "tasks---bi-enterprise-application",
+        "title": "Tasks - BI enterprise application"
+      }
+    ],
+    "content_review": "",
+    "outgoing_relevant_links": [],
+    "images": [
+      {
+        "url": "https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/media/compute.png",
+        "alt": "BI enterprise application architecture",
+        "access_status": "embedded_reference_not_downloaded"
+      }
+    ],
+    "exercise_status": "case_available_not_performed"
+  },
+  {
+    "id": "LAB-10",
+    "url": "https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/10-BCDR.html",
+    "title_hint": "No formal case study",
+    "kind": "official_case",
+    "parent_id": "LAB-INDEX",
+    "objective_ids": [],
+    "selection_reason_it": "Caso MicrosoftLearning individuato nell’indice ufficiale; nessuna soluzione copiata.",
+    "mapping_scope": "support",
+    "review_status": "pending_content_review",
+    "title": "No formal case study",
+    "language": "en-us",
+    "publisher": "Microsoft",
+    "access": {
+      "requested_url": "https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/10-BCDR.html",
+      "resolved_url": "https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/10-BCDR.html",
+      "http_status": 200,
+      "checked_at": "2026-10-15T16:53:18+02:00",
+      "content_type": "text/html; charset=utf-8",
+      "response_sha256": "423850e9752b7214b8b98e353e58c65dbc2ef3041ae6797295bf428c5b797b59",
+      "method": "GET",
+      "status": "unverified",
+      "notes": []
+    },
+    "verified_on": "2026-10-15",
+    "recheck_days": 60,
+    "next_review_on": "2026-12-14",
+    "source_updated_at": null,
+    "source_ms_date": null,
+    "source_commit_url": null,
+    "source_uid": null,
+    "headings": [],
+    "content_review": "",
+    "outgoing_relevant_links": [],
+    "images": [],
+    "exercise_status": "no_formal_case_study"
+  },
+  {
+    "id": "LAB-11",
+    "url": "https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/11-Migration.html",
+    "title_hint": "No formal case study",
+    "kind": "official_case",
+    "parent_id": "LAB-INDEX",
+    "objective_ids": [],
+    "selection_reason_it": "Caso MicrosoftLearning individuato nell’indice ufficiale; nessuna soluzione copiata.",
+    "mapping_scope": "support",
+    "review_status": "pending_content_review",
+    "title": "No formal case study",
+    "language": "en-us",
+    "publisher": "Microsoft",
+    "access": {
+      "requested_url": "https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/11-Migration.html",
+      "resolved_url": "https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/11-Migration.html",
+      "http_status": 200,
+      "checked_at": "2026-10-15T16:53:18+02:00",
+      "content_type": "text/html; charset=utf-8",
+      "response_sha256": "423850e9752b7214b8b98e353e58c65dbc2ef3041ae6797295bf428c5b797b59",
+      "method": "GET",
+      "status": "unverified",
+      "notes": []
+    },
+    "verified_on": "2026-10-15",
+    "recheck_days": 60,
+    "next_review_on": "2026-12-14",
+    "source_updated_at": null,
+    "source_ms_date": null,
+    "source_commit_url": null,
+    "source_uid": null,
+    "headings": [],
+    "content_review": "",
+    "outgoing_relevant_links": [],
+    "images": [],
+    "exercise_status": "no_formal_case_study"
+  },
+  {
+    "id": "LAB-12",
+    "url": "https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/12-AI%20Workloads%20(optional).html",
+    "title_hint": "Select the AI tool for business challenges",
+    "kind": "official_case",
+    "parent_id": "LAB-INDEX",
+    "objective_ids": [],
+    "selection_reason_it": "Caso MicrosoftLearning individuato nell’indice ufficiale; nessuna soluzione copiata.",
+    "mapping_scope": "support",
+    "review_status": "pending_content_review",
+    "title": "Case study – Select the AI tool for business challenges",
+    "language": "en-us",
+    "publisher": "Microsoft",
+    "access": {
+      "requested_url": "https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/12-AI%20Workloads%20(optional).html",
+      "resolved_url": "https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/12-AI%20Workloads%20(optional).html",
+      "http_status": 200,
+      "checked_at": "2026-10-15T16:53:18+02:00",
+      "content_type": "text/html; charset=utf-8",
+      "response_sha256": "5099d241cabb8ebadd61e42e2a30aeb479a01c23a8a0d1a6e320a3a1684c45ab",
+      "method": "GET",
+      "status": "public_content",
+      "notes": []
+    },
+    "verified_on": "2026-10-15",
+    "recheck_days": 60,
+    "next_review_on": "2026-12-14",
+    "source_updated_at": null,
+    "source_ms_date": null,
+    "source_commit_url": null,
+    "source_uid": null,
+    "headings": [
+      {
+        "level": "h1",
+        "anchor": "case-study--select-the-ai-tool-for-business-challenges",
+        "title": "Case study – Select the AI tool for business challenges"
+      },
+      {
+        "level": "h2",
+        "anchor": "designing-and-implementing-ai-workloads-for-a-global-retail-organization",
+        "title": "Designing and Implementing AI Workloads for a Global Retail Organization"
+      },
+      {
+        "level": "h2",
+        "anchor": "business-challenges",
+        "title": "Business challenges"
+      },
+      {
+        "level": "h2",
+        "anchor": "requirement",
+        "title": "Requirement"
+      },
+      {
+        "level": "h2",
+        "anchor": "solution-challenge-1-employee-productivity-with-saas-ai",
+        "title": "Solution Challenge 1: Employee productivity with SaaS AI"
+      },
+      {
+        "level": "h3",
+        "anchor": "business-problem",
+        "title": "Business problem"
+      },
+      {
+        "level": "h3",
+        "anchor": "selected-solution-microsoft-365-copilot-saas",
+        "title": "Selected solution: Microsoft 365 Copilot (SaaS)"
+      },
+      {
+        "level": "h3",
+        "anchor": "outcome",
+        "title": "Outcome"
+      },
+      {
+        "level": "h2",
+        "anchor": "solution-challenge-2-customer-facing-chat-with-paas-ai",
+        "title": "Solution Challenge 2: Customer-facing chat with PaaS AI"
+      },
+      {
+        "level": "h3",
+        "anchor": "business-problem-1",
+        "title": "Business problem"
+      },
+      {
+        "level": "h3",
+        "anchor": "selected-solution-azure-ai-foundry-with-azure-openai-paas",
+        "title": "Selected solution: Azure AI Foundry with Azure OpenAI (PaaS)"
+      },
+      {
+        "level": "h3",
+        "anchor": "outcome-1",
+        "title": "Outcome"
+      },
+      {
+        "level": "h2",
+        "anchor": "solution-challenge-3-inventory-forecasting-with-machine-learning",
+        "title": "Solution Challenge 3: Inventory forecasting with machine learning"
+      },
+      {
+        "level": "h3",
+        "anchor": "business-problem-2",
+        "title": "Business problem"
+      },
+      {
+        "level": "h3",
+        "anchor": "selected-solution-azure-machine-learning-paas",
+        "title": "Selected solution: Azure Machine Learning (PaaS)"
+      },
+      {
+        "level": "h3",
+        "anchor": "outcome-2",
+        "title": "Outcome"
+      }
+    ],
+    "content_review": "",
+    "outgoing_relevant_links": [
+      "https://learn.microsoft.com/azure/cloud-adoption-framework/scenarios/ai/strategy"
+    ],
+    "images": [],
+    "exercise_status": "optional_outside_explicit_exam_bullets"
+  },
+  {
+    "id": "FIG-AKS-1",
+    "url": "https://learn.microsoft.com/en-us/azure/architecture/reference-architectures/containers/aks/images/aks-baseline-architecture.svg",
+    "title": "Diagramma 1: Baseline architecture for an Azure Kubernetes Service (AKS) cluster",
+    "kind": "diagram",
+    "parent_id": "ARC-AKS",
+    "objective_ids": [
+      "3.2.1",
+      "4.1.3",
+      "4.4.4"
+    ],
+    "language": "en-us",
+    "publisher": "Microsoft",
+    "mapping_scope": "support",
+    "selection_reason_it": "Diagramma collegato dalla pagina architetturale; leggere il contesto prima di riutilizzarlo.",
+    "recheck_days": 60,
+    "access": {
+      "method": "GET",
+      "requested_url": "https://learn.microsoft.com/en-us/azure/architecture/reference-architectures/containers/aks/images/aks-baseline-architecture.svg",
+      "resolved_url": "https://learn.microsoft.com/en-us/azure/architecture/reference-architectures/containers/aks/images/aks-baseline-architecture.svg",
+      "http_status": 200,
+      "content_type": "image/svg+xml",
+      "checked_at": "2026-10-15T16:53:18+02:00",
+      "response_sha256": "829bf39462b0d11f729437b999129d1b7e32253d4e9886d1dfbb30125cd3545a",
+      "status": "public_asset",
+      "notes": [
+        "Verificati risposta, MIME e hash; file originale non distribuito nel repository."
+      ]
+    },
+    "verified_on": "2026-10-15",
+    "next_review_on": "2026-12-14"
+  },
+  {
+    "id": "FIG-DATA-1",
+    "url": "https://learn.microsoft.com/en-us/azure/architecture/data-guide/images/etl.png",
+    "title": "Diagramma 1: Extract, transform, and load (ETL)",
+    "kind": "diagram",
+    "parent_id": "ARC-DATA",
+    "objective_ids": [
+      "2.3.1",
+      "2.3.2"
+    ],
+    "language": "en-us",
+    "publisher": "Microsoft",
+    "mapping_scope": "support",
+    "selection_reason_it": "Diagramma collegato dalla pagina architetturale; leggere il contesto prima di riutilizzarlo.",
+    "recheck_days": 60,
+    "access": {
+      "method": "GET",
+      "requested_url": "https://learn.microsoft.com/en-us/azure/architecture/data-guide/images/etl.png",
+      "resolved_url": "https://learn.microsoft.com/en-us/azure/architecture/data-guide/images/etl.png",
+      "http_status": 200,
+      "content_type": "image/png",
+      "checked_at": "2026-10-15T16:53:18+02:00",
+      "response_sha256": "277f546a561dd55d0793910a055bae5bfafd0730195592090f0ee6bb8888c897",
+      "status": "public_asset",
+      "notes": [
+        "Verificati risposta, MIME e hash; file originale non distribuito nel repository."
+      ]
+    },
+    "verified_on": "2026-10-15",
+    "next_review_on": "2026-12-14"
+  },
+  {
+    "id": "FIG-DATA-2",
+    "url": "https://learn.microsoft.com/en-us/azure/architecture/data-guide/images/elt.png",
+    "title": "Diagramma 2: Extract, transform, and load (ETL)",
+    "kind": "diagram",
+    "parent_id": "ARC-DATA",
+    "objective_ids": [
+      "2.3.1",
+      "2.3.2"
+    ],
+    "language": "en-us",
+    "publisher": "Microsoft",
+    "mapping_scope": "support",
+    "selection_reason_it": "Diagramma collegato dalla pagina architetturale; leggere il contesto prima di riutilizzarlo.",
+    "recheck_days": 60,
+    "access": {
+      "method": "GET",
+      "requested_url": "https://learn.microsoft.com/en-us/azure/architecture/data-guide/images/elt.png",
+      "resolved_url": "https://learn.microsoft.com/en-us/azure/architecture/data-guide/images/elt.png",
+      "http_status": 200,
+      "content_type": "image/png",
+      "checked_at": "2026-10-15T16:53:18+02:00",
+      "response_sha256": "bf4b0405da0dbfdf53c7377397b796f4d820575abfaeefd62a21841c89600453",
+      "status": "public_asset",
+      "notes": [
+        "Verificati risposta, MIME e hash; file originale non distribuito nel repository."
+      ]
+    },
+    "verified_on": "2026-10-15",
+    "next_review_on": "2026-12-14"
+  },
+  {
+    "id": "FIG-DR-1",
+    "url": "https://learn.microsoft.com/en-us/azure/architecture/web-apps/guides/_images/active-active-architecture.svg",
+    "title": "Diagramma 1: Multiple-region architectures for Azure App Service disaster recovery",
+    "kind": "diagram",
+    "parent_id": "ARC-DR",
+    "objective_ids": [
+      "3.1.1",
+      "3.2.1",
+      "4.4.5"
+    ],
+    "language": "en-us",
+    "publisher": "Microsoft",
+    "mapping_scope": "support",
+    "selection_reason_it": "Diagramma collegato dalla pagina architetturale; leggere il contesto prima di riutilizzarlo.",
+    "recheck_days": 60,
+    "access": {
+      "method": "GET",
+      "requested_url": "https://learn.microsoft.com/en-us/azure/architecture/web-apps/guides/_images/active-active-architecture.svg",
+      "resolved_url": "https://learn.microsoft.com/en-us/azure/architecture/web-apps/guides/_images/active-active-architecture.svg",
+      "http_status": 200,
+      "content_type": "image/svg+xml",
+      "checked_at": "2026-10-15T16:53:18+02:00",
+      "response_sha256": "cd4d7f936c54b12faf819b00c0847fc423eacef5b6fe4485394baf6d7888bdc5",
+      "status": "public_asset",
+      "notes": [
+        "Verificati risposta, MIME e hash; file originale non distribuito nel repository."
+      ]
+    },
+    "verified_on": "2026-10-15",
+    "next_review_on": "2026-12-14"
+  },
+  {
+    "id": "FIG-DR-2",
+    "url": "https://learn.microsoft.com/en-us/azure/architecture/web-apps/guides/_images/active-passive-architecture.svg",
+    "title": "Diagramma 2: Multiple-region architectures for Azure App Service disaster recovery",
+    "kind": "diagram",
+    "parent_id": "ARC-DR",
+    "objective_ids": [
+      "3.1.1",
+      "3.2.1",
+      "4.4.5"
+    ],
+    "language": "en-us",
+    "publisher": "Microsoft",
+    "mapping_scope": "support",
+    "selection_reason_it": "Diagramma collegato dalla pagina architetturale; leggere il contesto prima di riutilizzarlo.",
+    "recheck_days": 60,
+    "access": {
+      "method": "GET",
+      "requested_url": "https://learn.microsoft.com/en-us/azure/architecture/web-apps/guides/_images/active-passive-architecture.svg",
+      "resolved_url": "https://learn.microsoft.com/en-us/azure/architecture/web-apps/guides/_images/active-passive-architecture.svg",
+      "http_status": 200,
+      "content_type": "image/svg+xml",
+      "checked_at": "2026-10-15T16:53:18+02:00",
+      "response_sha256": "b328409bb3d9d3a2fabdeec59a19d3cc155367d9384a103779d25281ae503efa",
+      "status": "public_asset",
+      "notes": [
+        "Verificati risposta, MIME e hash; file originale non distribuito nel repository."
+      ]
+    },
+    "verified_on": "2026-10-15",
+    "next_review_on": "2026-12-14"
+  },
+  {
+    "id": "FIG-HUB-1",
+    "url": "https://learn.microsoft.com/en-us/azure/architecture/networking/architecture/_images/hub-spoke-network-topology-architecture.svg",
+    "title": "Diagramma 1: Hub-spoke network topology in Azure",
+    "kind": "diagram",
+    "parent_id": "ARC-HUB",
+    "objective_ids": [
+      "1.3.1",
+      "4.4.2",
+      "4.4.4"
+    ],
+    "language": "en-us",
+    "publisher": "Microsoft",
+    "mapping_scope": "support",
+    "selection_reason_it": "Diagramma collegato dalla pagina architetturale; leggere il contesto prima di riutilizzarlo.",
+    "recheck_days": 60,
+    "access": {
+      "method": "GET",
+      "requested_url": "https://learn.microsoft.com/en-us/azure/architecture/networking/architecture/_images/hub-spoke-network-topology-architecture.svg",
+      "resolved_url": "https://learn.microsoft.com/en-us/azure/architecture/networking/architecture/_images/hub-spoke-network-topology-architecture.svg",
+      "http_status": 200,
+      "content_type": "image/svg+xml",
+      "checked_at": "2026-10-15T16:53:18+02:00",
+      "response_sha256": "7e4e83532fcd2657ede7df8971f53737224be7bb8828e821065b122c42ed7248",
+      "status": "public_asset",
+      "notes": [
+        "Verificati risposta, MIME e hash; file originale non distribuito nel repository."
+      ]
+    },
+    "verified_on": "2026-10-15",
+    "next_review_on": "2026-12-14"
+  },
+  {
+    "id": "FIG-WEB-1",
+    "url": "https://learn.microsoft.com/en-us/azure/architecture/web-apps/app-service/_images/baseline-app-service-architecture.svg",
+    "title": "Diagramma 1: Baseline highly available zone-redundant web application",
+    "kind": "diagram",
+    "parent_id": "ARC-WEB",
+    "objective_ids": [
+      "3.2.1",
+      "4.1.4",
+      "4.4.5"
+    ],
+    "language": "en-us",
+    "publisher": "Microsoft",
+    "mapping_scope": "support",
+    "selection_reason_it": "Diagramma collegato dalla pagina architetturale; leggere il contesto prima di riutilizzarlo.",
+    "recheck_days": 60,
+    "access": {
+      "method": "GET",
+      "requested_url": "https://learn.microsoft.com/en-us/azure/architecture/web-apps/app-service/_images/baseline-app-service-architecture.svg",
+      "resolved_url": "https://learn.microsoft.com/en-us/azure/architecture/web-apps/app-service/_images/baseline-app-service-architecture.svg",
+      "http_status": 200,
+      "content_type": "image/svg+xml",
+      "checked_at": "2026-10-15T16:53:18+02:00",
+      "response_sha256": "7a292fe95c41198301e197ede352b40678744c2ba39407fb45fb0fa351986cdd",
+      "status": "public_asset",
+      "notes": [
+        "Verificati risposta, MIME e hash; file originale non distribuito nel repository."
+      ]
+    },
+    "verified_on": "2026-10-15",
+    "next_review_on": "2026-12-14"
+  }
+]

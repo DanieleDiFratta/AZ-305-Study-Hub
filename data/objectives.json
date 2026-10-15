@@ -1,0 +1,643 @@
+{
+  "exam": "AZ-305",
+  "skills_effective_on": "2026-04-17",
+  "guide_last_updated_on": "2026-03-19",
+  "verified_on": "2026-10-15",
+  "domains": [
+    {
+      "id": "1",
+      "label_it": "Identità, governance, monitoraggio",
+      "weight": "25–30%"
+    },
+    {
+      "id": "2",
+      "label_it": "Storage",
+      "weight": "20–25%"
+    },
+    {
+      "id": "3",
+      "label_it": "Continuità operativa",
+      "weight": "15–20%"
+    },
+    {
+      "id": "4",
+      "label_it": "Infrastruttura",
+      "weight": "30–35%"
+    }
+  ],
+  "groups": [
+    {
+      "id": "1.1",
+      "label_it": "Osservabilità",
+      "expected_bullets": 3,
+      "source_anchor": "design-solutions-for-logging-and-monitoring"
+    },
+    {
+      "id": "1.2",
+      "label_it": "Identità e accessi",
+      "expected_bullets": 5,
+      "source_anchor": "design-authentication-and-authorization-solutions"
+    },
+    {
+      "id": "1.3",
+      "label_it": "Governance",
+      "expected_bullets": 3,
+      "source_anchor": "design-governance"
+    },
+    {
+      "id": "2.1",
+      "label_it": "Dati relazionali",
+      "expected_bullets": 4,
+      "source_anchor": "design-data-storage-solutions-for-relational-data"
+    },
+    {
+      "id": "2.2",
+      "label_it": "Dati non relazionali",
+      "expected_bullets": 4,
+      "source_anchor": "design-data-storage-solutions-for-semi-structured-and-unstructured-data"
+    },
+    {
+      "id": "2.3",
+      "label_it": "Integrazione dati",
+      "expected_bullets": 2,
+      "source_anchor": "design-data-integration"
+    },
+    {
+      "id": "3.1",
+      "label_it": "Backup e ripristino",
+      "expected_bullets": 4,
+      "source_anchor": "design-solutions-for-backup-and-disaster-recovery"
+    },
+    {
+      "id": "3.2",
+      "label_it": "Alta disponibilità",
+      "expected_bullets": 3,
+      "source_anchor": "design-for-high-availability"
+    },
+    {
+      "id": "4.1",
+      "label_it": "Compute",
+      "expected_bullets": 5,
+      "source_anchor": "design-compute-solutions"
+    },
+    {
+      "id": "4.2",
+      "label_it": "Architettura applicativa",
+      "expected_bullets": 6,
+      "source_anchor": "design-an-application-architecture"
+    },
+    {
+      "id": "4.3",
+      "label_it": "Migrazioni",
+      "expected_bullets": 5,
+      "source_anchor": "design-migrations"
+    },
+    {
+      "id": "4.4",
+      "label_it": "Reti",
+      "expected_bullets": 5,
+      "source_anchor": "design-network-solutions"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "1.1.1",
+      "domain": "1",
+      "group": "1.1",
+      "label_it": "Scelta logging",
+      "source_id": "EXAM-GUIDE",
+      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-305#design-solutions-for-logging-and-monitoring",
+      "source_bullet_ordinal": 1,
+      "label_type": "original_concise_paraphrase",
+      "learning_status": "not_started"
+    },
+    {
+      "id": "1.1.2",
+      "domain": "1",
+      "group": "1.1",
+      "label_it": "Instradamento log",
+      "source_id": "EXAM-GUIDE",
+      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-305#design-solutions-for-logging-and-monitoring",
+      "source_bullet_ordinal": 2,
+      "label_type": "original_concise_paraphrase",
+      "learning_status": "not_started"
+    },
+    {
+      "id": "1.1.3",
+      "domain": "1",
+      "group": "1.1",
+      "label_it": "Scelta monitoraggio",
+      "source_id": "EXAM-GUIDE",
+      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-305#design-solutions-for-logging-and-monitoring",
+      "source_bullet_ordinal": 3,
+      "label_type": "original_concise_paraphrase",
+      "learning_status": "not_started"
+    },
+    {
+      "id": "1.2.1",
+      "domain": "1",
+      "group": "1.2",
+      "label_it": "Autenticazione",
+      "source_id": "EXAM-GUIDE",
+      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-305#design-authentication-and-authorization-solutions",
+      "source_bullet_ordinal": 1,
+      "label_type": "original_concise_paraphrase",
+      "learning_status": "not_started"
+    },
+    {
+      "id": "1.2.2",
+      "domain": "1",
+      "group": "1.2",
+      "label_it": "Gestione identità",
+      "source_id": "EXAM-GUIDE",
+      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-305#design-authentication-and-authorization-solutions",
+      "source_bullet_ordinal": 2,
+      "label_type": "original_concise_paraphrase",
+      "learning_status": "not_started"
+    },
+    {
+      "id": "1.2.3",
+      "domain": "1",
+      "group": "1.2",
+      "label_it": "Autorizzazione Azure",
+      "source_id": "EXAM-GUIDE",
+      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-305#design-authentication-and-authorization-solutions",
+      "source_bullet_ordinal": 3,
+      "label_type": "original_concise_paraphrase",
+      "learning_status": "not_started"
+    },
+    {
+      "id": "1.2.4",
+      "domain": "1",
+      "group": "1.2",
+      "label_it": "Autorizzazione on-premises",
+      "source_id": "EXAM-GUIDE",
+      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-305#design-authentication-and-authorization-solutions",
+      "source_bullet_ordinal": 4,
+      "label_type": "original_concise_paraphrase",
+      "learning_status": "not_started"
+    },
+    {
+      "id": "1.2.5",
+      "domain": "1",
+      "group": "1.2",
+      "label_it": "Segreti, certificati, chiavi",
+      "source_id": "EXAM-GUIDE",
+      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-305#design-authentication-and-authorization-solutions",
+      "source_bullet_ordinal": 5,
+      "label_type": "original_concise_paraphrase",
+      "learning_status": "not_started"
+    },
+    {
+      "id": "1.3.1",
+      "domain": "1",
+      "group": "1.3",
+      "label_it": "Gerarchie e tagging",
+      "source_id": "EXAM-GUIDE",
+      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-305#design-governance",
+      "source_bullet_ordinal": 1,
+      "label_type": "original_concise_paraphrase",
+      "learning_status": "not_started"
+    },
+    {
+      "id": "1.3.2",
+      "domain": "1",
+      "group": "1.3",
+      "label_it": "Conformità",
+      "source_id": "EXAM-GUIDE",
+      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-305#design-governance",
+      "source_bullet_ordinal": 2,
+      "label_type": "original_concise_paraphrase",
+      "learning_status": "not_started"
+    },
+    {
+      "id": "1.3.3",
+      "domain": "1",
+      "group": "1.3",
+      "label_it": "Governance identità",
+      "source_id": "EXAM-GUIDE",
+      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-305#design-governance",
+      "source_bullet_ordinal": 3,
+      "label_type": "original_concise_paraphrase",
+      "learning_status": "not_started"
+    },
+    {
+      "id": "2.1.1",
+      "domain": "2",
+      "group": "2.1",
+      "label_it": "Persistenza relazionale",
+      "source_id": "EXAM-GUIDE",
+      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-305#design-data-storage-solutions-for-relational-data",
+      "source_bullet_ordinal": 1,
+      "label_type": "original_concise_paraphrase",
+      "learning_status": "not_started"
+    },
+    {
+      "id": "2.1.2",
+      "domain": "2",
+      "group": "2.1",
+      "label_it": "Tier database/compute",
+      "source_id": "EXAM-GUIDE",
+      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-305#design-data-storage-solutions-for-relational-data",
+      "source_bullet_ordinal": 2,
+      "label_type": "original_concise_paraphrase",
+      "learning_status": "not_started"
+    },
+    {
+      "id": "2.1.3",
+      "domain": "2",
+      "group": "2.1",
+      "label_it": "Scalabilità database",
+      "source_id": "EXAM-GUIDE",
+      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-305#design-data-storage-solutions-for-relational-data",
+      "source_bullet_ordinal": 3,
+      "label_type": "original_concise_paraphrase",
+      "learning_status": "not_started"
+    },
+    {
+      "id": "2.1.4",
+      "domain": "2",
+      "group": "2.1",
+      "label_it": "Protezione dati relazionali",
+      "source_id": "EXAM-GUIDE",
+      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-305#design-data-storage-solutions-for-relational-data",
+      "source_bullet_ordinal": 4,
+      "label_type": "original_concise_paraphrase",
+      "learning_status": "not_started"
+    },
+    {
+      "id": "2.2.1",
+      "domain": "2",
+      "group": "2.2",
+      "label_it": "Persistenza semistrutturata",
+      "source_id": "EXAM-GUIDE",
+      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-305#design-data-storage-solutions-for-semi-structured-and-unstructured-data",
+      "source_bullet_ordinal": 1,
+      "label_type": "original_concise_paraphrase",
+      "learning_status": "not_started"
+    },
+    {
+      "id": "2.2.2",
+      "domain": "2",
+      "group": "2.2",
+      "label_it": "Persistenza non strutturata",
+      "source_id": "EXAM-GUIDE",
+      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-305#design-data-storage-solutions-for-semi-structured-and-unstructured-data",
+      "source_bullet_ordinal": 2,
+      "label_type": "original_concise_paraphrase",
+      "learning_status": "not_started"
+    },
+    {
+      "id": "2.2.3",
+      "domain": "2",
+      "group": "2.2",
+      "label_it": "Funzionalità/prestazioni/costi storage",
+      "source_id": "EXAM-GUIDE",
+      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-305#design-data-storage-solutions-for-semi-structured-and-unstructured-data",
+      "source_bullet_ordinal": 3,
+      "label_type": "original_concise_paraphrase",
+      "learning_status": "not_started"
+    },
+    {
+      "id": "2.2.4",
+      "domain": "2",
+      "group": "2.2",
+      "label_it": "Protezione/durabilità storage",
+      "source_id": "EXAM-GUIDE",
+      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-305#design-data-storage-solutions-for-semi-structured-and-unstructured-data",
+      "source_bullet_ordinal": 4,
+      "label_type": "original_concise_paraphrase",
+      "learning_status": "not_started"
+    },
+    {
+      "id": "2.3.1",
+      "domain": "2",
+      "group": "2.3",
+      "label_it": "Integrazione dati",
+      "source_id": "EXAM-GUIDE",
+      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-305#design-data-integration",
+      "source_bullet_ordinal": 1,
+      "label_type": "original_concise_paraphrase",
+      "learning_status": "not_started"
+    },
+    {
+      "id": "2.3.2",
+      "domain": "2",
+      "group": "2.3",
+      "label_it": "Analisi dati",
+      "source_id": "EXAM-GUIDE",
+      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-305#design-data-integration",
+      "source_bullet_ordinal": 2,
+      "label_type": "original_concise_paraphrase",
+      "learning_status": "not_started"
+    },
+    {
+      "id": "3.1.1",
+      "domain": "3",
+      "group": "3.1",
+      "label_it": "Recupero Azure/ibrido",
+      "source_id": "EXAM-GUIDE",
+      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-305#design-solutions-for-backup-and-disaster-recovery",
+      "source_bullet_ordinal": 1,
+      "label_type": "original_concise_paraphrase",
+      "learning_status": "not_started"
+    },
+    {
+      "id": "3.1.2",
+      "domain": "3",
+      "group": "3.1",
+      "label_it": "Backup/recupero compute",
+      "source_id": "EXAM-GUIDE",
+      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-305#design-solutions-for-backup-and-disaster-recovery",
+      "source_bullet_ordinal": 2,
+      "label_type": "original_concise_paraphrase",
+      "learning_status": "not_started"
+    },
+    {
+      "id": "3.1.3",
+      "domain": "3",
+      "group": "3.1",
+      "label_it": "Backup/recupero database",
+      "source_id": "EXAM-GUIDE",
+      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-305#design-solutions-for-backup-and-disaster-recovery",
+      "source_bullet_ordinal": 3,
+      "label_type": "original_concise_paraphrase",
+      "learning_status": "not_started"
+    },
+    {
+      "id": "3.1.4",
+      "domain": "3",
+      "group": "3.1",
+      "label_it": "Backup/recupero oggetti",
+      "source_id": "EXAM-GUIDE",
+      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-305#design-solutions-for-backup-and-disaster-recovery",
+      "source_bullet_ordinal": 4,
+      "label_type": "original_concise_paraphrase",
+      "learning_status": "not_started"
+    },
+    {
+      "id": "3.2.1",
+      "domain": "3",
+      "group": "3.2",
+      "label_it": "Disponibilità compute",
+      "source_id": "EXAM-GUIDE",
+      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-305#design-for-high-availability",
+      "source_bullet_ordinal": 1,
+      "label_type": "original_concise_paraphrase",
+      "learning_status": "not_started"
+    },
+    {
+      "id": "3.2.2",
+      "domain": "3",
+      "group": "3.2",
+      "label_it": "Disponibilità relazionale",
+      "source_id": "EXAM-GUIDE",
+      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-305#design-for-high-availability",
+      "source_bullet_ordinal": 2,
+      "label_type": "original_concise_paraphrase",
+      "learning_status": "not_started"
+    },
+    {
+      "id": "3.2.3",
+      "domain": "3",
+      "group": "3.2",
+      "label_it": "Disponibilità non relazionale",
+      "source_id": "EXAM-GUIDE",
+      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-305#design-for-high-availability",
+      "source_bullet_ordinal": 3,
+      "label_type": "original_concise_paraphrase",
+      "learning_status": "not_started"
+    },
+    {
+      "id": "4.1.1",
+      "domain": "4",
+      "group": "4.1",
+      "label_it": "Componenti per workload",
+      "source_id": "EXAM-GUIDE",
+      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-305#design-compute-solutions",
+      "source_bullet_ordinal": 1,
+      "label_type": "original_concise_paraphrase",
+      "learning_status": "not_started"
+    },
+    {
+      "id": "4.1.2",
+      "domain": "4",
+      "group": "4.1",
+      "label_it": "Macchine virtuali",
+      "source_id": "EXAM-GUIDE",
+      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-305#design-compute-solutions",
+      "source_bullet_ordinal": 2,
+      "label_type": "original_concise_paraphrase",
+      "learning_status": "not_started"
+    },
+    {
+      "id": "4.1.3",
+      "domain": "4",
+      "group": "4.1",
+      "label_it": "Container",
+      "source_id": "EXAM-GUIDE",
+      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-305#design-compute-solutions",
+      "source_bullet_ordinal": 3,
+      "label_type": "original_concise_paraphrase",
+      "learning_status": "not_started"
+    },
+    {
+      "id": "4.1.4",
+      "domain": "4",
+      "group": "4.1",
+      "label_it": "Serverless",
+      "source_id": "EXAM-GUIDE",
+      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-305#design-compute-solutions",
+      "source_bullet_ordinal": 4,
+      "label_type": "original_concise_paraphrase",
+      "learning_status": "not_started"
+    },
+    {
+      "id": "4.1.5",
+      "domain": "4",
+      "group": "4.1",
+      "label_it": "Elaborazione batch",
+      "source_id": "EXAM-GUIDE",
+      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-305#design-compute-solutions",
+      "source_bullet_ordinal": 5,
+      "label_type": "original_concise_paraphrase",
+      "learning_status": "not_started"
+    },
+    {
+      "id": "4.2.1",
+      "domain": "4",
+      "group": "4.2",
+      "label_it": "Messaggistica",
+      "source_id": "EXAM-GUIDE",
+      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-305#design-an-application-architecture",
+      "source_bullet_ordinal": 1,
+      "label_type": "original_concise_paraphrase",
+      "learning_status": "not_started"
+    },
+    {
+      "id": "4.2.2",
+      "domain": "4",
+      "group": "4.2",
+      "label_it": "Architetture event-driven",
+      "source_id": "EXAM-GUIDE",
+      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-305#design-an-application-architecture",
+      "source_bullet_ordinal": 2,
+      "label_type": "original_concise_paraphrase",
+      "learning_status": "not_started"
+    },
+    {
+      "id": "4.2.3",
+      "domain": "4",
+      "group": "4.2",
+      "label_it": "Integrazione API",
+      "source_id": "EXAM-GUIDE",
+      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-305#design-an-application-architecture",
+      "source_bullet_ordinal": 3,
+      "label_type": "original_concise_paraphrase",
+      "learning_status": "not_started"
+    },
+    {
+      "id": "4.2.4",
+      "domain": "4",
+      "group": "4.2",
+      "label_it": "Caching applicativo",
+      "source_id": "EXAM-GUIDE",
+      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-305#design-an-application-architecture",
+      "source_bullet_ordinal": 4,
+      "label_type": "original_concise_paraphrase",
+      "learning_status": "not_started"
+    },
+    {
+      "id": "4.2.5",
+      "domain": "4",
+      "group": "4.2",
+      "label_it": "Configurazione applicativa",
+      "source_id": "EXAM-GUIDE",
+      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-305#design-an-application-architecture",
+      "source_bullet_ordinal": 5,
+      "label_type": "original_concise_paraphrase",
+      "learning_status": "not_started"
+    },
+    {
+      "id": "4.2.6",
+      "domain": "4",
+      "group": "4.2",
+      "label_it": "Deployment automatizzato",
+      "source_id": "EXAM-GUIDE",
+      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-305#design-an-application-architecture",
+      "source_bullet_ordinal": 6,
+      "label_type": "original_concise_paraphrase",
+      "learning_status": "not_started"
+    },
+    {
+      "id": "4.3.1",
+      "domain": "4",
+      "group": "4.3",
+      "label_it": "Migrazione con CAF",
+      "source_id": "EXAM-GUIDE",
+      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-305#design-migrations",
+      "source_bullet_ordinal": 1,
+      "label_type": "original_concise_paraphrase",
+      "learning_status": "not_started"
+    },
+    {
+      "id": "4.3.2",
+      "domain": "4",
+      "group": "4.3",
+      "label_it": "Assessment on-premises",
+      "source_id": "EXAM-GUIDE",
+      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-305#design-migrations",
+      "source_bullet_ordinal": 2,
+      "label_type": "original_concise_paraphrase",
+      "learning_status": "not_started"
+    },
+    {
+      "id": "4.3.3",
+      "domain": "4",
+      "group": "4.3",
+      "label_it": "Migrazione IaaS/PaaS",
+      "source_id": "EXAM-GUIDE",
+      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-305#design-migrations",
+      "source_bullet_ordinal": 3,
+      "label_type": "original_concise_paraphrase",
+      "learning_status": "not_started"
+    },
+    {
+      "id": "4.3.4",
+      "domain": "4",
+      "group": "4.3",
+      "label_it": "Migrazione database",
+      "source_id": "EXAM-GUIDE",
+      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-305#design-migrations",
+      "source_bullet_ordinal": 4,
+      "label_type": "original_concise_paraphrase",
+      "learning_status": "not_started"
+    },
+    {
+      "id": "4.3.5",
+      "domain": "4",
+      "group": "4.3",
+      "label_it": "Migrazione oggetti",
+      "source_id": "EXAM-GUIDE",
+      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-305#design-migrations",
+      "source_bullet_ordinal": 5,
+      "label_type": "original_concise_paraphrase",
+      "learning_status": "not_started"
+    },
+    {
+      "id": "4.4.1",
+      "domain": "4",
+      "group": "4.4",
+      "label_it": "Connettività internet",
+      "source_id": "EXAM-GUIDE",
+      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-305#design-network-solutions",
+      "source_bullet_ordinal": 1,
+      "label_type": "original_concise_paraphrase",
+      "learning_status": "not_started"
+    },
+    {
+      "id": "4.4.2",
+      "domain": "4",
+      "group": "4.4",
+      "label_it": "Connettività ibrida",
+      "source_id": "EXAM-GUIDE",
+      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-305#design-network-solutions",
+      "source_bullet_ordinal": 2,
+      "label_type": "original_concise_paraphrase",
+      "learning_status": "not_started"
+    },
+    {
+      "id": "4.4.3",
+      "domain": "4",
+      "group": "4.4",
+      "label_it": "Prestazioni rete",
+      "source_id": "EXAM-GUIDE",
+      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-305#design-network-solutions",
+      "source_bullet_ordinal": 3,
+      "label_type": "original_concise_paraphrase",
+      "learning_status": "not_started"
+    },
+    {
+      "id": "4.4.4",
+      "domain": "4",
+      "group": "4.4",
+      "label_it": "Sicurezza rete",
+      "source_id": "EXAM-GUIDE",
+      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-305#design-network-solutions",
+      "source_bullet_ordinal": 4,
+      "label_type": "original_concise_paraphrase",
+      "learning_status": "not_started"
+    },
+    {
+      "id": "4.4.5",
+      "domain": "4",
+      "group": "4.4",
+      "label_it": "Bilanciamento e routing",
+      "source_id": "EXAM-GUIDE",
+      "source_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-305#design-network-solutions",
+      "source_bullet_ordinal": 5,
+      "label_type": "original_concise_paraphrase",
+      "learning_status": "not_started"
+    }
+  ]
+}

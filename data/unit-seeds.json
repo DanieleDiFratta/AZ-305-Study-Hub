@@ -1,0 +1,2062 @@
+[
+  {
+    "id": "U-azure-well-architected-cost-optimization-01",
+    "url": "https://learn.microsoft.com/en-us/training/modules/azure-well-architected-cost-optimization/1-introduction",
+    "kind": "learn_unit",
+    "module_id": "M-azure-well-architected-cost-optimization",
+    "unit_order": 1,
+    "title_hint": "Introduction",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-azure-well-architected-cost-optimization-02",
+    "url": "https://learn.microsoft.com/en-us/training/modules/azure-well-architected-cost-optimization/2-develop-cost-management-discipline",
+    "kind": "learn_unit",
+    "module_id": "M-azure-well-architected-cost-optimization",
+    "unit_order": 2,
+    "title_hint": "Develop cost-management discipline",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-azure-well-architected-cost-optimization-03",
+    "url": "https://learn.microsoft.com/en-us/training/modules/azure-well-architected-cost-optimization/3-design-with-cost-efficiency-mindset",
+    "kind": "learn_unit",
+    "module_id": "M-azure-well-architected-cost-optimization",
+    "unit_order": 3,
+    "title_hint": "Design with a cost-efficiency mindset",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-azure-well-architected-cost-optimization-04",
+    "url": "https://learn.microsoft.com/en-us/training/modules/azure-well-architected-cost-optimization/4-design-for-usage-optimization",
+    "kind": "learn_unit",
+    "module_id": "M-azure-well-architected-cost-optimization",
+    "unit_order": 4,
+    "title_hint": "Design for usage optimization",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-azure-well-architected-cost-optimization-05",
+    "url": "https://learn.microsoft.com/en-us/training/modules/azure-well-architected-cost-optimization/5-design-for-rate-optimization",
+    "kind": "learn_unit",
+    "module_id": "M-azure-well-architected-cost-optimization",
+    "unit_order": 5,
+    "title_hint": "Design for rate optimization",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-azure-well-architected-cost-optimization-06",
+    "url": "https://learn.microsoft.com/en-us/training/modules/azure-well-architected-cost-optimization/6-monitor-and-optimize-over-time",
+    "kind": "learn_unit",
+    "module_id": "M-azure-well-architected-cost-optimization",
+    "unit_order": 6,
+    "title_hint": "Monitor and optimize over time",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-azure-well-architected-cost-optimization-07",
+    "url": "https://learn.microsoft.com/en-us/training/modules/azure-well-architected-cost-optimization/7-summary",
+    "kind": "learn_unit",
+    "module_id": "M-azure-well-architected-cost-optimization",
+    "unit_order": 7,
+    "title_hint": "Summary",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-azure-well-architected-introduction-01",
+    "url": "https://learn.microsoft.com/en-us/training/modules/azure-well-architected-introduction/1-introduction",
+    "kind": "learn_unit",
+    "module_id": "M-azure-well-architected-introduction",
+    "unit_order": 1,
+    "title_hint": "Introduction",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-azure-well-architected-introduction-02",
+    "url": "https://learn.microsoft.com/en-us/training/modules/azure-well-architected-introduction/2-pillars",
+    "kind": "learn_unit",
+    "module_id": "M-azure-well-architected-introduction",
+    "unit_order": 2,
+    "title_hint": "Azure Well-Architected Framework pillars",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-azure-well-architected-introduction-03",
+    "url": "https://learn.microsoft.com/en-us/training/modules/azure-well-architected-introduction/8-summary",
+    "kind": "learn_unit",
+    "module_id": "M-azure-well-architected-introduction",
+    "unit_order": 3,
+    "title_hint": "Summary",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-azure-well-architected-operational-excellence-01",
+    "url": "https://learn.microsoft.com/en-us/training/modules/azure-well-architected-operational-excellence/1-introduction",
+    "kind": "learn_unit",
+    "module_id": "M-azure-well-architected-operational-excellence",
+    "unit_order": 1,
+    "title_hint": "Introduction",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-azure-well-architected-operational-excellence-02",
+    "url": "https://learn.microsoft.com/en-us/training/modules/azure-well-architected-operational-excellence/2-embrace-devops-culture",
+    "kind": "learn_unit",
+    "module_id": "M-azure-well-architected-operational-excellence",
+    "unit_order": 2,
+    "title_hint": "Embrace DevOps culture",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-azure-well-architected-operational-excellence-03",
+    "url": "https://learn.microsoft.com/en-us/training/modules/azure-well-architected-operational-excellence/3-establish-development-standards",
+    "kind": "learn_unit",
+    "module_id": "M-azure-well-architected-operational-excellence",
+    "unit_order": 3,
+    "title_hint": "Establish development standards",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-azure-well-architected-operational-excellence-04",
+    "url": "https://learn.microsoft.com/en-us/training/modules/azure-well-architected-operational-excellence/4-evolve-operations-with-observability",
+    "kind": "learn_unit",
+    "module_id": "M-azure-well-architected-operational-excellence",
+    "unit_order": 4,
+    "title_hint": "Evolve operations with observability",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-azure-well-architected-operational-excellence-05",
+    "url": "https://learn.microsoft.com/en-us/training/modules/azure-well-architected-operational-excellence/5-automate-for-efficiency",
+    "kind": "learn_unit",
+    "module_id": "M-azure-well-architected-operational-excellence",
+    "unit_order": 5,
+    "title_hint": "Automate for efficiency",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-azure-well-architected-operational-excellence-06",
+    "url": "https://learn.microsoft.com/en-us/training/modules/azure-well-architected-operational-excellence/6-adopt-safe-deployment-practices",
+    "kind": "learn_unit",
+    "module_id": "M-azure-well-architected-operational-excellence",
+    "unit_order": 6,
+    "title_hint": "Adopt safe deployment practices",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-azure-well-architected-operational-excellence-07",
+    "url": "https://learn.microsoft.com/en-us/training/modules/azure-well-architected-operational-excellence/7-summary",
+    "kind": "learn_unit",
+    "module_id": "M-azure-well-architected-operational-excellence",
+    "unit_order": 7,
+    "title_hint": "Summary",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-azure-well-architected-performance-efficiency-01",
+    "url": "https://learn.microsoft.com/en-us/training/modules/azure-well-architected-performance-efficiency/1-introduction",
+    "kind": "learn_unit",
+    "module_id": "M-azure-well-architected-performance-efficiency",
+    "unit_order": 1,
+    "title_hint": "Introduction",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-azure-well-architected-performance-efficiency-02",
+    "url": "https://learn.microsoft.com/en-us/training/modules/azure-well-architected-performance-efficiency/2-negotiate-realistic-performance-targets",
+    "kind": "learn_unit",
+    "module_id": "M-azure-well-architected-performance-efficiency",
+    "unit_order": 2,
+    "title_hint": "Negotiate realistic performance targets",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-azure-well-architected-performance-efficiency-03",
+    "url": "https://learn.microsoft.com/en-us/training/modules/azure-well-architected-performance-efficiency/3-design-to-meet-capacity-requirements",
+    "kind": "learn_unit",
+    "module_id": "M-azure-well-architected-performance-efficiency",
+    "unit_order": 3,
+    "title_hint": "Design to meet capacity requirements",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-azure-well-architected-performance-efficiency-04",
+    "url": "https://learn.microsoft.com/en-us/training/modules/azure-well-architected-performance-efficiency/4-achieve-and-sustain-performance",
+    "kind": "learn_unit",
+    "module_id": "M-azure-well-architected-performance-efficiency",
+    "unit_order": 4,
+    "title_hint": "Achieve and sustain performance",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-azure-well-architected-performance-efficiency-05",
+    "url": "https://learn.microsoft.com/en-us/training/modules/azure-well-architected-performance-efficiency/5-improve-efficiency-through-optimization",
+    "kind": "learn_unit",
+    "module_id": "M-azure-well-architected-performance-efficiency",
+    "unit_order": 5,
+    "title_hint": "Improve efficiency through optimization",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-azure-well-architected-performance-efficiency-06",
+    "url": "https://learn.microsoft.com/en-us/training/modules/azure-well-architected-performance-efficiency/6-summary",
+    "kind": "learn_unit",
+    "module_id": "M-azure-well-architected-performance-efficiency",
+    "unit_order": 6,
+    "title_hint": "Summary",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-azure-well-architected-reliability-01",
+    "url": "https://learn.microsoft.com/en-us/training/modules/azure-well-architected-reliability/1-introduction",
+    "kind": "learn_unit",
+    "module_id": "M-azure-well-architected-reliability",
+    "unit_order": 1,
+    "title_hint": "Introduction",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-azure-well-architected-reliability-02",
+    "url": "https://learn.microsoft.com/en-us/training/modules/azure-well-architected-reliability/2-design-for-business-requirements",
+    "kind": "learn_unit",
+    "module_id": "M-azure-well-architected-reliability",
+    "unit_order": 2,
+    "title_hint": "Design for business requirements",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-azure-well-architected-reliability-03",
+    "url": "https://learn.microsoft.com/en-us/training/modules/azure-well-architected-reliability/3-design-for-resillience",
+    "kind": "learn_unit",
+    "module_id": "M-azure-well-architected-reliability",
+    "unit_order": 3,
+    "title_hint": "Design for resilience",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-azure-well-architected-reliability-04",
+    "url": "https://learn.microsoft.com/en-us/training/modules/azure-well-architected-reliability/4-design-for-recovery",
+    "kind": "learn_unit",
+    "module_id": "M-azure-well-architected-reliability",
+    "unit_order": 4,
+    "title_hint": "Design for recovery",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-azure-well-architected-reliability-05",
+    "url": "https://learn.microsoft.com/en-us/training/modules/azure-well-architected-reliability/5-design-for-operations",
+    "kind": "learn_unit",
+    "module_id": "M-azure-well-architected-reliability",
+    "unit_order": 5,
+    "title_hint": "Design for operations",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-azure-well-architected-reliability-06",
+    "url": "https://learn.microsoft.com/en-us/training/modules/azure-well-architected-reliability/6-keep-it-simple",
+    "kind": "learn_unit",
+    "module_id": "M-azure-well-architected-reliability",
+    "unit_order": 6,
+    "title_hint": "Keep it simple",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-azure-well-architected-reliability-07",
+    "url": "https://learn.microsoft.com/en-us/training/modules/azure-well-architected-reliability/7-summary",
+    "kind": "learn_unit",
+    "module_id": "M-azure-well-architected-reliability",
+    "unit_order": 7,
+    "title_hint": "Summary",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-azure-well-architected-security-01",
+    "url": "https://learn.microsoft.com/en-us/training/modules/azure-well-architected-security/1-introduction",
+    "kind": "learn_unit",
+    "module_id": "M-azure-well-architected-security",
+    "unit_order": 1,
+    "title_hint": "Introduction",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-azure-well-architected-security-02",
+    "url": "https://learn.microsoft.com/en-us/training/modules/azure-well-architected-security/2-plan-your-security-readiness",
+    "kind": "learn_unit",
+    "module_id": "M-azure-well-architected-security",
+    "unit_order": 2,
+    "title_hint": "Plan your security readiness",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-azure-well-architected-security-03",
+    "url": "https://learn.microsoft.com/en-us/training/modules/azure-well-architected-security/3-design-to-protect-confidentiality",
+    "kind": "learn_unit",
+    "module_id": "M-azure-well-architected-security",
+    "unit_order": 3,
+    "title_hint": "Design to protect confidentiality",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-azure-well-architected-security-04",
+    "url": "https://learn.microsoft.com/en-us/training/modules/azure-well-architected-security/4-design-to-protect-integrity",
+    "kind": "learn_unit",
+    "module_id": "M-azure-well-architected-security",
+    "unit_order": 4,
+    "title_hint": "Design to protect integrity",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-azure-well-architected-security-05",
+    "url": "https://learn.microsoft.com/en-us/training/modules/azure-well-architected-security/5-design-to-protect-availability",
+    "kind": "learn_unit",
+    "module_id": "M-azure-well-architected-security",
+    "unit_order": 5,
+    "title_hint": "Design to protect availability",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-azure-well-architected-security-06",
+    "url": "https://learn.microsoft.com/en-us/training/modules/azure-well-architected-security/6-sustain-and-evolve-your-security-posture",
+    "kind": "learn_unit",
+    "module_id": "M-azure-well-architected-security",
+    "unit_order": 6,
+    "title_hint": "Sustain and evolve your security posture",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-azure-well-architected-security-07",
+    "url": "https://learn.microsoft.com/en-us/training/modules/azure-well-architected-security/7-summary",
+    "kind": "learn_unit",
+    "module_id": "M-azure-well-architected-security",
+    "unit_order": 7,
+    "title_hint": "Summary",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-cloud-adoption-framework-01",
+    "url": "https://learn.microsoft.com/en-us/training/modules/cloud-adoption-framework/1-introduction",
+    "kind": "learn_unit",
+    "module_id": "M-cloud-adoption-framework",
+    "unit_order": 1,
+    "title_hint": "Introduction",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-cloud-adoption-framework-02",
+    "url": "https://learn.microsoft.com/en-us/training/modules/cloud-adoption-framework/2-strategy",
+    "kind": "learn_unit",
+    "module_id": "M-cloud-adoption-framework",
+    "unit_order": 2,
+    "title_hint": "Strategy",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-cloud-adoption-framework-03",
+    "url": "https://learn.microsoft.com/en-us/training/modules/cloud-adoption-framework/3-plan",
+    "kind": "learn_unit",
+    "module_id": "M-cloud-adoption-framework",
+    "unit_order": 3,
+    "title_hint": "Plan",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-cloud-adoption-framework-04",
+    "url": "https://learn.microsoft.com/en-us/training/modules/cloud-adoption-framework/4-ready",
+    "kind": "learn_unit",
+    "module_id": "M-cloud-adoption-framework",
+    "unit_order": 4,
+    "title_hint": "Ready",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-cloud-adoption-framework-05",
+    "url": "https://learn.microsoft.com/en-us/training/modules/cloud-adoption-framework/5-migrate",
+    "kind": "learn_unit",
+    "module_id": "M-cloud-adoption-framework",
+    "unit_order": 5,
+    "title_hint": "Migrate",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-cloud-adoption-framework-06",
+    "url": "https://learn.microsoft.com/en-us/training/modules/cloud-adoption-framework/6-modernize",
+    "kind": "learn_unit",
+    "module_id": "M-cloud-adoption-framework",
+    "unit_order": 6,
+    "title_hint": "Modernize",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-cloud-adoption-framework-07",
+    "url": "https://learn.microsoft.com/en-us/training/modules/cloud-adoption-framework/7-cloud-native",
+    "kind": "learn_unit",
+    "module_id": "M-cloud-adoption-framework",
+    "unit_order": 7,
+    "title_hint": "Cloud-native",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-cloud-adoption-framework-08",
+    "url": "https://learn.microsoft.com/en-us/training/modules/cloud-adoption-framework/8-govern",
+    "kind": "learn_unit",
+    "module_id": "M-cloud-adoption-framework",
+    "unit_order": 8,
+    "title_hint": "Govern",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-cloud-adoption-framework-09",
+    "url": "https://learn.microsoft.com/en-us/training/modules/cloud-adoption-framework/9-manage",
+    "kind": "learn_unit",
+    "module_id": "M-cloud-adoption-framework",
+    "unit_order": 9,
+    "title_hint": "Manage",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-cloud-adoption-framework-10",
+    "url": "https://learn.microsoft.com/en-us/training/modules/cloud-adoption-framework/10-secure",
+    "kind": "learn_unit",
+    "module_id": "M-cloud-adoption-framework",
+    "unit_order": 10,
+    "title_hint": "Secure",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-cloud-adoption-framework-11",
+    "url": "https://learn.microsoft.com/en-us/training/modules/cloud-adoption-framework/11-knowledge-check",
+    "kind": "learn_unit",
+    "module_id": "M-cloud-adoption-framework",
+    "unit_order": 11,
+    "title_hint": "Module assessment",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-cloud-adoption-framework-12",
+    "url": "https://learn.microsoft.com/en-us/training/modules/cloud-adoption-framework/summary",
+    "kind": "learn_unit",
+    "module_id": "M-cloud-adoption-framework",
+    "unit_order": 12,
+    "title_hint": "Summary",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-describe-azure-compute-networking-services-01",
+    "url": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/1-introduction",
+    "kind": "learn_unit",
+    "module_id": "M-describe-azure-compute-networking-services",
+    "unit_order": 1,
+    "title_hint": "Introduction",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-describe-azure-compute-networking-services-02",
+    "url": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/2-virtual-machines",
+    "kind": "learn_unit",
+    "module_id": "M-describe-azure-compute-networking-services",
+    "unit_order": 2,
+    "title_hint": "Describe Azure virtual machines",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-describe-azure-compute-networking-services-03",
+    "url": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/4-virtual-desktop",
+    "kind": "learn_unit",
+    "module_id": "M-describe-azure-compute-networking-services",
+    "unit_order": 3,
+    "title_hint": "Describe Azure virtual desktop",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-describe-azure-compute-networking-services-04",
+    "url": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/5-containers",
+    "kind": "learn_unit",
+    "module_id": "M-describe-azure-compute-networking-services",
+    "unit_order": 4,
+    "title_hint": "Describe Azure containers",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-describe-azure-compute-networking-services-05",
+    "url": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/6-functions",
+    "kind": "learn_unit",
+    "module_id": "M-describe-azure-compute-networking-services",
+    "unit_order": 5,
+    "title_hint": "Describe Azure functions",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-describe-azure-compute-networking-services-06",
+    "url": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/12a-describe-ai-ml-iot-edge-services",
+    "kind": "learn_unit",
+    "module_id": "M-describe-azure-compute-networking-services",
+    "unit_order": 6,
+    "title_hint": "Describe AI, machine learning, and IoT/Edge services in Azure",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-describe-azure-compute-networking-services-07",
+    "url": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/7-describe-application-hosting-options",
+    "kind": "learn_unit",
+    "module_id": "M-describe-azure-compute-networking-services",
+    "unit_order": 7,
+    "title_hint": "Describe application hosting options",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-describe-azure-compute-networking-services-08",
+    "url": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/13-knowledge-check",
+    "kind": "learn_unit",
+    "module_id": "M-describe-azure-compute-networking-services",
+    "unit_order": 8,
+    "title_hint": "Module assessment",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-describe-azure-compute-networking-services-09",
+    "url": "https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/14-summary",
+    "kind": "learn_unit",
+    "module_id": "M-describe-azure-compute-networking-services",
+    "unit_order": 9,
+    "title_hint": "Summary",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-describe-azure-identity-access-security-01",
+    "url": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/1-introduction",
+    "kind": "learn_unit",
+    "module_id": "M-describe-azure-identity-access-security",
+    "unit_order": 1,
+    "title_hint": "Introduction",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-describe-azure-identity-access-security-02",
+    "url": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/2-directory-services",
+    "kind": "learn_unit",
+    "module_id": "M-describe-azure-identity-access-security",
+    "unit_order": 2,
+    "title_hint": "Describe Azure directory services",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-describe-azure-identity-access-security-03",
+    "url": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/3-authentication-methods",
+    "kind": "learn_unit",
+    "module_id": "M-describe-azure-identity-access-security",
+    "unit_order": 3,
+    "title_hint": "Describe Azure authentication methods",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-describe-azure-identity-access-security-04",
+    "url": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/4-external-identities",
+    "kind": "learn_unit",
+    "module_id": "M-describe-azure-identity-access-security",
+    "unit_order": 4,
+    "title_hint": "Describe Azure external identities",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-describe-azure-identity-access-security-05",
+    "url": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/5-conditional-access",
+    "kind": "learn_unit",
+    "module_id": "M-describe-azure-identity-access-security",
+    "unit_order": 5,
+    "title_hint": "Describe Azure conditional access",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-describe-azure-identity-access-security-06",
+    "url": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/6-role-based-access-control",
+    "kind": "learn_unit",
+    "module_id": "M-describe-azure-identity-access-security",
+    "unit_order": 6,
+    "title_hint": "Describe Azure role-based access control",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-describe-azure-identity-access-security-07",
+    "url": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/7-describe-zero-trust-model",
+    "kind": "learn_unit",
+    "module_id": "M-describe-azure-identity-access-security",
+    "unit_order": 7,
+    "title_hint": "Describe Zero Trust model",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-describe-azure-identity-access-security-08",
+    "url": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/8-describe-defense-depth",
+    "kind": "learn_unit",
+    "module_id": "M-describe-azure-identity-access-security",
+    "unit_order": 8,
+    "title_hint": "Describe defense-in-depth",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-describe-azure-identity-access-security-09",
+    "url": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/9a-describe-encryption-key-management",
+    "kind": "learn_unit",
+    "module_id": "M-describe-azure-identity-access-security",
+    "unit_order": 9,
+    "title_hint": "Describe encryption and key management in Azure",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-describe-azure-identity-access-security-10",
+    "url": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/9-describe-microsoft-defender-for-cloud",
+    "kind": "learn_unit",
+    "module_id": "M-describe-azure-identity-access-security",
+    "unit_order": 10,
+    "title_hint": "Describe Microsoft Defender for Cloud",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-describe-azure-identity-access-security-11",
+    "url": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/10-knowledge-check",
+    "kind": "learn_unit",
+    "module_id": "M-describe-azure-identity-access-security",
+    "unit_order": 11,
+    "title_hint": "Module assessment",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-describe-azure-identity-access-security-12",
+    "url": "https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/11-summary",
+    "kind": "learn_unit",
+    "module_id": "M-describe-azure-identity-access-security",
+    "unit_order": 12,
+    "title_hint": "Summary",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-describe-azure-storage-services-01",
+    "url": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/1-introduction",
+    "kind": "learn_unit",
+    "module_id": "M-describe-azure-storage-services",
+    "unit_order": 1,
+    "title_hint": "Introduction",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-describe-azure-storage-services-02",
+    "url": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/2-accounts",
+    "kind": "learn_unit",
+    "module_id": "M-describe-azure-storage-services",
+    "unit_order": 2,
+    "title_hint": "Describe Azure storage accounts",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-describe-azure-storage-services-03",
+    "url": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/3-redundancy",
+    "kind": "learn_unit",
+    "module_id": "M-describe-azure-storage-services",
+    "unit_order": 3,
+    "title_hint": "Describe Azure storage redundancy",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-describe-azure-storage-services-04",
+    "url": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/4-describe-azure-storage-services",
+    "kind": "learn_unit",
+    "module_id": "M-describe-azure-storage-services",
+    "unit_order": 4,
+    "title_hint": "Describe Azure storage services",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-describe-azure-storage-services-05",
+    "url": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/6-identify-azure-data-migration-options",
+    "kind": "learn_unit",
+    "module_id": "M-describe-azure-storage-services",
+    "unit_order": 5,
+    "title_hint": "Identify Azure data migration options",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-describe-azure-storage-services-06",
+    "url": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/7-identify-azure-file-movement-options",
+    "kind": "learn_unit",
+    "module_id": "M-describe-azure-storage-services",
+    "unit_order": 6,
+    "title_hint": "Identify Azure file movement options",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-describe-azure-storage-services-07",
+    "url": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/8-knowledge-check",
+    "kind": "learn_unit",
+    "module_id": "M-describe-azure-storage-services",
+    "unit_order": 7,
+    "title_hint": "Module assessment",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-describe-azure-storage-services-08",
+    "url": "https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/9-summary",
+    "kind": "learn_unit",
+    "module_id": "M-describe-azure-storage-services",
+    "unit_order": 8,
+    "title_hint": "Summary",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-describe-core-architectural-components-of-azure-01",
+    "url": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/1-introduction",
+    "kind": "learn_unit",
+    "module_id": "M-describe-core-architectural-components-of-azure",
+    "unit_order": 1,
+    "title_hint": "Introduction",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-describe-core-architectural-components-of-azure-02",
+    "url": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/2-what-microsoft-azure",
+    "kind": "learn_unit",
+    "module_id": "M-describe-core-architectural-components-of-azure",
+    "unit_order": 2,
+    "title_hint": "What is Microsoft Azure",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-describe-core-architectural-components-of-azure-03",
+    "url": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/3-get-started-azure-accounts",
+    "kind": "learn_unit",
+    "module_id": "M-describe-core-architectural-components-of-azure",
+    "unit_order": 3,
+    "title_hint": "Get started with Azure accounts",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-describe-core-architectural-components-of-azure-04",
+    "url": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/5-describe-azure-physical-infrastructure",
+    "kind": "learn_unit",
+    "module_id": "M-describe-core-architectural-components-of-azure",
+    "unit_order": 4,
+    "title_hint": "Describe Azure physical infrastructure",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-describe-core-architectural-components-of-azure-05",
+    "url": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/6-describe-azure-management-infrastructure",
+    "kind": "learn_unit",
+    "module_id": "M-describe-core-architectural-components-of-azure",
+    "unit_order": 5,
+    "title_hint": "Describe Azure management infrastructure",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-describe-core-architectural-components-of-azure-06",
+    "url": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/8-knowledge-check",
+    "kind": "learn_unit",
+    "module_id": "M-describe-core-architectural-components-of-azure",
+    "unit_order": 6,
+    "title_hint": "Module assessment",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-describe-core-architectural-components-of-azure-07",
+    "url": "https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/9-summary",
+    "kind": "learn_unit",
+    "module_id": "M-describe-core-architectural-components-of-azure",
+    "unit_order": 7,
+    "title_hint": "Summary",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-describe-high-availability-disaster-recovery-strategies-01",
+    "url": "https://learn.microsoft.com/en-us/training/modules/describe-high-availability-disaster-recovery-strategies/1-introduction",
+    "kind": "learn_unit",
+    "module_id": "M-describe-high-availability-disaster-recovery-strategies",
+    "unit_order": 1,
+    "title_hint": "Introduction",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-describe-high-availability-disaster-recovery-strategies-02",
+    "url": "https://learn.microsoft.com/en-us/training/modules/describe-high-availability-disaster-recovery-strategies/2-describe-recovery-time-objective-recovery-point-objective",
+    "kind": "learn_unit",
+    "module_id": "M-describe-high-availability-disaster-recovery-strategies",
+    "unit_order": 2,
+    "title_hint": "Describe recovery time objective and recovery point objective",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-describe-high-availability-disaster-recovery-strategies-03",
+    "url": "https://learn.microsoft.com/en-us/training/modules/describe-high-availability-disaster-recovery-strategies/3-explore-high-availability-disaster-recovery-options",
+    "kind": "learn_unit",
+    "module_id": "M-describe-high-availability-disaster-recovery-strategies",
+    "unit_order": 3,
+    "title_hint": "Explore high availability and disaster recovery options",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-describe-high-availability-disaster-recovery-strategies-04",
+    "url": "https://learn.microsoft.com/en-us/training/modules/describe-high-availability-disaster-recovery-strategies/4-describe-azure-high-availability-disaster-recovery-features",
+    "kind": "learn_unit",
+    "module_id": "M-describe-high-availability-disaster-recovery-strategies",
+    "unit_order": 4,
+    "title_hint": "Describe Azure high availability and disaster recovery features for Azure Virtual Machines",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-describe-high-availability-disaster-recovery-strategies-05",
+    "url": "https://learn.microsoft.com/en-us/training/modules/describe-high-availability-disaster-recovery-strategies/5-describe-high-availability-disaster-recovery-options",
+    "kind": "learn_unit",
+    "module_id": "M-describe-high-availability-disaster-recovery-strategies",
+    "unit_order": 5,
+    "title_hint": "Describe high availability and disaster recovery for PaaS deployments",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-describe-high-availability-disaster-recovery-strategies-06",
+    "url": "https://learn.microsoft.com/en-us/training/modules/describe-high-availability-disaster-recovery-strategies/6-explore-iaas-high-availability-disaster-recovery-solution",
+    "kind": "learn_unit",
+    "module_id": "M-describe-high-availability-disaster-recovery-strategies",
+    "unit_order": 6,
+    "title_hint": "Explore high availability and disaster recovery solution for IaaS",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-describe-high-availability-disaster-recovery-strategies-07",
+    "url": "https://learn.microsoft.com/en-us/training/modules/describe-high-availability-disaster-recovery-strategies/7-describe-hybrid-solutions",
+    "kind": "learn_unit",
+    "module_id": "M-describe-high-availability-disaster-recovery-strategies",
+    "unit_order": 7,
+    "title_hint": "Describe hybrid solutions",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-describe-high-availability-disaster-recovery-strategies-08",
+    "url": "https://learn.microsoft.com/en-us/training/modules/describe-high-availability-disaster-recovery-strategies/8-knowledge-check",
+    "kind": "learn_unit",
+    "module_id": "M-describe-high-availability-disaster-recovery-strategies",
+    "unit_order": 8,
+    "title_hint": "Module assessment",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-describe-high-availability-disaster-recovery-strategies-09",
+    "url": "https://learn.microsoft.com/en-us/training/modules/describe-high-availability-disaster-recovery-strategies/9-summary",
+    "kind": "learn_unit",
+    "module_id": "M-describe-high-availability-disaster-recovery-strategies",
+    "unit_order": 9,
+    "title_hint": "Summary",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-application-architecture-01",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-application-architecture/1-introduction",
+    "kind": "learn_unit",
+    "module_id": "M-design-application-architecture",
+    "unit_order": 1,
+    "title_hint": "Introduction",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-application-architecture-02",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-application-architecture/2-describe-message-event-scenarios",
+    "kind": "learn_unit",
+    "module_id": "M-design-application-architecture",
+    "unit_order": 2,
+    "title_hint": "Describe message and event scenarios",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-application-architecture-03",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-application-architecture/3-design-messaging-solution",
+    "kind": "learn_unit",
+    "module_id": "M-design-application-architecture",
+    "unit_order": 3,
+    "title_hint": "Design a messaging solution",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-application-architecture-04",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-application-architecture/4-design-event-hub-messaging-solution",
+    "kind": "learn_unit",
+    "module_id": "M-design-application-architecture",
+    "unit_order": 4,
+    "title_hint": "Design an Azure Event Hubs messaging solution",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-application-architecture-05",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-application-architecture/5-design-event-driven-solution",
+    "kind": "learn_unit",
+    "module_id": "M-design-application-architecture",
+    "unit_order": 5,
+    "title_hint": "Design an event-driven solution",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-application-architecture-06",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-application-architecture/6-design-caching-solution",
+    "kind": "learn_unit",
+    "module_id": "M-design-application-architecture",
+    "unit_order": 6,
+    "title_hint": "Design a caching solution",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-application-architecture-07",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-application-architecture/7-design-api-integration",
+    "kind": "learn_unit",
+    "module_id": "M-design-application-architecture",
+    "unit_order": 7,
+    "title_hint": "Design API integration",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-application-architecture-08",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-application-architecture/8-design-automated-app-deployment-solution",
+    "kind": "learn_unit",
+    "module_id": "M-design-application-architecture",
+    "unit_order": 8,
+    "title_hint": "Design an automated app deployment solution",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-application-architecture-09",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-application-architecture/9-configuration-management-solution",
+    "kind": "learn_unit",
+    "module_id": "M-design-application-architecture",
+    "unit_order": 9,
+    "title_hint": "Design an app configuration management solution",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-application-architecture-10",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-application-architecture/10-knowledge-check",
+    "kind": "learn_unit",
+    "module_id": "M-design-application-architecture",
+    "unit_order": 10,
+    "title_hint": "Module assessment",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-application-architecture-11",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-application-architecture/11-summary-resources",
+    "kind": "learn_unit",
+    "module_id": "M-design-application-architecture",
+    "unit_order": 11,
+    "title_hint": "Summary and resources",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-authentication-authorization-solutions-01",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-authentication-authorization-solutions/1-introduction",
+    "kind": "learn_unit",
+    "module_id": "M-design-authentication-authorization-solutions",
+    "unit_order": 1,
+    "title_hint": "Introduction",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-authentication-authorization-solutions-02",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-authentication-authorization-solutions/2-design-for-identity-access-management",
+    "kind": "learn_unit",
+    "module_id": "M-design-authentication-authorization-solutions",
+    "unit_order": 2,
+    "title_hint": "Design for identity and access management (IAM)",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-authentication-authorization-solutions-03",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-authentication-authorization-solutions/3-design-for-azure-active-directory",
+    "kind": "learn_unit",
+    "module_id": "M-design-authentication-authorization-solutions",
+    "unit_order": 3,
+    "title_hint": "Design for Microsoft Entra ID",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-authentication-authorization-solutions-04",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-authentication-authorization-solutions/4-design-business-business",
+    "kind": "learn_unit",
+    "module_id": "M-design-authentication-authorization-solutions",
+    "unit_order": 4,
+    "title_hint": "Design for Microsoft Entra business-to-business (B2B)",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-authentication-authorization-solutions-05",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-authentication-authorization-solutions/5-design-business-customer",
+    "kind": "learn_unit",
+    "module_id": "M-design-authentication-authorization-solutions",
+    "unit_order": 5,
+    "title_hint": "Design for Azure Active Directory B2C (business-to-customer)",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-authentication-authorization-solutions-06",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-authentication-authorization-solutions/6-design-for-conditional-access",
+    "kind": "learn_unit",
+    "module_id": "M-design-authentication-authorization-solutions",
+    "unit_order": 6,
+    "title_hint": "Design for conditional access",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-authentication-authorization-solutions-07",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-authentication-authorization-solutions/7-design-for-identity-protection",
+    "kind": "learn_unit",
+    "module_id": "M-design-authentication-authorization-solutions",
+    "unit_order": 7,
+    "title_hint": "Design for identity protection",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-authentication-authorization-solutions-08",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-authentication-authorization-solutions/8-design-for-access-reviews",
+    "kind": "learn_unit",
+    "module_id": "M-design-authentication-authorization-solutions",
+    "unit_order": 8,
+    "title_hint": "Design for access reviews",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-authentication-authorization-solutions-09",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-authentication-authorization-solutions/9-two-design-service-principals",
+    "kind": "learn_unit",
+    "module_id": "M-design-authentication-authorization-solutions",
+    "unit_order": 9,
+    "title_hint": "Design service principals for applications",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-authentication-authorization-solutions-10",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-authentication-authorization-solutions/9-one-design-managed-identities",
+    "kind": "learn_unit",
+    "module_id": "M-design-authentication-authorization-solutions",
+    "unit_order": 10,
+    "title_hint": "Design managed identities",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-authentication-authorization-solutions-11",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-authentication-authorization-solutions/10-design-for-azure-key-vault",
+    "kind": "learn_unit",
+    "module_id": "M-design-authentication-authorization-solutions",
+    "unit_order": 11,
+    "title_hint": "Design for Azure Key Vault",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-authentication-authorization-solutions-12",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-authentication-authorization-solutions/11-knowledge-check",
+    "kind": "learn_unit",
+    "module_id": "M-design-authentication-authorization-solutions",
+    "unit_order": 12,
+    "title_hint": "Module assessment",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-authentication-authorization-solutions-13",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-authentication-authorization-solutions/12-summary-resources",
+    "kind": "learn_unit",
+    "module_id": "M-design-authentication-authorization-solutions",
+    "unit_order": 13,
+    "title_hint": "Summary and resources",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-compute-solution-01",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-compute-solution/1-introduction",
+    "kind": "learn_unit",
+    "module_id": "M-design-compute-solution",
+    "unit_order": 1,
+    "title_hint": "Introduction",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-compute-solution-02",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-compute-solution/2-choose-compute-service",
+    "kind": "learn_unit",
+    "module_id": "M-design-compute-solution",
+    "unit_order": 2,
+    "title_hint": "Choose an Azure compute service",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-compute-solution-03",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-compute-solution/3-design-for-azure-virtual-machine-solutions",
+    "kind": "learn_unit",
+    "module_id": "M-design-compute-solution",
+    "unit_order": 3,
+    "title_hint": "Design for Azure Virtual Machines solutions",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-compute-solution-04",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-compute-solution/4-design-for-azure-batch-solutions",
+    "kind": "learn_unit",
+    "module_id": "M-design-compute-solution",
+    "unit_order": 4,
+    "title_hint": "Design for Azure Batch solutions",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-compute-solution-05",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-compute-solution/5-design-for-azure-app-services-solutions",
+    "kind": "learn_unit",
+    "module_id": "M-design-compute-solution",
+    "unit_order": 5,
+    "title_hint": "Design for Azure App Service solutions",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-compute-solution-06",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-compute-solution/6-design-for-azure-container-instances-solutions",
+    "kind": "learn_unit",
+    "module_id": "M-design-compute-solution",
+    "unit_order": 6,
+    "title_hint": "Design for Azure Container Instances solutions",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-compute-solution-07",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-compute-solution/7-design-for-azure-kubernetes-solutions",
+    "kind": "learn_unit",
+    "module_id": "M-design-compute-solution",
+    "unit_order": 7,
+    "title_hint": "Design for Azure Kubernetes Service solutions",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-compute-solution-08",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-compute-solution/8-design-for-azure-functions-solutions",
+    "kind": "learn_unit",
+    "module_id": "M-design-compute-solution",
+    "unit_order": 8,
+    "title_hint": "Design for Azure Functions solutions",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-compute-solution-09",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-compute-solution/9-design-for-logic-app-solutions",
+    "kind": "learn_unit",
+    "module_id": "M-design-compute-solution",
+    "unit_order": 9,
+    "title_hint": "Design for Azure Logic Apps solutions",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-compute-solution-10",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-compute-solution/10-knowledge-check",
+    "kind": "learn_unit",
+    "module_id": "M-design-compute-solution",
+    "unit_order": 10,
+    "title_hint": "Module assessment",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-compute-solution-11",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-compute-solution/11-summary-resources",
+    "kind": "learn_unit",
+    "module_id": "M-design-compute-solution",
+    "unit_order": 11,
+    "title_hint": "Summary and resources",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-data-integration-01",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-data-integration/1-introduction",
+    "kind": "learn_unit",
+    "module_id": "M-design-data-integration",
+    "unit_order": 1,
+    "title_hint": "Introduction",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-data-integration-02",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-data-integration/2-solution-azure-data-factory",
+    "kind": "learn_unit",
+    "module_id": "M-design-data-integration",
+    "unit_order": 2,
+    "title_hint": "Design a data integration solution with Azure Data Factory",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-data-integration-03",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-data-integration/3-solution-azure-data-lake",
+    "kind": "learn_unit",
+    "module_id": "M-design-data-integration",
+    "unit_order": 3,
+    "title_hint": "Design a data integration solution with Azure Data Lake",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-data-integration-04",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-data-integration/4-solution-azure-data-brick",
+    "kind": "learn_unit",
+    "module_id": "M-design-data-integration",
+    "unit_order": 4,
+    "title_hint": "Design a data integration and analytic solution with Azure Databricks",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-data-integration-05",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-data-integration/5-solution-azure-synapse-analytics",
+    "kind": "learn_unit",
+    "module_id": "M-design-data-integration",
+    "unit_order": 5,
+    "title_hint": "Design a data integration and analytic solution with Azure Synapse Analytics",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-data-integration-06",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-data-integration/6-design-strategy-for-hot-warm-cold-data-path",
+    "kind": "learn_unit",
+    "module_id": "M-design-data-integration",
+    "unit_order": 6,
+    "title_hint": "Design strategies for hot, warm, and cold data paths",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-data-integration-07",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-data-integration/7-design-azure-stream-analytics-solution-for-data-analysis",
+    "kind": "learn_unit",
+    "module_id": "M-design-data-integration",
+    "unit_order": 7,
+    "title_hint": "Design an Azure Stream Analytics solution for data analysis",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-data-integration-08",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-data-integration/8-knowledge-check",
+    "kind": "learn_unit",
+    "module_id": "M-design-data-integration",
+    "unit_order": 8,
+    "title_hint": "Module assessment",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-data-integration-09",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-data-integration/9-summary-resources",
+    "kind": "learn_unit",
+    "module_id": "M-design-data-integration",
+    "unit_order": 9,
+    "title_hint": "Summary and resources",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-data-storage-solution-for-non-relational-data-01",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-data-storage-solution-for-non-relational-data/1-introduction",
+    "kind": "learn_unit",
+    "module_id": "M-design-data-storage-solution-for-non-relational-data",
+    "unit_order": 1,
+    "title_hint": "Introduction",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-data-storage-solution-for-non-relational-data-02",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-data-storage-solution-for-non-relational-data/2-design-for-data-storage",
+    "kind": "learn_unit",
+    "module_id": "M-design-data-storage-solution-for-non-relational-data",
+    "unit_order": 2,
+    "title_hint": "Design for data storage",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-data-storage-solution-for-non-relational-data-03",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-data-storage-solution-for-non-relational-data/3-design-for-azure-storage-accounts",
+    "kind": "learn_unit",
+    "module_id": "M-design-data-storage-solution-for-non-relational-data",
+    "unit_order": 3,
+    "title_hint": "Design for Azure storage accounts",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-data-storage-solution-for-non-relational-data-04",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-data-storage-solution-for-non-relational-data/4-design-for-data-redundancy",
+    "kind": "learn_unit",
+    "module_id": "M-design-data-storage-solution-for-non-relational-data",
+    "unit_order": 4,
+    "title_hint": "Design for data redundancy",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-data-storage-solution-for-non-relational-data-05",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-data-storage-solution-for-non-relational-data/5-design-for-azure-blob-storage",
+    "kind": "learn_unit",
+    "module_id": "M-design-data-storage-solution-for-non-relational-data",
+    "unit_order": 5,
+    "title_hint": "Design for Azure Blob Storage",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-data-storage-solution-for-non-relational-data-06",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-data-storage-solution-for-non-relational-data/6-design-for-azure-files",
+    "kind": "learn_unit",
+    "module_id": "M-design-data-storage-solution-for-non-relational-data",
+    "unit_order": 6,
+    "title_hint": "Design for Azure Files",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-data-storage-solution-for-non-relational-data-07",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-data-storage-solution-for-non-relational-data/7-design-for-azure-disk-solutions",
+    "kind": "learn_unit",
+    "module_id": "M-design-data-storage-solution-for-non-relational-data",
+    "unit_order": 7,
+    "title_hint": "Design for Azure managed disks",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-data-storage-solution-for-non-relational-data-08",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-data-storage-solution-for-non-relational-data/8-design-for-storage-security",
+    "kind": "learn_unit",
+    "module_id": "M-design-data-storage-solution-for-non-relational-data",
+    "unit_order": 8,
+    "title_hint": "Design for storage security",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-data-storage-solution-for-non-relational-data-09",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-data-storage-solution-for-non-relational-data/9-knowledge-check",
+    "kind": "learn_unit",
+    "module_id": "M-design-data-storage-solution-for-non-relational-data",
+    "unit_order": 9,
+    "title_hint": "Module assessment",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-data-storage-solution-for-non-relational-data-10",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-data-storage-solution-for-non-relational-data/10-summary-resources",
+    "kind": "learn_unit",
+    "module_id": "M-design-data-storage-solution-for-non-relational-data",
+    "unit_order": 10,
+    "title_hint": "Summary and resources",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-data-storage-solution-for-relational-data-01",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-data-storage-solution-for-relational-data/1-introduction",
+    "kind": "learn_unit",
+    "module_id": "M-design-data-storage-solution-for-relational-data",
+    "unit_order": 1,
+    "title_hint": "Introduction",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-data-storage-solution-for-relational-data-02",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-data-storage-solution-for-relational-data/2-design-for-azure-sql-database",
+    "kind": "learn_unit",
+    "module_id": "M-design-data-storage-solution-for-relational-data",
+    "unit_order": 2,
+    "title_hint": "Design for Azure SQL Database",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-data-storage-solution-for-relational-data-03",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-data-storage-solution-for-relational-data/3-design-for-azure-sql-managed-instance",
+    "kind": "learn_unit",
+    "module_id": "M-design-data-storage-solution-for-relational-data",
+    "unit_order": 3,
+    "title_hint": "Design for Azure SQL Managed Instance",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-data-storage-solution-for-relational-data-04",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-data-storage-solution-for-relational-data/4-design-for-sql-server-azure",
+    "kind": "learn_unit",
+    "module_id": "M-design-data-storage-solution-for-relational-data",
+    "unit_order": 4,
+    "title_hint": "Design for SQL Server on Azure Virtual Machines",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-data-storage-solution-for-relational-data-05",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-data-storage-solution-for-relational-data/5-recommend-database-scalability",
+    "kind": "learn_unit",
+    "module_id": "M-design-data-storage-solution-for-relational-data",
+    "unit_order": 5,
+    "title_hint": "Recommend a solution for database scalability",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-data-storage-solution-for-relational-data-06",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-data-storage-solution-for-relational-data/6-recommend-database-availability",
+    "kind": "learn_unit",
+    "module_id": "M-design-data-storage-solution-for-relational-data",
+    "unit_order": 6,
+    "title_hint": "Recommend a solution for database availability",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-data-storage-solution-for-relational-data-07",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-data-storage-solution-for-relational-data/7-design-security-for-data-at-rest-data-transmission-data-use",
+    "kind": "learn_unit",
+    "module_id": "M-design-data-storage-solution-for-relational-data",
+    "unit_order": 7,
+    "title_hint": "Design security for data at rest, data in motion, and data in use",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-data-storage-solution-for-relational-data-08",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-data-storage-solution-for-relational-data/8-design-for-azure-cosmos",
+    "kind": "learn_unit",
+    "module_id": "M-design-data-storage-solution-for-relational-data",
+    "unit_order": 8,
+    "title_hint": "Design for Azure Cosmos DB and Table Storage",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-data-storage-solution-for-relational-data-09",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-data-storage-solution-for-relational-data/9-knowledge-check",
+    "kind": "learn_unit",
+    "module_id": "M-design-data-storage-solution-for-relational-data",
+    "unit_order": 9,
+    "title_hint": "Module assessment",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-data-storage-solution-for-relational-data-10",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-data-storage-solution-for-relational-data/10-summary-resources",
+    "kind": "learn_unit",
+    "module_id": "M-design-data-storage-solution-for-relational-data",
+    "unit_order": 10,
+    "title_hint": "Summary and resources",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-governance-01",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-governance/1-introduction",
+    "kind": "learn_unit",
+    "module_id": "M-design-governance",
+    "unit_order": 1,
+    "title_hint": "Introduction",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-governance-02",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-governance/2-design-for-governance",
+    "kind": "learn_unit",
+    "module_id": "M-design-governance",
+    "unit_order": 2,
+    "title_hint": "Design for governance",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-governance-03",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-governance/3-design-for-management-groups",
+    "kind": "learn_unit",
+    "module_id": "M-design-governance",
+    "unit_order": 3,
+    "title_hint": "Design for management groups",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-governance-04",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-governance/4-design-for-subscriptions",
+    "kind": "learn_unit",
+    "module_id": "M-design-governance",
+    "unit_order": 4,
+    "title_hint": "Design for subscriptions",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-governance-05",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-governance/5-design-for-resource-groups",
+    "kind": "learn_unit",
+    "module_id": "M-design-governance",
+    "unit_order": 5,
+    "title_hint": "Design for resource groups",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-governance-06",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-governance/6-design-for-resource-tags",
+    "kind": "learn_unit",
+    "module_id": "M-design-governance",
+    "unit_order": 6,
+    "title_hint": "Design for resource tags",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-governance-07",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-governance/7-design-for-azure-policy",
+    "kind": "learn_unit",
+    "module_id": "M-design-governance",
+    "unit_order": 7,
+    "title_hint": "Design for Azure Policy",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-governance-08",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-governance/8-design-for-role-based-access-control",
+    "kind": "learn_unit",
+    "module_id": "M-design-governance",
+    "unit_order": 8,
+    "title_hint": "Design for role-based access control (RBAC)",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-governance-09",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-governance/9-design-for-landing-zones",
+    "kind": "learn_unit",
+    "module_id": "M-design-governance",
+    "unit_order": 9,
+    "title_hint": "Design for Azure landing zones",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-governance-10",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-governance/10-knowledge-check",
+    "kind": "learn_unit",
+    "module_id": "M-design-governance",
+    "unit_order": 10,
+    "title_hint": "Module assessment",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-governance-11",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-governance/11-summary-resources",
+    "kind": "learn_unit",
+    "module_id": "M-design-governance",
+    "unit_order": 11,
+    "title_hint": "Summary and resources",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-migrations-01",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-migrations/1-introduction",
+    "kind": "learn_unit",
+    "module_id": "M-design-migrations",
+    "unit_order": 1,
+    "title_hint": "Introduction",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-migrations-02",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-migrations/2-evaluate-migration-cloud-adoption-framework",
+    "kind": "learn_unit",
+    "module_id": "M-design-migrations",
+    "unit_order": 2,
+    "title_hint": "Evaluate migration with the Cloud Adoption Framework",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-migrations-03",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-migrations/3-describe-azure-migration-framework",
+    "kind": "learn_unit",
+    "module_id": "M-design-migrations",
+    "unit_order": 3,
+    "title_hint": "Describe the Azure migration framework",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-migrations-04",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-migrations/4-assess-your-premises-workloads",
+    "kind": "learn_unit",
+    "module_id": "M-design-migrations",
+    "unit_order": 4,
+    "title_hint": "Assess your on-premises workloads",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-migrations-05",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-migrations/5-select-migration-tool",
+    "kind": "learn_unit",
+    "module_id": "M-design-migrations",
+    "unit_order": 5,
+    "title_hint": "Select a migration tool",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-migrations-06",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-migrations/6-migrate-your-databases",
+    "kind": "learn_unit",
+    "module_id": "M-design-migrations",
+    "unit_order": 6,
+    "title_hint": "Migrate your structured data in databases",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-migrations-07",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-migrations/7-select-online-storage-migration-tool",
+    "kind": "learn_unit",
+    "module_id": "M-design-migrations",
+    "unit_order": 7,
+    "title_hint": "Select an online storage migration tool for unstructured data",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-migrations-08",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-migrations/8-migrate-offline-data",
+    "kind": "learn_unit",
+    "module_id": "M-design-migrations",
+    "unit_order": 8,
+    "title_hint": "Migrate offline data",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-migrations-09",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-migrations/9-knowledge-check",
+    "kind": "learn_unit",
+    "module_id": "M-design-migrations",
+    "unit_order": 9,
+    "title_hint": "Module assessment",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-migrations-10",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-migrations/10-summary-resources",
+    "kind": "learn_unit",
+    "module_id": "M-design-migrations",
+    "unit_order": 10,
+    "title_hint": "Summary and resources",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-network-solutions-01",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-network-solutions/1-introduction",
+    "kind": "learn_unit",
+    "module_id": "M-design-network-solutions",
+    "unit_order": 1,
+    "title_hint": "Introduction",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-network-solutions-02",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-network-solutions/2-recommend-network-architecture-solution-based-workload-requirements",
+    "kind": "learn_unit",
+    "module_id": "M-design-network-solutions",
+    "unit_order": 2,
+    "title_hint": "Recommend a network architecture solution based on workload requirements",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-network-solutions-03",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-network-solutions/3-design-patterns-for-azure-network-connectivity-services",
+    "kind": "learn_unit",
+    "module_id": "M-design-network-solutions",
+    "unit_order": 3,
+    "title_hint": "Design patterns for Azure network connectivity services",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-network-solutions-04",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-network-solutions/4-design-outbound-connectivity-routing",
+    "kind": "learn_unit",
+    "module_id": "M-design-network-solutions",
+    "unit_order": 4,
+    "title_hint": "Design outbound connectivity and routing",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-network-solutions-05",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-network-solutions/5-design-for-premises-connectivity-to-azure-virtual-networks",
+    "kind": "learn_unit",
+    "module_id": "M-design-network-solutions",
+    "unit_order": 5,
+    "title_hint": "Design for on-premises connectivity to Azure Virtual Network",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-network-solutions-06",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-network-solutions/6-choose-application-delivery-service",
+    "kind": "learn_unit",
+    "module_id": "M-design-network-solutions",
+    "unit_order": 6,
+    "title_hint": "Choose an application delivery service",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-network-solutions-07",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-network-solutions/7-design-for-application-delivery-services",
+    "kind": "learn_unit",
+    "module_id": "M-design-network-solutions",
+    "unit_order": 7,
+    "title_hint": "Design for application delivery services",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-network-solutions-08",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-network-solutions/8-design-for-application-protection-services",
+    "kind": "learn_unit",
+    "module_id": "M-design-network-solutions",
+    "unit_order": 8,
+    "title_hint": "Design for application protection services",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-network-solutions-09",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-network-solutions/9-knowledge-check",
+    "kind": "learn_unit",
+    "module_id": "M-design-network-solutions",
+    "unit_order": 9,
+    "title_hint": "Module assessment",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-network-solutions-10",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-network-solutions/10-summary-resources",
+    "kind": "learn_unit",
+    "module_id": "M-design-network-solutions",
+    "unit_order": 10,
+    "title_hint": "Summary and resources",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-solution-for-backup-disaster-recovery-01",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-solution-for-backup-disaster-recovery/1-introduction",
+    "kind": "learn_unit",
+    "module_id": "M-design-solution-for-backup-disaster-recovery",
+    "unit_order": 1,
+    "title_hint": "Introduction",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-solution-for-backup-disaster-recovery-02",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-solution-for-backup-disaster-recovery/2-design-recovery",
+    "kind": "learn_unit",
+    "module_id": "M-design-solution-for-backup-disaster-recovery",
+    "unit_order": 2,
+    "title_hint": "Design for backup and recovery",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-solution-for-backup-disaster-recovery-03",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-solution-for-backup-disaster-recovery/3-design-for-azure-backup",
+    "kind": "learn_unit",
+    "module_id": "M-design-solution-for-backup-disaster-recovery",
+    "unit_order": 3,
+    "title_hint": "Design for Azure Backup",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-solution-for-backup-disaster-recovery-04",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-solution-for-backup-disaster-recovery/4-design-for-azure-blob-backup-recovery",
+    "kind": "learn_unit",
+    "module_id": "M-design-solution-for-backup-disaster-recovery",
+    "unit_order": 4,
+    "title_hint": "Design for Azure blob backup and recovery",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-solution-for-backup-disaster-recovery-05",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-solution-for-backup-disaster-recovery/5-design-for-azure-files-backup-recovery",
+    "kind": "learn_unit",
+    "module_id": "M-design-solution-for-backup-disaster-recovery",
+    "unit_order": 5,
+    "title_hint": "Design for Azure files backup and recovery",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-solution-for-backup-disaster-recovery-06",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-solution-for-backup-disaster-recovery/6-design-for-azure-virtual-machine-backup-recovery",
+    "kind": "learn_unit",
+    "module_id": "M-design-solution-for-backup-disaster-recovery",
+    "unit_order": 6,
+    "title_hint": "Design for Azure virtual machine backup and recovery",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-solution-for-backup-disaster-recovery-07",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-solution-for-backup-disaster-recovery/7-design-for-azure-sql-backup-recovery",
+    "kind": "learn_unit",
+    "module_id": "M-design-solution-for-backup-disaster-recovery",
+    "unit_order": 7,
+    "title_hint": "Design for Azure SQL backup and recovery",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-solution-for-backup-disaster-recovery-08",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-solution-for-backup-disaster-recovery/8-design-for-azure-site-recovery",
+    "kind": "learn_unit",
+    "module_id": "M-design-solution-for-backup-disaster-recovery",
+    "unit_order": 8,
+    "title_hint": "Design for Azure Site Recovery",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-solution-for-backup-disaster-recovery-09",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-solution-for-backup-disaster-recovery/9-knowledge-check",
+    "kind": "learn_unit",
+    "module_id": "M-design-solution-for-backup-disaster-recovery",
+    "unit_order": 9,
+    "title_hint": "Module assessment",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-solution-for-backup-disaster-recovery-10",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-solution-for-backup-disaster-recovery/10-summary-resources",
+    "kind": "learn_unit",
+    "module_id": "M-design-solution-for-backup-disaster-recovery",
+    "unit_order": 10,
+    "title_hint": "Summary and resources",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-solution-to-log-monitor-azure-resources-01",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-solution-to-log-monitor-azure-resources/1-introduction",
+    "kind": "learn_unit",
+    "module_id": "M-design-solution-to-log-monitor-azure-resources",
+    "unit_order": 1,
+    "title_hint": "Introduction",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-solution-to-log-monitor-azure-resources-02",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-solution-to-log-monitor-azure-resources/2-design-for-azure-monitor-data-sources",
+    "kind": "learn_unit",
+    "module_id": "M-design-solution-to-log-monitor-azure-resources",
+    "unit_order": 2,
+    "title_hint": "Design for Azure Monitor data sources",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-solution-to-log-monitor-azure-resources-03",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-solution-to-log-monitor-azure-resources/3-design-for-log-analytics",
+    "kind": "learn_unit",
+    "module_id": "M-design-solution-to-log-monitor-azure-resources",
+    "unit_order": 3,
+    "title_hint": "Design for Azure Monitor Logs (Log Analytics) workspaces",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-solution-to-log-monitor-azure-resources-04",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-solution-to-log-monitor-azure-resources/4-design-for-azure-workbooks-insights",
+    "kind": "learn_unit",
+    "module_id": "M-design-solution-to-log-monitor-azure-resources",
+    "unit_order": 4,
+    "title_hint": "Design for Azure Workbooks and Azure insights",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-solution-to-log-monitor-azure-resources-05",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-solution-to-log-monitor-azure-resources/5-design-for-azure-data-explorer",
+    "kind": "learn_unit",
+    "module_id": "M-design-solution-to-log-monitor-azure-resources",
+    "unit_order": 5,
+    "title_hint": "Design for Azure Data Explorer",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-solution-to-log-monitor-azure-resources-06",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-solution-to-log-monitor-azure-resources/6-knowledge-check",
+    "kind": "learn_unit",
+    "module_id": "M-design-solution-to-log-monitor-azure-resources",
+    "unit_order": 6,
+    "title_hint": "Module assessment",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  },
+  {
+    "id": "U-design-solution-to-log-monitor-azure-resources-07",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-solution-to-log-monitor-azure-resources/7-summary-resources",
+    "kind": "learn_unit",
+    "module_id": "M-design-solution-to-log-monitor-azure-resources",
+    "unit_order": 7,
+    "title_hint": "Summary and resources",
+    "objective_ids": [],
+    "mapping_scope": "pending_review"
+  }
+]

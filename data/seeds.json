@@ -1,0 +1,1632 @@
+[
+  {
+    "id": "EXAM-GUIDE",
+    "url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-305",
+    "kind": "exam_guide",
+    "objective_ids": [],
+    "mapping_scope": "reference",
+    "selection_reason_it": "Baseline del programma; ogni ID locale corrisponde a un bullet tramite sezione e posizione.",
+    "recheck_days": 30,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "EXAM-CERT",
+    "url": "https://learn.microsoft.com/en-us/credentials/certifications/azure-solutions-architect/",
+    "kind": "exam",
+    "objective_ids": [],
+    "mapping_scope": "reference",
+    "selection_reason_it": "Distinguere superamento AZ-305 da requisiti della certificazione Expert.",
+    "recheck_days": 30,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "EXAM-COURSE",
+    "url": "https://learn.microsoft.com/en-us/training/courses/az-305t00",
+    "kind": "course",
+    "objective_ids": [],
+    "mapping_scope": "reference",
+    "selection_reason_it": "Perimetro ufficiale dei percorsi da censire.",
+    "recheck_days": 30,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "LP-PREREQ",
+    "url": "https://learn.microsoft.com/en-us/training/paths/microsoft-azure-architect-design-prerequisites/",
+    "kind": "learn_path",
+    "objective_ids": [],
+    "mapping_scope": "reference",
+    "selection_reason_it": "Percorso incluso nel syllabus ufficiale AZ-305T00; inventario ricorsivo di moduli e unità.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "LP-IDENTITY",
+    "url": "https://learn.microsoft.com/en-us/training/paths/design-identity-governance-monitor-solutions/",
+    "kind": "learn_path",
+    "objective_ids": [],
+    "mapping_scope": "reference",
+    "selection_reason_it": "Percorso incluso nel syllabus ufficiale AZ-305T00; inventario ricorsivo di moduli e unità.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "LP-DATA",
+    "url": "https://learn.microsoft.com/en-us/training/paths/design-data-storage-solutions/",
+    "kind": "learn_path",
+    "objective_ids": [],
+    "mapping_scope": "reference",
+    "selection_reason_it": "Percorso incluso nel syllabus ufficiale AZ-305T00; inventario ricorsivo di moduli e unità.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "LP-BCDR",
+    "url": "https://learn.microsoft.com/en-us/training/paths/design-business-continuity-solutions/",
+    "kind": "learn_path",
+    "objective_ids": [],
+    "mapping_scope": "reference",
+    "selection_reason_it": "Percorso incluso nel syllabus ufficiale AZ-305T00; inventario ricorsivo di moduli e unità.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "LP-INFRA",
+    "url": "https://learn.microsoft.com/en-us/training/paths/design-infranstructure-solutions/",
+    "kind": "learn_path",
+    "objective_ids": [],
+    "mapping_scope": "reference",
+    "selection_reason_it": "Percorso incluso nel syllabus ufficiale AZ-305T00; inventario ricorsivo di moduli e unità.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "LP-WAF",
+    "url": "https://learn.microsoft.com/en-us/training/paths/azure-well-architected-framework/",
+    "kind": "learn_path",
+    "objective_ids": [],
+    "mapping_scope": "reference",
+    "selection_reason_it": "Percorso incluso nel syllabus ufficiale AZ-305T00; inventario ricorsivo di moduli e unità.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "MON-OVERVIEW",
+    "url": "https://learn.microsoft.com/en-us/azure/azure-monitor/overview",
+    "kind": "documentation",
+    "objective_ids": [
+      "1.1.1",
+      "1.1.3"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Confini di log, metriche, tracing e servizi di osservabilità.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "MON-WORKSPACES",
+    "url": "https://learn.microsoft.com/en-us/azure/azure-monitor/logs/workspace-design",
+    "kind": "documentation",
+    "objective_ids": [
+      "1.1.1"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Scelta di workspace, isolamento, costi e retention.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "MON-DIAGNOSTIC",
+    "url": "https://learn.microsoft.com/en-us/azure/azure-monitor/platform/diagnostic-settings",
+    "kind": "documentation",
+    "objective_ids": [
+      "1.1.2"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Destinazioni e vincoli dei log delle risorse.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "MON-DCR",
+    "url": "https://learn.microsoft.com/en-us/azure/azure-monitor/data-collection/data-collection-rule-overview",
+    "kind": "documentation",
+    "objective_ids": [
+      "1.1.2"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Raccolta e trasformazione con DCR; distinguere diagnostic settings.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "MON-APPINSIGHTS",
+    "url": "https://learn.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview",
+    "kind": "documentation",
+    "objective_ids": [
+      "1.1.3"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Telemetria applicativa e correlazione delle dipendenze.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "MON-ALERTS",
+    "url": "https://learn.microsoft.com/en-us/azure/azure-monitor/alerts/alerts-overview",
+    "kind": "documentation",
+    "objective_ids": [
+      "1.1.3"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Scelta tra alert metrici e basati su log.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "ID-AUTH",
+    "url": "https://learn.microsoft.com/en-us/entra/identity/hybrid/connect/choose-ad-authn",
+    "kind": "comparison",
+    "objective_ids": [
+      "1.2.1",
+      "1.2.2"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Confronto architetturale fra PHS, PTA e federazione.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "ID-CA",
+    "url": "https://learn.microsoft.com/en-us/entra/identity/conditional-access/overview",
+    "kind": "documentation",
+    "objective_ids": [
+      "1.2.1"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Accesso condizionale e segnali di rischio.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "ID-MANAGED",
+    "url": "https://learn.microsoft.com/en-us/entra/identity/managed-identities-azure-resources/overview",
+    "kind": "documentation",
+    "objective_ids": [
+      "1.2.2",
+      "1.2.3"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Identità di workload e accesso senza credenziali gestite in applicazione.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "ID-EXTERNAL",
+    "url": "https://learn.microsoft.com/en-us/entra/external-id/external-identities-overview",
+    "kind": "documentation",
+    "objective_ids": [
+      "1.2.1",
+      "1.2.2"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Distinguere workforce B2B e customer identity.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "ID-RBAC",
+    "url": "https://learn.microsoft.com/en-us/azure/role-based-access-control/overview",
+    "kind": "documentation",
+    "objective_ids": [
+      "1.2.3"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Scope, ruoli e autorizzazioni del piano Azure.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "ID-ONPREM",
+    "url": "https://learn.microsoft.com/en-us/entra/identity/app-proxy/overview-what-is-app-proxy",
+    "kind": "documentation",
+    "objective_ids": [
+      "1.2.4"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Pubblicazione protetta e accesso alle applicazioni on-premises.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "ID-DOMAIN",
+    "url": "https://learn.microsoft.com/en-us/entra/identity/domain-services/overview",
+    "kind": "documentation",
+    "objective_ids": [
+      "1.2.1",
+      "1.2.4"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Kerberos/LDAP e applicazioni dipendenti da dominio.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "ID-KEYVAULT",
+    "url": "https://learn.microsoft.com/en-us/azure/key-vault/general/basic-concepts",
+    "kind": "documentation",
+    "objective_ids": [
+      "1.2.5"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Separare segreti, chiavi e certificati; scenari di servizio.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "GOV-HIERARCHY",
+    "url": "https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/landing-zone/design-area/resource-org",
+    "kind": "documentation",
+    "objective_ids": [
+      "1.3.1"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Gerarchia per delega, isolamento e organizzazione.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "GOV-TAGS",
+    "url": "https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/tag-resources",
+    "kind": "documentation",
+    "objective_ids": [
+      "1.3.1"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Strategia tagging e limiti operativi.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "GOV-POLICY",
+    "url": "https://learn.microsoft.com/en-us/azure/governance/policy/overview",
+    "kind": "documentation",
+    "objective_ids": [
+      "1.3.2"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Policy, iniziative ed enforcement della conformità.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "GOV-IDENTITY",
+    "url": "https://learn.microsoft.com/en-us/entra/id-governance/identity-governance-overview",
+    "kind": "documentation",
+    "objective_ids": [
+      "1.3.3"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Ciclo di vita e governance degli accessi.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "GOV-PIM",
+    "url": "https://learn.microsoft.com/en-us/entra/id-governance/privileged-identity-management/pim-configure",
+    "kind": "documentation",
+    "objective_ids": [
+      "1.3.3"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Accesso privilegiato temporaneo e controllato.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "GOV-REVIEWS",
+    "url": "https://learn.microsoft.com/en-us/entra/id-governance/access-reviews-overview",
+    "kind": "documentation",
+    "objective_ids": [
+      "1.3.3"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Revisione periodica degli accessi.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "DATA-SQL-CHOICE",
+    "url": "https://learn.microsoft.com/en-us/azure/azure-sql/azure-sql-iaas-vs-paas-what-is-overview",
+    "kind": "comparison",
+    "objective_ids": [
+      "2.1.1",
+      "4.3.4"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Confronto SQL Database, Managed Instance e SQL su VM.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "DATA-POSTGRES",
+    "url": "https://learn.microsoft.com/en-us/azure/postgresql/flexible-server/overview",
+    "kind": "documentation",
+    "objective_ids": [
+      "2.1.1"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Alternativa relazionale gestita per motore PostgreSQL.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "DATA-MYSQL",
+    "url": "https://learn.microsoft.com/en-us/azure/mysql/flexible-server/overview",
+    "kind": "documentation",
+    "objective_ids": [
+      "2.1.1"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Alternativa relazionale gestita per motore MySQL.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "DATA-SQL-TIERS",
+    "url": "https://learn.microsoft.com/en-us/azure/azure-sql/database/service-tiers-vcore",
+    "kind": "comparison",
+    "objective_ids": [
+      "2.1.2"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "General Purpose, Business Critical e Hyperscale.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "DATA-SQL-DTU",
+    "url": "https://learn.microsoft.com/en-us/azure/azure-sql/database/service-tiers-dtu",
+    "kind": "documentation",
+    "objective_ids": [
+      "2.1.2"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Modello DTU da confrontare con vCore in base ai requisiti.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "DATA-SQL-SERVERLESS",
+    "url": "https://learn.microsoft.com/en-us/azure/azure-sql/database/serverless-tier-overview",
+    "kind": "documentation",
+    "objective_ids": [
+      "2.1.2",
+      "2.1.3"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Provisioned/serverless e scaling del compute.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "DATA-SQL-POOLS",
+    "url": "https://learn.microsoft.com/en-us/azure/azure-sql/database/elastic-pool-overview",
+    "kind": "documentation",
+    "objective_ids": [
+      "2.1.3"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Condivisione risorse per database con picchi differenti.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "DATA-SQL-HYPERSCALE",
+    "url": "https://learn.microsoft.com/en-us/azure/azure-sql/database/service-tier-hyperscale",
+    "kind": "documentation",
+    "objective_ids": [
+      "2.1.2",
+      "2.1.3"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Scalabilità e vincoli specifici Hyperscale.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "DATA-SQL-SECURITY",
+    "url": "https://learn.microsoft.com/en-us/azure/azure-sql/database/security-overview",
+    "kind": "documentation",
+    "objective_ids": [
+      "2.1.4"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Accesso, rete, auditing e protezione crittografica.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "DATA-COSMOS-CHOICE",
+    "url": "https://learn.microsoft.com/en-us/azure/cosmos-db/introduction",
+    "kind": "comparison",
+    "objective_ids": [
+      "2.2.1"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Modello e caratteristiche Cosmos DB; integrare con confronto dei data model.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "DATA-TABLE-CHOICE",
+    "url": "https://learn.microsoft.com/en-us/azure/cosmos-db/table/support",
+    "kind": "comparison",
+    "objective_ids": [
+      "2.2.1"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Tabella comparativa Table Storage e servizio Table Cosmos DB.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "DATA-STORE-CHOICE",
+    "url": "https://learn.microsoft.com/en-us/azure/architecture/guide/technology-choices/data-store-overview",
+    "kind": "comparison",
+    "objective_ids": [
+      "2.1.1",
+      "2.2.1",
+      "2.2.2",
+      "2.2.3"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Decisioni guidate dal modello di accesso, consistenza e operatività.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "DATA-BLOB",
+    "url": "https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-overview",
+    "kind": "documentation",
+    "objective_ids": [
+      "2.2.2"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Object storage e modelli di utilizzo.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "DATA-FILES",
+    "url": "https://learn.microsoft.com/en-us/azure/storage/files/storage-files-introduction",
+    "kind": "documentation",
+    "objective_ids": [
+      "2.2.2"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "File share gestite e requisiti SMB/NFS.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "DATA-BLOB-TIERS",
+    "url": "https://learn.microsoft.com/en-us/azure/storage/blobs/access-tiers-overview",
+    "kind": "comparison",
+    "objective_ids": [
+      "2.2.3"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Access tier, frequenza letture e recupero dati.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "DATA-PREMIUM",
+    "url": "https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blob-block-blob-premium",
+    "kind": "documentation",
+    "objective_ids": [
+      "2.2.3"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Prestazioni e casi per block blob premium.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "DATA-REDUNDANCY",
+    "url": "https://learn.microsoft.com/en-us/azure/storage/common/storage-redundancy",
+    "kind": "documentation",
+    "objective_ids": [
+      "2.2.4",
+      "3.2.3"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "LRS/ZRS/GRS/GZRS, durabilità e disponibilità.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "DATA-PROTECTION",
+    "url": "https://learn.microsoft.com/en-us/azure/storage/blobs/data-protection-overview",
+    "kind": "documentation",
+    "objective_ids": [
+      "2.2.4",
+      "3.1.4"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Versioni, eliminazione temporanea, immutabilità e backup.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "DATA-STORAGE-SECURITY",
+    "url": "https://learn.microsoft.com/en-us/azure/storage/common/storage-service-encryption",
+    "kind": "documentation",
+    "objective_ids": [
+      "2.2.4"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Crittografia e gestione delle chiavi per Storage.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "DATA-ADF",
+    "url": "https://learn.microsoft.com/en-us/azure/data-factory/introduction",
+    "kind": "documentation",
+    "objective_ids": [
+      "2.3.1"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Orchestrazione e integrazione batch/ibrida.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "DATA-ADF-SSIS",
+    "url": "https://learn.microsoft.com/en-us/azure/data-factory/concepts-integration-runtime",
+    "kind": "documentation",
+    "objective_ids": [
+      "2.3.1"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Runtime Azure, self-hosted e SSIS.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "DATA-ANALYTICS-CHOICE",
+    "url": "https://learn.microsoft.com/en-us/azure/architecture/data-guide/technology-choices/analytical-data-stores",
+    "kind": "comparison",
+    "objective_ids": [
+      "2.3.2"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Confronto architetturale degli store analitici.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "DATA-SYNAPSE",
+    "url": "https://learn.microsoft.com/en-us/azure/synapse-analytics/overview-what-is",
+    "kind": "documentation",
+    "objective_ids": [
+      "2.3.1",
+      "2.3.2"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Analisi integrata e componenti Synapse.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "DATA-DATABRICKS",
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/introduction/",
+    "kind": "documentation",
+    "objective_ids": [
+      "2.3.1",
+      "2.3.2"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Lakehouse e workload di analisi.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "DATA-STREAM",
+    "url": "https://learn.microsoft.com/en-us/azure/stream-analytics/stream-analytics-introduction",
+    "kind": "documentation",
+    "objective_ids": [
+      "2.3.2"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Analisi streaming e confronto col batch.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "DATA-LAKE",
+    "url": "https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-introduction",
+    "kind": "documentation",
+    "objective_ids": [
+      "2.2.2",
+      "2.3.1",
+      "2.3.2"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Gerarchia e storage per analytics.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "BCDR-OBJECTIVES",
+    "url": "https://learn.microsoft.com/en-us/azure/well-architected/reliability/metrics",
+    "kind": "documentation",
+    "objective_ids": [
+      "3.1.1"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Definire RTO/RPO e verificarli sul workload completo.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "BCDR-ASR",
+    "url": "https://learn.microsoft.com/en-us/azure/site-recovery/site-recovery-overview",
+    "kind": "documentation",
+    "objective_ids": [
+      "3.1.1",
+      "3.1.2"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Disaster recovery per VM Azure e workload ibridi.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "BCDR-BACKUP-MATRIX",
+    "url": "https://learn.microsoft.com/en-us/azure/backup/backup-support-matrix",
+    "kind": "comparison",
+    "objective_ids": [
+      "3.1.2",
+      "3.1.3",
+      "3.1.4"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Matrice di supporto per workload e limiti del backup.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "BCDR-VM",
+    "url": "https://learn.microsoft.com/en-us/azure/backup/backup-azure-vms-introduction",
+    "kind": "documentation",
+    "objective_ids": [
+      "3.1.2"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Backup VM e comportamento del ripristino.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "BCDR-SQL",
+    "url": "https://learn.microsoft.com/en-us/azure/azure-sql/database/automated-backups-overview",
+    "kind": "documentation",
+    "objective_ids": [
+      "2.1.4",
+      "3.1.3"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "PITR/LTR e caratteristiche dei backup SQL gestiti.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "BCDR-SQLVM",
+    "url": "https://learn.microsoft.com/en-us/azure/backup/backup-azure-sql-database",
+    "kind": "documentation",
+    "objective_ids": [
+      "3.1.3"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Backup application-aware di SQL Server su VM.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "BCDR-COSMOS",
+    "url": "https://learn.microsoft.com/en-us/azure/cosmos-db/continuous-backup-restore-introduction",
+    "kind": "documentation",
+    "objective_ids": [
+      "3.1.3"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Backup continuo e ripristino puntuale Cosmos DB.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "BCDR-BLOB",
+    "url": "https://learn.microsoft.com/en-us/azure/backup/blob-backup-overview",
+    "kind": "documentation",
+    "objective_ids": [
+      "3.1.4"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Backup operativo e vaulted di blob.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "BCDR-FILES",
+    "url": "https://learn.microsoft.com/en-us/azure/backup/azure-file-share-backup-overview",
+    "kind": "documentation",
+    "objective_ids": [
+      "3.1.4"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Backup e ripristino delle condivisioni file.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "HA-VM",
+    "url": "https://learn.microsoft.com/en-us/azure/virtual-machines/availability",
+    "kind": "documentation",
+    "objective_ids": [
+      "3.2.1"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Zone, availability set e failure domain.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "HA-APP",
+    "url": "https://learn.microsoft.com/en-us/azure/reliability/reliability-app-service",
+    "kind": "documentation",
+    "objective_ids": [
+      "3.2.1"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Affidabilità di App Service, zone e regioni.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "HA-AKS",
+    "url": "https://learn.microsoft.com/en-us/azure/reliability/reliability-aks",
+    "kind": "documentation",
+    "objective_ids": [
+      "3.2.1"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Affidabilità AKS e responsabilità del workload.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "HA-SQL",
+    "url": "https://learn.microsoft.com/en-us/azure/azure-sql/database/high-availability-sla",
+    "kind": "documentation",
+    "objective_ids": [
+      "3.2.2"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Alta disponibilità SQL per tier e zone.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "HA-SQL-GEO",
+    "url": "https://learn.microsoft.com/en-us/azure/azure-sql/database/failover-group-sql-db",
+    "kind": "documentation",
+    "objective_ids": [
+      "3.1.3",
+      "3.2.2"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Continuità geografica e failover SQL.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "HA-POSTGRES",
+    "url": "https://learn.microsoft.com/en-us/azure/reliability/reliability-database-postgresql",
+    "kind": "documentation",
+    "objective_ids": [
+      "3.2.2"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Alta disponibilità per PostgreSQL gestito.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "HA-COSMOS",
+    "url": "https://learn.microsoft.com/en-us/azure/cosmos-db/high-availability",
+    "kind": "documentation",
+    "objective_ids": [
+      "3.2.3"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Distribuzione geografica e disponibilità Cosmos DB.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "HA-COSMOS-CONSISTENCY",
+    "url": "https://learn.microsoft.com/en-us/azure/cosmos-db/consistency-levels",
+    "kind": "documentation",
+    "objective_ids": [
+      "2.2.1",
+      "3.2.3"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Compromessi consistenza, disponibilità e latenza.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "COMP-CHOICE",
+    "url": "https://learn.microsoft.com/en-us/azure/architecture/guide/technology-choices/compute-decision-tree",
+    "kind": "comparison",
+    "objective_ids": [
+      "4.1.1"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Albero decisionale per scegliere il modello compute.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "COMP-VMSS",
+    "url": "https://learn.microsoft.com/en-us/azure/virtual-machine-scale-sets/overview",
+    "kind": "documentation",
+    "objective_ids": [
+      "4.1.2"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "VM Scale Sets e modelli di orchestrazione.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "COMP-CONTAINERS",
+    "url": "https://learn.microsoft.com/en-us/azure/architecture/guide/choose-azure-container-service",
+    "kind": "documentation",
+    "objective_ids": [
+      "4.1.3"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Confronto AKS, Container Apps e Container Instances.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "COMP-ACA",
+    "url": "https://learn.microsoft.com/en-us/azure/container-apps/overview",
+    "kind": "documentation",
+    "objective_ids": [
+      "4.1.3",
+      "4.1.4"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Hosting gestito per servizi e job containerizzati.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "COMP-FUNCTIONS",
+    "url": "https://learn.microsoft.com/en-us/azure/azure-functions/functions-scale",
+    "kind": "documentation",
+    "objective_ids": [
+      "4.1.4"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Scelta del piano Functions per scaling e rete.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "COMP-LOGIC",
+    "url": "https://learn.microsoft.com/en-us/azure/logic-apps/logic-apps-overview",
+    "kind": "documentation",
+    "objective_ids": [
+      "4.1.4"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Orchestrazione serverless e integrazione.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "COMP-BATCH",
+    "url": "https://learn.microsoft.com/en-us/azure/batch/batch-technical-overview",
+    "kind": "documentation",
+    "objective_ids": [
+      "4.1.5"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Pool, job e task per elaborazione parallela.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "APP-MESSAGING",
+    "url": "https://learn.microsoft.com/en-us/azure/service-bus-messaging/compare-messaging-services",
+    "kind": "comparison",
+    "objective_ids": [
+      "4.2.1",
+      "4.2.2"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Service Bus, Event Grid ed Event Hubs a confronto.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "APP-SERVICEBUS",
+    "url": "https://learn.microsoft.com/en-us/azure/service-bus-messaging/service-bus-messaging-overview",
+    "kind": "documentation",
+    "objective_ids": [
+      "4.2.1"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Code, topic, transazioni e semantica di consegna.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "APP-EVENT-STYLE",
+    "url": "https://learn.microsoft.com/en-us/azure/architecture/guide/architecture-styles/event-driven",
+    "kind": "documentation",
+    "objective_ids": [
+      "4.2.2"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Produttori/consumatori e compromessi event-driven.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "APP-EVENTHUBS",
+    "url": "https://learn.microsoft.com/en-us/azure/event-hubs/event-hubs-about",
+    "kind": "documentation",
+    "objective_ids": [
+      "4.2.2"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Streaming, partizioni e consumer group.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "APP-APIM",
+    "url": "https://learn.microsoft.com/en-us/azure/api-management/api-management-key-concepts",
+    "kind": "documentation",
+    "objective_ids": [
+      "4.2.3"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Gateway, policy e integrazione delle API.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "APP-CACHE-PATTERN",
+    "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/cache-aside",
+    "kind": "documentation",
+    "objective_ids": [
+      "4.2.4"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Cache-aside, invalidazione e coerenza.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "APP-REDIS",
+    "url": "https://learn.microsoft.com/en-us/azure/redis/overview",
+    "kind": "documentation",
+    "objective_ids": [
+      "4.2.4"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Servizio attuale per caching Redis gestito.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "APP-CONFIG",
+    "url": "https://learn.microsoft.com/en-us/azure/azure-app-configuration/overview",
+    "kind": "documentation",
+    "objective_ids": [
+      "4.2.5"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Configurazioni condivise e feature flag.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "APP-DEPLOY",
+    "url": "https://learn.microsoft.com/en-us/azure/architecture/microservices/ci-cd",
+    "kind": "documentation",
+    "objective_ids": [
+      "4.2.6"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Confronto pipeline CI/CD e GitOps sul workload.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "APP-BICEP",
+    "url": "https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/overview",
+    "kind": "documentation",
+    "objective_ids": [
+      "4.2.6"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Deployment dichiarativo dell’infrastruttura.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "APP-SLOTS",
+    "url": "https://learn.microsoft.com/en-us/azure/app-service/deploy-staging-slots",
+    "kind": "documentation",
+    "objective_ids": [
+      "4.2.6"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Strategia di rilascio e swap applicativo.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "MIG-CAF",
+    "url": "https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/migrate/",
+    "kind": "documentation",
+    "objective_ids": [
+      "4.3.1"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Metodo di migrazione con vincoli organizzativi e tecnici.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "MIG-ASSESS",
+    "url": "https://learn.microsoft.com/en-us/azure/migrate/migrate-services-overview",
+    "kind": "documentation",
+    "objective_ids": [
+      "4.3.2",
+      "4.3.3"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Discovery, assessment e migrazione di workload.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "MIG-SERVER",
+    "url": "https://learn.microsoft.com/en-us/azure/migrate/server-migrate-overview",
+    "kind": "documentation",
+    "objective_ids": [
+      "4.3.3"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Migrazione dei server e opzioni operative.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "MIG-DATABASE",
+    "url": "https://learn.microsoft.com/en-us/azure/dms/dms-tools-matrix",
+    "kind": "documentation",
+    "objective_ids": [
+      "4.3.4"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Matrice attuale degli strumenti per sorgente e destinazione.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "MIG-STORAGE",
+    "url": "https://learn.microsoft.com/en-us/azure/storage/common/storage-migration-overview",
+    "kind": "documentation",
+    "objective_ids": [
+      "4.3.5"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Scelta degli strumenti di migrazione dello storage.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "MIG-AZCOPY",
+    "url": "https://learn.microsoft.com/en-us/azure/storage/common/storage-use-azcopy-v10",
+    "kind": "documentation",
+    "objective_ids": [
+      "4.3.5"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Trasferimenti online e caratteristiche AzCopy.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "MIG-DATABOX",
+    "url": "https://learn.microsoft.com/en-us/azure/databox/data-box-overview",
+    "kind": "documentation",
+    "objective_ids": [
+      "4.3.5"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Trasferimento offline e vincoli logistici.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "NET-CHOICE",
+    "url": "https://learn.microsoft.com/en-us/azure/architecture/networking/get-started",
+    "kind": "comparison",
+    "objective_ids": [
+      "4.4.1",
+      "4.4.2",
+      "4.4.3",
+      "4.4.4"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Scelte di topologia e connettività; orientamento, non fonte primaria per i dettagli.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "NET-OUTBOUND",
+    "url": "https://learn.microsoft.com/en-us/azure/virtual-network/ip-services/default-outbound-access",
+    "kind": "documentation",
+    "objective_ids": [
+      "4.4.1"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Uscita esplicita e modifiche dei default di rete.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "NET-NAT",
+    "url": "https://learn.microsoft.com/en-us/azure/nat-gateway/nat-overview",
+    "kind": "documentation",
+    "objective_ids": [
+      "4.4.1",
+      "4.4.3"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "SNAT, connessioni e progettazione outbound.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "NET-HYBRID",
+    "url": "https://learn.microsoft.com/en-us/azure/architecture/reference-architectures/hybrid-networking/",
+    "kind": "documentation",
+    "objective_ids": [
+      "4.4.2"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Confronto VPN ed ExpressRoute per reti ibride.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "NET-EXPRESSROUTE",
+    "url": "https://learn.microsoft.com/en-us/azure/expressroute/design-architecture-for-resiliency",
+    "kind": "documentation",
+    "objective_ids": [
+      "4.4.2",
+      "4.4.3"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Ridondanza dei circuiti e connettività resiliente.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "NET-PEERING",
+    "url": "https://learn.microsoft.com/en-us/azure/virtual-network/virtual-network-peering-overview",
+    "kind": "documentation",
+    "objective_ids": [
+      "4.4.3"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Peering e vincoli di transito.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "NET-FIREWALL",
+    "url": "https://learn.microsoft.com/en-us/azure/firewall/overview",
+    "kind": "documentation",
+    "objective_ids": [
+      "4.4.4"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Controllo centralizzato del traffico.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "NET-PRIVATE",
+    "url": "https://learn.microsoft.com/en-us/azure/private-link/private-endpoint-overview",
+    "kind": "documentation",
+    "objective_ids": [
+      "4.4.4"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Private endpoint, isolamento e implicazioni DNS.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "NET-DNS",
+    "url": "https://learn.microsoft.com/en-us/azure/private-link/private-endpoint-dns-integration",
+    "kind": "documentation",
+    "objective_ids": [
+      "4.4.4"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Risoluzione privata in topologie ibride.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "NET-DDOS",
+    "url": "https://learn.microsoft.com/en-us/azure/ddos-protection/ddos-protection-overview",
+    "kind": "documentation",
+    "objective_ids": [
+      "4.4.4"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Protezione dagli attacchi di rete.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "NET-LB-CHOICE",
+    "url": "https://learn.microsoft.com/en-us/azure/architecture/guide/technology-choices/load-balancing-overview",
+    "kind": "comparison",
+    "objective_ids": [
+      "4.4.5"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Scelta L4/L7 e regionale/globale.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "NET-FRONTDOOR",
+    "url": "https://learn.microsoft.com/en-us/azure/frontdoor/front-door-overview",
+    "kind": "documentation",
+    "objective_ids": [
+      "4.4.3",
+      "4.4.5"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Routing globale e accelerazione HTTP.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "NET-APPGW",
+    "url": "https://learn.microsoft.com/en-us/azure/application-gateway/overview",
+    "kind": "documentation",
+    "objective_ids": [
+      "4.4.5"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Delivery L7 regionale e integrazione WAF.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "NET-LB",
+    "url": "https://learn.microsoft.com/en-us/azure/load-balancer/load-balancer-overview",
+    "kind": "documentation",
+    "objective_ids": [
+      "4.4.5"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Bilanciamento L4 e sonde.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "WAF-HOME",
+    "url": "https://learn.microsoft.com/en-us/azure/well-architected/",
+    "kind": "well_architected",
+    "objective_ids": [],
+    "mapping_scope": "reference",
+    "selection_reason_it": "Quadro delle decisioni e delle revisioni di workload.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "WAF-RELIABILITY",
+    "url": "https://learn.microsoft.com/en-us/azure/well-architected/reliability/",
+    "kind": "well_architected",
+    "objective_ids": [
+      "3.1.1",
+      "3.2.1",
+      "3.2.2",
+      "3.2.3"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Resilienza e revisione dei failure mode.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "WAF-SECURITY",
+    "url": "https://learn.microsoft.com/en-us/azure/well-architected/security/",
+    "kind": "well_architected",
+    "objective_ids": [
+      "1.2.1",
+      "1.2.3",
+      "1.2.5",
+      "4.4.4"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Decisioni di sicurezza e responsabilità.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "WAF-COST",
+    "url": "https://learn.microsoft.com/en-us/azure/well-architected/cost-optimization/",
+    "kind": "well_architected",
+    "objective_ids": [
+      "2.1.2",
+      "2.2.3",
+      "4.1.1"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Trade-off economici delle alternative.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "WAF-PERFORMANCE",
+    "url": "https://learn.microsoft.com/en-us/azure/well-architected/performance-efficiency/",
+    "kind": "well_architected",
+    "objective_ids": [
+      "2.1.3",
+      "4.1.1",
+      "4.4.3"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Capacity planning e colli di bottiglia.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "WAF-OPERATIONS",
+    "url": "https://learn.microsoft.com/en-us/azure/well-architected/operational-excellence/",
+    "kind": "well_architected",
+    "objective_ids": [
+      "1.1.3",
+      "4.2.6"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Operabilità e deployment affidabile.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "CAF-HOME",
+    "url": "https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/",
+    "kind": "cloud_adoption",
+    "objective_ids": [
+      "4.3.1"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Organizzazione dell’adozione del cloud.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "CAF-LZ",
+    "url": "https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/landing-zone/",
+    "kind": "cloud_adoption",
+    "objective_ids": [
+      "1.3.1",
+      "1.3.2",
+      "4.4.2"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Fondazione di piattaforma per workload.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "ARC-WEB",
+    "url": "https://learn.microsoft.com/en-us/azure/architecture/web-apps/app-service/architectures/baseline-zone-redundant",
+    "kind": "reference_architecture",
+    "objective_ids": [
+      "3.2.1",
+      "4.1.4",
+      "4.4.5"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Caso progettuale con diagramma: applicazione web affidabile.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "ARC-AKS",
+    "url": "https://learn.microsoft.com/en-us/azure/architecture/reference-architectures/containers/aks/baseline-aks",
+    "kind": "reference_architecture",
+    "objective_ids": [
+      "3.2.1",
+      "4.1.3",
+      "4.4.4"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Caso progettuale con diagramma: piattaforma AKS.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "ARC-HUB",
+    "url": "https://learn.microsoft.com/en-us/azure/architecture/networking/architecture/hub-spoke",
+    "kind": "reference_architecture",
+    "objective_ids": [
+      "1.3.1",
+      "4.4.2",
+      "4.4.4"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Caso progettuale con diagramma: rete hub-spoke.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "ARC-DR",
+    "url": "https://learn.microsoft.com/en-us/azure/architecture/web-apps/guides/multi-region-app-service/multi-region-app-service",
+    "kind": "reference_architecture",
+    "objective_ids": [
+      "3.1.1",
+      "3.2.1",
+      "4.4.5"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Caso progettuale con diagramma: servizio web multiregione.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "ARC-DATA",
+    "url": "https://learn.microsoft.com/en-us/azure/architecture/data-guide/relational-data/etl",
+    "kind": "reference_architecture",
+    "objective_ids": [
+      "2.3.1",
+      "2.3.2"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Caso progettuale con diagramma: pipeline dati.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "LIFE-REDIS",
+    "url": "https://learn.microsoft.com/en-us/azure/azure-cache-for-redis/retirement-faq",
+    "kind": "lifecycle",
+    "objective_ids": [
+      "4.2.4"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Registro di ritiro del servizio e migrazione verso Managed Redis.",
+    "recheck_days": 30,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "LIFE-REDIS-NEWS",
+    "url": "https://learn.microsoft.com/en-us/azure/azure-cache-for-redis/cache-whats-new",
+    "kind": "lifecycle",
+    "objective_ids": [
+      "4.2.4"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Cronologia: rimozione del blocco per clienti esistenti nel luglio 2026.",
+    "recheck_days": 30,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "LIFE-B2C",
+    "url": "https://learn.microsoft.com/en-us/azure/active-directory-b2c/faq",
+    "kind": "lifecycle",
+    "objective_ids": [
+      "1.2.1",
+      "1.2.2"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Limiti commerciali B2C e distinzione da External ID.",
+    "recheck_days": 30,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "LIFE-ADS",
+    "url": "https://learn.microsoft.com/en-us/azure-data-studio/whats-happening-azure-data-studio",
+    "kind": "lifecycle",
+    "objective_ids": [
+      "4.3.4"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Verifica dello stato di Azure Data Studio.",
+    "recheck_days": 30,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "LIFE-LB",
+    "url": "https://learn.microsoft.com/en-us/azure/load-balancer/skus",
+    "kind": "lifecycle",
+    "objective_ids": [
+      "4.4.5"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Confronto SKU e stato del Basic Load Balancer.",
+    "recheck_days": 30,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "LIFE-MONITOR",
+    "url": "https://learn.microsoft.com/en-us/azure/azure-monitor/agents/azure-monitor-agent-migration",
+    "kind": "lifecycle",
+    "objective_ids": [
+      "1.1.1",
+      "1.1.2"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Agenti moderni e migrazione dal legacy.",
+    "recheck_days": 30,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "LAB-CASESTUDIES",
+    "url": "https://github.com/MicrosoftLearning/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions",
+    "kind": "official_exercises",
+    "objective_ids": [],
+    "mapping_scope": "reference",
+    "selection_reason_it": "Repository MicrosoftLearning di casi ed esercizi, da usare con le fonti attuali.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "CASE-AWARE",
+    "url": "https://www.microsoft.com/en/customers/story/1610015881656149117-aware-partner-professional-services-azure-cosmos-db",
+    "kind": "customer_story",
+    "objective_ids": [
+      "2.1.1",
+      "2.2.1",
+      "2.3.2"
+    ],
+    "mapping_scope": "direct",
+    "selection_reason_it": "Caso reale Microsoft: scelta combinata PostgreSQL/Cosmos DB. Evidenza narrativa, non specifica tecnica.",
+    "recheck_days": 90,
+    "review_status": "pending_content_review"
+  },
+  {
+    "id": "LAB-INDEX",
+    "url": "https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/",
+    "kind": "official_exercises",
+    "objective_ids": [],
+    "mapping_scope": "reference",
+    "selection_reason_it": "Indice pubblico dei casi MicrosoftLearning, collegato dal readme ufficiale. Verificare attualità dei singoli casi.",
+    "recheck_days": 60,
+    "review_status": "pending_content_review"
+  }
+]

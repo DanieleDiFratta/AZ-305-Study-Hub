@@ -1,0 +1,202 @@
+[
+  {
+    "id": "APP-DEPLOY",
+    "requested_url": "https://learn.microsoft.com/en-us/azure/architecture/guide/aks/ci-cd-gitops",
+    "resolved_url": "https://learn.microsoft.com/en-us/azure/architecture/guide/aks/ci-cd-gitops",
+    "http_status": 404,
+    "verified_on": "2026-10-15",
+    "initial_status": "unavailable",
+    "current_url": "https://learn.microsoft.com/en-us/azure/architecture/microservices/ci-cd",
+    "resolution_it": "Candidato 404 sostituito con una pagina Microsoft trovata e verificata."
+  },
+  {
+    "id": "ARC-DR",
+    "requested_url": "https://learn.microsoft.com/en-us/azure/architecture/web-apps/app-service/architectures/multi-region",
+    "resolved_url": "https://learn.microsoft.com/en-us/azure/architecture/web-apps/app-service/architectures/baseline-zone-redundant",
+    "http_status": 200,
+    "verified_on": "2026-10-15",
+    "initial_status": "public_content",
+    "current_url": "https://learn.microsoft.com/en-us/azure/architecture/web-apps/guides/multi-region-app-service/multi-region-app-service",
+    "resolution_it": "Redirect a un tema diverso: sostituito con guida multiregione effettiva."
+  },
+  {
+    "id": "BCDR-OBJECTIVES",
+    "requested_url": "https://learn.microsoft.com/en-us/azure/well-architected/reliability/recovery-targets",
+    "resolved_url": "https://learn.microsoft.com/en-us/azure/well-architected/reliability/recovery-targets",
+    "http_status": 404,
+    "verified_on": "2026-10-15",
+    "initial_status": "unavailable",
+    "current_url": "https://learn.microsoft.com/en-us/azure/well-architected/reliability/metrics",
+    "resolution_it": "Candidato 404 sostituito con una pagina Microsoft trovata e verificata."
+  },
+  {
+    "id": "DATA-COSMOS-CHOICE",
+    "requested_url": "https://learn.microsoft.com/en-us/azure/cosmos-db/choose-api",
+    "resolved_url": "https://learn.microsoft.com/en-us/azure/cosmos-db/",
+    "http_status": 200,
+    "verified_on": "2026-10-15",
+    "initial_status": "public_content",
+    "current_url": "https://learn.microsoft.com/en-us/azure/cosmos-db/introduction",
+    "resolution_it": "Redirect a una homepage: sostituito con articolo effettivo, affiancato da confronto modelli."
+  },
+  {
+    "id": "DATA-POSTGRES",
+    "requested_url": "https://learn.microsoft.com/en-us/azure/postgresql/flexible-server/overview",
+    "resolved_url": "https://learn.microsoft.com/en-us/azure/postgresql/overview",
+    "http_status": 200,
+    "verified_on": "2026-10-15",
+    "initial_status": "public_content",
+    "current_url": "https://learn.microsoft.com/en-us/azure/postgresql/flexible-server/overview",
+    "resolution_it": "Redirect verificato; conservati URL richiesto e finale nel catalogo."
+  },
+  {
+    "id": "DATA-SQL-TIERS",
+    "requested_url": "https://learn.microsoft.com/en-us/azure/azure-sql/database/service-tiers-vcore",
+    "resolved_url": "https://learn.microsoft.com/en-us/azure/azure-sql/database/service-tiers-sql-database-vcore?view=azuresql",
+    "http_status": 200,
+    "verified_on": "2026-10-15",
+    "initial_status": "public_content",
+    "current_url": "https://learn.microsoft.com/en-us/azure/azure-sql/database/service-tiers-vcore",
+    "resolution_it": "Redirect verificato; conservati URL richiesto e finale nel catalogo."
+  },
+  {
+    "id": "DATA-STORE-CHOICE",
+    "requested_url": "https://learn.microsoft.com/en-us/azure/architecture/guide/technology-choices/data-store-overview",
+    "resolved_url": "https://learn.microsoft.com/en-us/azure/architecture/data-guide/technology-choices/understand-data-store-models",
+    "http_status": 200,
+    "verified_on": "2026-10-15",
+    "initial_status": "public_content",
+    "current_url": "https://learn.microsoft.com/en-us/azure/architecture/guide/technology-choices/data-store-overview",
+    "resolution_it": "Redirect verificato; conservati URL richiesto e finale nel catalogo."
+  },
+  {
+    "id": "HA-COSMOS",
+    "requested_url": "https://learn.microsoft.com/en-us/azure/cosmos-db/high-availability",
+    "resolved_url": "https://learn.microsoft.com/en-us/azure/reliability/reliability-cosmos-db",
+    "http_status": 200,
+    "verified_on": "2026-10-15",
+    "initial_status": "public_content",
+    "current_url": "https://learn.microsoft.com/en-us/azure/cosmos-db/high-availability",
+    "resolution_it": "Redirect verificato; conservati URL richiesto e finale nel catalogo."
+  },
+  {
+    "id": "HA-POSTGRES",
+    "requested_url": "https://learn.microsoft.com/en-us/azure/postgresql/flexible-server/concepts-high-availability",
+    "resolved_url": "https://learn.microsoft.com/en-us/azure/postgresql/flexible-server/concepts-high-availability",
+    "http_status": 404,
+    "verified_on": "2026-10-15",
+    "initial_status": "unavailable",
+    "current_url": "https://learn.microsoft.com/en-us/azure/reliability/reliability-database-postgresql",
+    "resolution_it": "Candidato 404 sostituito con una pagina Microsoft trovata e verificata."
+  },
+  {
+    "id": "HA-SQL",
+    "requested_url": "https://learn.microsoft.com/en-us/azure/azure-sql/database/high-availability-sla",
+    "resolved_url": "https://learn.microsoft.com/en-us/azure/azure-sql/database/high-availability-sla-local-zone-redundancy?view=azuresql",
+    "http_status": 200,
+    "verified_on": "2026-10-15",
+    "initial_status": "public_content",
+    "current_url": "https://learn.microsoft.com/en-us/azure/azure-sql/database/high-availability-sla",
+    "resolution_it": "Redirect verificato; conservati URL richiesto e finale nel catalogo."
+  },
+  {
+    "id": "LIFE-ADS",
+    "requested_url": "https://learn.microsoft.com/en-us/azure-data-studio/whats-happening-azure-data-studio",
+    "resolved_url": "https://learn.microsoft.com/en-us/sql/tools/whats-happening-azure-data-studio?view=sql-server-ver17",
+    "http_status": 200,
+    "verified_on": "2026-10-15",
+    "initial_status": "public_content",
+    "current_url": "https://learn.microsoft.com/en-us/azure-data-studio/whats-happening-azure-data-studio",
+    "resolution_it": "Redirect verificato; conservati URL richiesto e finale nel catalogo."
+  },
+  {
+    "id": "LP-INFRA",
+    "requested_url": "https://learn.microsoft.com/en-us/training/paths/design-infranstructure-solutions/",
+    "resolved_url": "https://learn.microsoft.com/en-us/training/paths/design-infranstructure-solutions/",
+    "http_status": 200,
+    "verified_on": "2026-10-15",
+    "initial_status": "content_not_available",
+    "current_url": "https://learn.microsoft.com/en-us/training/paths/design-infranstructure-solutions/",
+    "resolution_it": "Pagina pubblica verificata; esito iniziale del parser corretto (falso positivo su design infrastructure)."
+  },
+  {
+    "id": "MIG-CAF",
+    "requested_url": "https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/migrate/",
+    "resolved_url": "https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/migrate/plan-migration",
+    "http_status": 200,
+    "verified_on": "2026-10-15",
+    "initial_status": "public_content",
+    "current_url": "https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/migrate/",
+    "resolution_it": "Redirect verificato; conservati URL richiesto e finale nel catalogo."
+  },
+  {
+    "id": "MIG-SERVER",
+    "requested_url": "https://learn.microsoft.com/en-us/azure/migrate/concepts-server-migration",
+    "resolved_url": "https://learn.microsoft.com/en-us/azure/migrate/concepts-server-migration",
+    "http_status": 404,
+    "verified_on": "2026-10-15",
+    "initial_status": "unavailable",
+    "current_url": "https://learn.microsoft.com/en-us/azure/migrate/server-migrate-overview",
+    "resolution_it": "Candidato 404 sostituito con una pagina Microsoft trovata e verificata."
+  },
+  {
+    "id": "MON-DIAGNOSTIC",
+    "requested_url": "https://learn.microsoft.com/en-us/azure/azure-monitor/platform/diagnostic-settings",
+    "resolved_url": "https://learn.microsoft.com/en-us/azure/azure-monitor/data-collection/diagnostic-settings",
+    "http_status": 200,
+    "verified_on": "2026-10-15",
+    "initial_status": "public_content",
+    "current_url": "https://learn.microsoft.com/en-us/azure/azure-monitor/platform/diagnostic-settings",
+    "resolution_it": "Redirect verificato; conservati URL richiesto e finale nel catalogo."
+  },
+  {
+    "id": "MON-OVERVIEW",
+    "requested_url": "https://learn.microsoft.com/en-us/azure/azure-monitor/overview",
+    "resolved_url": "https://learn.microsoft.com/en-us/azure/azure-monitor/fundamentals/overview",
+    "http_status": 200,
+    "verified_on": "2026-10-15",
+    "initial_status": "public_content",
+    "current_url": "https://learn.microsoft.com/en-us/azure/azure-monitor/overview",
+    "resolution_it": "Redirect verificato; conservati URL richiesto e finale nel catalogo."
+  },
+  {
+    "id": "NET-CHOICE",
+    "requested_url": "https://learn.microsoft.com/en-us/azure/architecture/networking/networking-overview",
+    "resolved_url": "https://learn.microsoft.com/en-us/azure/architecture/networking/networking-overview",
+    "http_status": 404,
+    "verified_on": "2026-10-15",
+    "initial_status": "unavailable",
+    "current_url": "https://learn.microsoft.com/en-us/azure/architecture/networking/get-started",
+    "resolution_it": "Candidato 404 sostituito con una pagina Microsoft trovata e verificata."
+  },
+  {
+    "id": "NET-EXPRESSROUTE",
+    "requested_url": "https://learn.microsoft.com/en-us/azure/expressroute/designing-for-resiliency-with-expressroute",
+    "resolved_url": "https://learn.microsoft.com/en-us/azure/expressroute/designing-for-resiliency-with-expressroute",
+    "http_status": 404,
+    "verified_on": "2026-10-15",
+    "initial_status": "unavailable",
+    "current_url": "https://learn.microsoft.com/en-us/azure/expressroute/design-architecture-for-resiliency",
+    "resolution_it": "Candidato 404 sostituito con una pagina Microsoft trovata e verificata."
+  },
+  {
+    "id": "NET-HYBRID",
+    "requested_url": "https://learn.microsoft.com/en-us/azure/architecture/reference-architectures/hybrid-networking/",
+    "resolved_url": "https://learn.microsoft.com/en-us/azure/architecture/reference-architectures/hybrid-networking/hybrid-connectivity-options",
+    "http_status": 200,
+    "verified_on": "2026-10-15",
+    "initial_status": "public_content",
+    "current_url": "https://learn.microsoft.com/en-us/azure/architecture/reference-architectures/hybrid-networking/",
+    "resolution_it": "Redirect verificato; conservati URL richiesto e finale nel catalogo."
+  },
+  {
+    "id": "CASE-NEWDAY",
+    "requested_url": "https://www.microsoft.com/en/customers/story/1729598445861152322-newday-azure-cosmos-db-united-kingdom",
+    "resolved_url": "https://www.microsoft.com/en/customers/story/1729598445861152322-newday-azure-cosmos-db-united-kingdom",
+    "http_status": 404,
+    "verified_on": "2026-10-15",
+    "initial_status": "unavailable",
+    "resolution_it": "Escluso dalla biblioteca verificata; il risultato indicizzato non è leggibile tramite GET. Caso Aware disponibile.",
+    "current_url": null
+  }
+]

@@ -1,0 +1,35 @@
+{
+  "verified_on": "2026-10-15",
+  "records": 381,
+  "by_kind": {
+    "documentation": 89,
+    "comparison": 13,
+    "reference_architecture": 5,
+    "cloud_adoption": 2,
+    "customer_story": 1,
+    "exam": 1,
+    "course": 1,
+    "exam_guide": 1,
+    "diagram": 7,
+    "official_case": 12,
+    "official_exercises": 2,
+    "lifecycle": 6,
+    "learn_path": 6,
+    "learn_module": 23,
+    "learn_unit": 206,
+    "well_architected": 6
+  },
+  "access_status": {
+    "public_content": 371,
+    "public_asset": 7,
+    "public_placeholder": 3
+  },
+  "objectives": 49,
+  "covered": 49,
+  "missing_primary_sources": [],
+  "learn_gaps": [
+    "1.2.4"
+  ],
+  "changed_since_review": [],
+  "due_for_review": []
+}
