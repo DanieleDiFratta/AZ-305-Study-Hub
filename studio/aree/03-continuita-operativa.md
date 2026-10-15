@@ -14,7 +14,7 @@ S09 segue compute, rete e dati. Fonti: `LP-BCDR`, WAF Reliability, `BCDR-OBJECTI
 
 ## Ripresa
 
-Attendere la diagnosi e le fasi precedenti. Prima lettura futura da definire sulle sezioni di metriche e obiettivi del workload. Nessun blocco già proposto.
+Seguire il [piano Learn](../../docs/PIANO-DIDATTICO.md): ordine del syllabus, poi moduli e unità nell’ordine originale. Diagnosi S00 saltata; partenza da LP-PREREQ, primo modulo, unità 1–5, come nel [registro corrente](../sessioni/2026-10-15-LP-PREREQ-M01.md). Questo dominio verrà affrontato nel percorso `LP-BCDR`. Le collocazioni S01–S11 sopra sono riferimenti tematici della pianificazione precedente, non l’ordine attivo. Nessun blocco specifico del dominio attualmente assegnato; nessun risultato personale registrato.
 
 | Blocco | Proposto | Letto dall’utente | Discusso | Esercitato | Comprensione verificata |
 | --- | --- | --- | --- | --- | --- |

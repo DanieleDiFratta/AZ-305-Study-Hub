@@ -3,13 +3,20 @@
   "updated_on": "2026-10-15",
   "exam_date": "2026-12-01",
   "resume": {
-    "block_id": "S00",
-    "summary": "Il percorso è pronto. La prima sessione di studio deve ancora iniziare.",
-    "next_action": "Scegliere il tempo della sessione e svolgere la diagnosi mirata su identità, reti, dati e continuità operativa.",
-    "source_id": null,
-    "section": null
+    "block_id": "LP-PREREQ",
+    "summary": "Percorso completo secondo Microsoft Learn: diagnosi S00 saltata, prerequisiti Learn inclusi. Primo modulo proposto, in attesa di lettura.",
+    "next_action": "Leggere le unità 1–5 di Describe the core architectural components of Azure, nell’ordine Learn; poi riportare i dubbi. Seguiranno Module assessment e Summary. Dettagli in studio/sessioni/2026-10-15-LP-PREREQ-M01.md.",
+    "source_id": "U-describe-core-architectural-components-of-azure-01",
+    "section": "Modulo 1, unità 1: Introduction; proseguire fino all’unità 5: Describe Azure management infrastructure"
   },
-  "blocks": {},
+  "blocks": {
+    "LP-PREREQ": {
+      "proposed": {
+        "on": "2026-10-15",
+        "evidence": "Proposte soltanto le unità 1–5 del primo modulo M-describe-core-architectural-components-of-azure, nell’ordine Learn. Fonti riaperte online il 15 ottobre 2026. Stima: 30–40 minuti. S01-A sostituita su chiarimento dell’utente; nessuna lettura o comprensione dichiarata."
+      }
+    }
+  },
   "objectives": {},
   "sessions": [],
   "doubts": [],

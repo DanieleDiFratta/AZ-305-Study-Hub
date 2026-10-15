@@ -19,8 +19,8 @@ Aprire `http://127.0.0.1:8000`. È possibile anche aprire `_site/index.html` dir
 | --- | --- |
 | `web/index.html`, `web/style.css`, `web/app.js` | Interfaccia e navigazione responsive |
 | `scripts/build_site.py` | Build locale; legge le sorgenti senza riscriverle |
-| `docs/PIANO-DIDATTICO.md` | Titoli, teoria, attività, criteri di uscita e stime S00–S11 |
-| `scripts/build_site.py`, `SELECTORS`, `PREREQUISITES`, `EXTRA_SOURCES` | Associazioni dei blocchi a obiettivi, dipendenze e fonti complementari |
+| `docs/PIANO-DIDATTICO.md` | Sequenza di studio Microsoft Learn e regole delle sessioni |
+| `scripts/build_site.py`, `BLOCK_IDS`, `PATH_DOMAINS` | Percorsi dal syllabus, moduli e unità dagli indici censiti; associazioni agli obiettivi |
 | `data/` | Catalogo e revisioni secondo il processo esistente |
 | `studio/progressi.json` | Data d’esame, ripresa, evidenze, sessioni, dubbi e richiami |
 | `studio/materiali.json` | Elenco esplicito degli elaborati pubblicati |
@@ -45,7 +45,7 @@ Una scheda di stato per un obiettivo o un blocco ha questa forma:
 }
 ```
 
-Questi sono esempi di formato, non progressi dell’utente. Le chiavi consentite sono `proposed`, `read`, `discussed`, `practiced`, `verified`. Ogni stato richiede data ISO ed evidenza non vuota. Le schede sono sotto `objectives`, per ID obiettivo, e `blocks`, per S00–S11. Gli stati del blocco non completano automaticamente i singoli obiettivi, né viceversa. Il campo storico `learning_status` della baseline non è utilizzato per il progresso personale.
+Questi sono esempi di formato, non progressi dell’utente. Le chiavi consentite sono `proposed`, `read`, `discussed`, `practiced`, `verified`. Ogni stato richiede data ISO ed evidenza non vuota. Le schede sono sotto `objectives`, per ID obiettivo, e `blocks`, per i sei ID `LP-*` del piano. Gli stati del blocco non completano automaticamente i singoli obiettivi, né viceversa. Il campo storico `learning_status` della baseline non è utilizzato per il progresso personale.
 
 Le sessioni sono oggetti con `date`, `block_id`, `summary`. I dubbi hanno `block_id`, `text` ed eventuale `resolved_on`. I richiami hanno `block_id`, `due_on`, `reason` ed eventuale `completed_on`. Il sito mostra i richiami aperti, ordinati per data. I dettagli degli errori restano nel registro e nei riepiloghi delle sessioni.
 

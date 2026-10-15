@@ -16,7 +16,7 @@ Non iniziato. Esperienza dichiarata su AKS, Functions, App Service, microservizi
 
 ## Ripresa
 
-Prima S00 e fondamenti S01/S02. Nessuna lettura assegnata. Quando si avvia S03, definire un blocco che mantenga coerenti topologia, flussi e criteri di scelta.
+Seguire il [piano Learn](../../docs/PIANO-DIDATTICO.md): ordine del syllabus, poi moduli e unità nell’ordine originale. Diagnosi S00 saltata; partenza da LP-PREREQ, primo modulo, unità 1–5, come nel [registro corrente](../sessioni/2026-10-15-LP-PREREQ-M01.md). Questo dominio verrà affrontato nel percorso `LP-INFRA`. Le collocazioni S01–S11 sopra sono riferimenti tematici della pianificazione precedente, non l’ordine attivo. Nessun blocco specifico del dominio attualmente assegnato; nessun risultato personale registrato.
 
 | Blocco | Proposto | Letto dall’utente | Discusso | Esercitato | Comprensione verificata |
 | --- | --- | --- | --- | --- | --- |

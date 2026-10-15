@@ -2,6 +2,10 @@
 
 Metodo adattato da [Magistrale Dashboard](https://github.com/DanieleDiFratta/-Magistrale-Dashboard), consultato il 15 ottobre 2026. Riferimenti esaminati: `AGENTS.md` (SHA `558af0966dc359987c5005aeb028c524ac9f1b95`), `studio/PIANO-GENERALE.md` (SHA `c89de0753f2271c0c49efe01bd2a41a09b528410`), README e guida dei materiali. Sono ripresi i principi di lavoro, senza importare progressi, scadenze o dati accademici.
 
+## Ordine di studio confermato
+
+Dal 15 ottobre 2026, per chiarimento esplicito dell’utente, seguire i learning path Microsoft Learn nell’ordine del syllabus, poi moduli e unità nell’ordine originale. La diagnosi S00 è saltata; i prerequisiti Learn fanno parte del percorso completo. I blocchi sono porzioni consecutive del modulo corrente. La documentazione aggiuntiva integra dubbi, aggiornamenti e lacune senza sostituire o anticipare la sequenza Learn. Il precedente riordino S01–S11 è superato.
+
 ## Un blocco, un obiettivo coerente
 
 La sessione parte dalla scheda del dominio e dal punto di ripresa. L’assistente apre le fonti pertinenti e propone un blocco con ID degli obiettivi, URL, sezioni, prerequisiti e durata orientativa. Un’unità Learn può essere affiancata da una pagina di confronto o da un diagramma: il criterio è la decisione da comprendere, non un numero fisso di pagine.

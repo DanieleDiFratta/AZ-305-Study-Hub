@@ -14,6 +14,7 @@ Profilo dichiarato: esperienza professionale con Azure, .NET, microservizi, AKS,
 - Adattare il metodo da [Magistrale Dashboard](https://github.com/DanieleDiFratta/-Magistrale-Dashboard): blocchi coerenti, lettura autonoma, dubbi, resoconto e verifica; stati distinti e memoria su file.
 - Baseline ufficiale corrente: obiettivi dal 17 aprile 2026, verificati il 15 ottobre 2026. Le etichette locali rimandano ai bullet della guida.
 - Preparazione centrata sulle decisioni architetturali e sulle lacune dimostrate; nessun corso introduttivo obbligatorio se i prerequisiti vengono verificati.
+- Il 15 ottobre 2026 l’utente ha scelto di saltare la diagnosi S00 e ha poi chiarito di voler seguire i learning path Microsoft Learn, con moduli e unità nell’ordine originale. Il riordino S01–S11 e la proposta S01-A sono sostituiti. Sono inclusi i prerequisiti Learn e tutti i 49 obiettivi; nessuna diagnosi svolta né competenza presunta acquisita.
 - A fine sessione sviluppare appunti approfonditi, mappe e flashcard, salvare il punto di ripresa e aggiornare gli stati distinti in [progressi.json](progressi.json). I materiali pubblicati sono elencati in [materiali.json](materiali.json). Istruzioni in [DASHBOARD.md](../docs/DASHBOARD.md).
 
 ## Schede dei domini
@@ -27,9 +28,9 @@ Profilo dichiarato: esperienza professionale con Azure, .NET, microservizi, AKS,
 
 ## Punto di ripresa preciso
 
-Avviare **S00 — diagnosi mirata** del [piano didattico](../docs/PIANO-DIDATTICO.md). Non è già stata proposta una lettura all’utente. Prima azione: scegliere il tempo della sessione e rilevare dimestichezza con decisioni su identità, reti, dati e BCDR. Registrare soltanto le evidenze effettive.
+**LP-PREREQ → M-describe-core-architectural-components-of-azure → unità 1–5**, proposte il 15 ottobre 2026. Iniziare dall’[Introduction](https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/1-introduction), poi seguire l’ordine fino a Describe Azure management infrastructure. Fonti riaperte online; dettagli nel [registro di avvio](sessioni/2026-10-15-LP-PREREQ-M01.md). Stima: 30–40 minuti; tempo disponibile non dichiarato.
 
-Segue S01: requisiti/WAF/CAF e governance, usando `WAF-HOME`, `CAF-LZ`, `GOV-HIERARCHY` e il modulo governance. L’assistente aprirà le fonti aggiornate, definirà un blocco preciso e attenderà la lettura autonoma. Nessun salto automatico alle lezioni in questa fase.
+Attendere lettura autonoma e dubbi prima della spiegazione e della verifica. Seguiranno Module assessment e Summary del medesimo modulo, poi il secondo modulo dei prerequisiti. Nessuna lettura, discussione tecnica, esercitazione o comprensione personale ancora registrata. S01-A è superata e non deve essere riproposta come lettura corrente.
 
 ## Manutenzione e dubbi aperti
 
@@ -40,4 +41,4 @@ Segue S01: requisiti/WAF/CAF e governance, usando `WAF-HOME`, `CAF-LZ`, `GOV-HIE
 
 ## Avvio di una nuova chat
 
-> Questa chat riguarda AZ-305. Leggi AGENTS.md, studio/PIANO-GENERALE.md, docs/METODO.md e la scheda del dominio pertinente. Riprendi dal punto registrato, usando le fonti verificate e distinguendo lettura, discussione, esercizi e comprensione. La dashboard statica è implementata; lo studio non è ancora iniziato. A fine sessione salva riepilogo, appunti/mappe/flashcard del blocco trattato, stati distinti e punto di ripresa anche nei dati della dashboard. Segui docs/DASHBOARD.md; commit e push soltanto quando autorizzati.
+> Questa chat riguarda AZ-305. Leggi AGENTS.md, studio/PIANO-GENERALE.md, docs/METODO.md e la scheda del dominio pertinente. Segui i learning path Microsoft Learn nell’ordine del syllabus, poi moduli e unità nell’ordine originale; diagnosi S00 saltata, prerequisiti Learn inclusi. Riprendi dal punto registrato, usando le fonti verificate e distinguendo lettura, discussione, esercizi e comprensione. La dashboard statica è implementata; lo studio non è ancora iniziato. A fine sessione salva riepilogo, appunti/mappe/flashcard del blocco trattato, stati distinti e punto di ripresa anche nei dati della dashboard. Segui docs/DASHBOARD.md; commit e push soltanto quando autorizzati.

@@ -13,26 +13,9 @@ from research import rome_now
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / '_site'
 STATES = ('proposed', 'read', 'discussed', 'practiced', 'verified')
-BLOCK_IDS = [f'S{i:02d}' for i in range(12)]
-SELECTORS = [[], ['1.3.1', '1.3.2', '4.3.1'], ['1.1.', '1.2.', '1.3.3'],
-             ['4.4.'], ['4.1.'], ['2.1.'], ['2.2.'], ['2.3.'], ['4.2.'],
-             ['3.1.', '3.2.'], ['4.3.'], ['']]
-PREREQUISITES = [[], ['S00'], ['S01'], ['S02'], ['S03'], ['S04'], ['S03'],
-                 ['S05', 'S06'], ['S04', 'S05', 'S06'], ['S03', 'S04', 'S05', 'S06', 'S08'],
-                 ['S01', 'S09'], BLOCK_IDS[1:11]]
-# Complements to the exact resource IDs already referenced by the study plan.
-EXTRA_SOURCES = {
-    'S01': ['WAF-HOME', 'CAF-HOME'],
-    'S02': ['M-design-authentication-authorization-solutions', 'M-design-solution-to-log-monitor-azure-resources', 'MON-DCR', 'MON-DIAGNOSTIC', 'GOV-PIM', 'GOV-REVIEWS'],
-    'S04': ['COMP-FUNCTIONS', 'COMP-VMSS', 'COMP-BATCH'],
-    'S05': ['DATA-SQL-TIERS', 'DATA-SQL-DTU', 'DATA-SQL-SERVERLESS', 'DATA-SQL-POOLS', 'DATA-SQL-HYPERSCALE', 'DATA-SQL-SECURITY'],
-    'S06': ['M-design-data-storage-solution-for-non-relational-data', 'U-design-data-storage-solution-for-relational-data-08', 'DATA-BLOB-TIERS', 'DATA-FILES', 'DATA-REDUNDANCY', 'DATA-PROTECTION'],
-    'S07': ['DATA-ADF', 'DATA-ADF-SSIS', 'DATA-LAKE', 'DATA-SYNAPSE', 'DATA-DATABRICKS', 'DATA-STREAM', 'DATA-ANALYTICS-CHOICE'],
-    'S08': ['APP-MESSAGING', 'APP-APIM', 'APP-REDIS', 'APP-CACHE-PATTERN', 'APP-CONFIG', 'APP-DEPLOY'],
-    'S09': ['WAF-RELIABILITY', 'BCDR-OBJECTIVES', 'BCDR-BACKUP-MATRIX', 'BCDR-VM', 'BCDR-SQL', 'BCDR-BLOB', 'HA-VM', 'HA-APP', 'HA-AKS', 'HA-SQL', 'HA-POSTGRES', 'HA-COSMOS'],
-    'S10': ['MIG-CAF', 'MIG-ASSESS', 'MIG-SERVER', 'MIG-DATABASE', 'MIG-STORAGE'],
-    'S11': ['EXAM-GUIDE'],
-}
+BLOCK_IDS = ['LP-PREREQ', 'LP-IDENTITY', 'LP-BCDR', 'LP-DATA', 'LP-INFRA', 'LP-WAF']
+# Exam objectives remain visible even where Learn has no dedicated unit.
+PATH_DOMAINS = {'LP-IDENTITY': '1', 'LP-DATA': '2', 'LP-BCDR': '3', 'LP-INFRA': '4'}
 
 
 def read_json(path):
@@ -44,31 +27,25 @@ def plain(text):
 
 
 def curriculum(objectives, resources):
-    """The Markdown plan remains the source for titles, theory, outcomes and estimates."""
-    rows = []
-    for line in (ROOT / 'docs/PIANO-DIDATTICO.md').read_text(encoding='utf-8').splitlines():
-        if re.match(r'^\| S\d{2} ', line):
-            cells = [c.strip() for c in line.strip('|').split('|')]
-            if len(cells) != 6:
-                raise ValueError('Riga del piano didattico non riconosciuta')
-            rows.append(cells)
-    if len(rows) != 12:
-        raise ValueError('Il piano deve contenere S00–S11')
+    """Follow the course syllabus, then each path's modules and units in source order."""
+    paths = {r['source_uid']: r for r in resources.values() if r['kind'] == 'learn_path'}
+    ordered = [paths[uid] for uid in resources['EXAM-COURSE']['syllabus_path_uids']]
+    if [p['id'] for p in ordered] != BLOCK_IDS:
+        raise ValueError('Ordine dei learning path diverso dal syllabus accettato: esaminare la modifica')
     blocks = []
-    for i, cells in enumerate(rows):
-        bid, title = cells[0].split(' — ', 1)
-        if bid != BLOCK_IDS[i]:
-            raise ValueError('Ordine dei blocchi non valido')
-        source_ids = re.findall(r'`([^`]+)`', ' '.join(cells[2:5])) + EXTRA_SOURCES.get(bid, [])
-        # The plan uses combined figure references in two rows.
-        source_ids = [part for rid in source_ids for part in ({'FIG-DATA-1/2': ['FIG-DATA-1', 'FIG-DATA-2'], 'FIG-DR-1/2': ['FIG-DR-1', 'FIG-DR-2']}.get(rid, [rid]))]
-        sources = list(dict.fromkeys(rid for rid in source_ids if rid in resources and resources[rid]['access']['status'] != 'public_placeholder'))
-        objective_ids = [o['id'] for o in objectives if any(o['id'].startswith(s) if s.endswith('.') or s == '' else o['id'] == s for s in SELECTORS[i])]
-        blocks.append({'id': bid, 'title': title, 'objective_ids': objective_ids,
-                       'prerequisites': PREREQUISITES[i], 'theory': plain(cells[2]),
-                       'practice': plain(cells[3]), 'outcome': plain(cells[4]),
-                       'estimate': cells[5],
-                       'resource_ids': sources})
+    for i, path in enumerate(ordered):
+        bid = path['id']
+        modules = [{'id': mid, 'unit_ids': resources[mid]['unit_ids']} for mid in path['module_ids']]
+        source_ids = [bid] + [rid for m in modules for rid in [m['id'], *m['unit_ids']]]
+        mapped = {oid for rid in source_ids for oid in resources[rid]['objective_ids']}
+        objective_ids = [o['id'] for o in objectives if o['id'] in mapped or o['domain'] == PATH_DOMAINS.get(bid)]
+        blocks.append({'id': bid, 'title': path['title'], 'objective_ids': objective_ids,
+                       'prerequisites': [ordered[i - 1]['id']] if i else [],
+                       'theory': 'Seguire i moduli e le unità Microsoft Learn nell’ordine riportato. Le letture aggiuntive saranno proposte per dubbi, aggiornamenti o lacune specifiche.',
+                       'practice': 'Lettura autonoma, dubbi, spiegazione quando sei pronto e verifica integrata. Gli assessment restano nel punto previsto dal modulo; eventuali laboratori saranno definiti prima di eseguirli.',
+                       'outcome': 'Discutere e verificare i contenuti effettivamente studiati, conservando separati lettura, discussione, esercizio e comprensione.',
+                       'estimate': f'{len(modules)} moduli · tempo da calibrare',
+                       'resource_ids': source_ids, 'modules': modules})
     return blocks
 
 

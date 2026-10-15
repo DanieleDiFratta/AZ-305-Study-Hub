@@ -13,14 +13,14 @@ python -B scripts/build_site.py
 python -m http.server 8000 --bind 127.0.0.1 --directory _site
 ```
 
-Aprire `http://127.0.0.1:8000`, oppure direttamente `_site/index.html`. La dashboard mostra il punto di ripresa, i 12 blocchi, i 49 obiettivi e le fonti ricercabili. Appunti, mappe e flashcard compariranno dopo le sessioni effettive. Esame indicato dall’utente: **1 dicembre 2026**.
+Aprire `http://127.0.0.1:8000`, oppure direttamente `_site/index.html`. La dashboard mostra il punto di ripresa, i sei learning path Microsoft Learn con moduli e unità in ordine, i 49 obiettivi e le fonti ricercabili. Appunti, mappe e flashcard compariranno dopo le sessioni effettive. Esame indicato dall’utente: **1 dicembre 2026**.
 
 Pubblicazione prevista su GitHub Pages pubblico con il workflow incluso; progressi ed elaborati inclusi nel sito saranno pubblici. Non ci sono database o salvataggi dal browser. Per attivazione Pages e aggiornamenti leggere [DASHBOARD.md](docs/DASHBOARD.md). Nessuna impostazione remota è stata cambiata dall’implementazione locale.
 
 ## Da dove partire
 
 1. [Piano generale e punto di ripresa](studio/PIANO-GENERALE.md).
-2. [Piano didattico progressivo](docs/PIANO-DIDATTICO.md), calibrato sull’esperienza professionale dichiarata.
+2. [Percorso di studio Microsoft Learn](docs/PIANO-DIDATTICO.md), dal primo modulo dei prerequisiti, con la sequenza originale di moduli e unità.
 3. [Matrice dei 49 obiettivi](docs/MATRICE-COPERTURA.md), con documentazione primaria e unità Learn.
 4. [Biblioteca verificabile](docs/BIBLIOTECA.md) e [inventario completo Learn](docs/PERCORSI-LEARN.md).
 5. [Lacune, riferimenti storici e approfondimenti](docs/LACUNE-E-AGGIORNAMENTI.md).

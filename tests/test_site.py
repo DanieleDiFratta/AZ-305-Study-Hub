@@ -9,7 +9,7 @@ import unittest
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / 'scripts'))
-from build_site import build, curriculum, materials, markdown, read_json, validate_progress
+from build_site import BLOCK_IDS, build, curriculum, materials, markdown, read_json, validate_progress
 from catalogue import assemble, load
 
 
@@ -18,16 +18,21 @@ class StaticDashboard(unittest.TestCase):
         self.baseline = load('objectives.json')
         self.progress = read_json(ROOT / 'studio/progressi.json')
 
-    def test_curriculum_preserves_every_objective_before_final_review(self):
-        blocks = curriculum(self.baseline['objectives'], {r['id']: r for r in assemble()})
-        covered = {oid for b in blocks[1:11] for oid in b['objective_ids']}
+    def test_curriculum_preserves_every_objective_and_official_learn_order(self):
+        resources = {r['id']: r for r in assemble()}
+        blocks = curriculum(self.baseline['objectives'], resources)
+        covered = {oid for b in blocks for oid in b['objective_ids']}
         self.assertEqual(covered, {o['id'] for o in self.baseline['objectives']})
-        self.assertEqual(len(blocks), 12)
+        self.assertEqual([b['id'] for b in blocks], BLOCK_IDS)
+        self.assertEqual([resources[b['id']]['source_uid'] for b in blocks], resources['EXAM-COURSE']['syllabus_path_uids'])
         self.assertTrue(all(b['resource_ids'] for b in blocks))
-        self.assertEqual(blocks[0]['estimate'], '1–2 h')
-        self.assertNotIn('LAB-05', blocks[7]['resource_ids'])
-        self.assertNotIn('LAB-10', blocks[9]['resource_ids'])
-        self.assertNotIn('LAB-11', blocks[10]['resource_ids'])
+        for block in blocks:
+            self.assertEqual([m['id'] for m in block['modules']], resources[block['id']]['module_ids'])
+            for module in block['modules']:
+                self.assertEqual(module['unit_ids'], resources[module['id']]['unit_ids'])
+        self.assertIn('1.2.4', next(b for b in blocks if b['id'] == 'LP-IDENTITY')['objective_ids'])
+        self.assertEqual(len({m['id'] for b in blocks for m in b['modules']}), 23)
+        self.assertEqual(len({uid for b in blocks for m in b['modules'] for uid in m['unit_ids']}), 206)
 
     def test_progress_requires_real_evidence_and_known_ids(self):
         cases = [({'read': True}, '1.1.1'), ({'verified': {'on': '2026-10-15', 'evidence': ''}}, '1.1.1'),
@@ -58,7 +63,7 @@ class StaticDashboard(unittest.TestCase):
         self.assertEqual(before, {p: hashlib.sha256(p.read_bytes()).hexdigest() for p in source_paths})
 
     def test_manifest_cannot_publish_repository_files(self):
-        entry = {'id': 'test', 'kind': 'notes', 'title': 'Test', 'block_id': 'S01', 'published_on': '2026-10-15', 'path': 'data/reviews.json'}
+        entry = {'id': 'test', 'kind': 'notes', 'title': 'Test', 'block_id': 'LP-IDENTITY', 'published_on': '2026-10-15', 'path': 'data/reviews.json'}
         with self.assertRaises(ValueError):
             materials({'schema_version': 1, 'items': [entry]})
 
@@ -68,7 +73,7 @@ class StaticDashboard(unittest.TestCase):
             (folder / 'note.md').write_text('# Titolo\nTesto **originale**.\n- Punto\n<script>alert(1)</script>', encoding='utf-8')
             (folder / 'cards.json').write_text(json.dumps([{'question': 'Domanda di prova', 'answer': 'Risposta di prova'}]), encoding='utf-8')
             (folder / 'map.svg').write_text('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><title>Prova</title><text x="5" y="20">Nodo</text></svg>', encoding='utf-8')
-            entries = [{'id': kind, 'kind': kind, 'title': 'Fixture di test', 'block_id': 'S00', 'published_on': '2026-10-15', 'path': str((folder / filename).relative_to(ROOT))} for kind, filename in [('notes', 'note.md'), ('flashcards', 'cards.json'), ('map', 'map.svg')]]
+            entries = [{'id': kind, 'kind': kind, 'title': 'Fixture di test', 'block_id': 'LP-PREREQ', 'published_on': '2026-10-15', 'path': str((folder / filename).relative_to(ROOT))} for kind, filename in [('notes', 'note.md'), ('flashcards', 'cards.json'), ('map', 'map.svg')]]
             result = materials({'schema_version': 1, 'items': entries})
             self.assertIn('<strong>originale</strong>', result[0]['html'])
             self.assertNotIn('<script>', result[0]['html'])

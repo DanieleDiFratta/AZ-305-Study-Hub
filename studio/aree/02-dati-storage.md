@@ -15,7 +15,7 @@ Non iniziato. Esperienza Cosmos DB dichiarata; confronto architetturale con altr
 
 ## Ripresa
 
-S00 rileverà eventuali prerequisiti mancanti. Questo dominio parte da S05 dopo fondamenti e compute/rete; nessuna lettura già assegnata.
+Seguire il [piano Learn](../../docs/PIANO-DIDATTICO.md): ordine del syllabus, poi moduli e unità nell’ordine originale. Diagnosi S00 saltata; partenza da LP-PREREQ, primo modulo, unità 1–5, come nel [registro corrente](../sessioni/2026-10-15-LP-PREREQ-M01.md). Questo dominio verrà affrontato nel percorso `LP-DATA`. Le collocazioni S01–S11 sopra sono riferimenti tematici della pianificazione precedente, non l’ordine attivo. Nessun blocco specifico del dominio attualmente assegnato; nessun risultato personale registrato.
 
 | Blocco | Proposto | Letto dall’utente | Discusso | Esercitato | Comprensione verificata |
 | --- | --- | --- | --- | --- | --- |

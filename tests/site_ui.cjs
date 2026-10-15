@@ -40,13 +40,22 @@ test('Home separates valid source coverage from zero personal progress', () => {
   dom.window.close();
 });
 
-test('All 12 blocks and the on-premises Learn gap are visible', () => {
+test('All six learning paths, ordered modules and the on-premises gap are visible', () => {
   const pathPage = open('#percorso');
-  assert.equal(pathPage.document.querySelectorAll('.block-card').length, 12);
-  assert.equal(pathPage.document.querySelector('.block-card.current').getAttribute('href'), '#blocco/S00');
+  assert.equal(pathPage.document.querySelectorAll('.block-card').length, 6);
+  assert.equal(pathPage.document.querySelector('.block-card.current').getAttribute('href'), '#blocco/LP-PREREQ');
+  assert.match(pathPage.document.querySelector('.block-card.current').textContent, /Proposto/);
   pathPage.dom.window.close();
-  const block = open('#blocco/S02');
-  assert.equal(block.document.querySelectorAll('.objectives>li').length, 9);
+  const first = open('#blocco/LP-PREREQ');
+  assert.equal(first.document.querySelectorAll('.learn-modules>li').length, 6);
+  const firstUnits = [...first.document.querySelectorAll('.learn-modules>li:first-child ol a')];
+  assert.equal(firstUnits.length, 7);
+  assert.match(firstUnits[0].href, /1-introduction$/);
+  assert.match(firstUnits[4].href, /6-describe-azure-management-infrastructure$/);
+  assert.equal(first.document.querySelectorAll('.state.done').length, 1);
+  first.dom.window.close();
+  const block = open('#blocco/LP-IDENTITY');
+  assert.equal(block.document.querySelectorAll('.objectives>li').length, 11);
   assert.match(block.document.querySelector('.objectives').textContent, /1\.2\.4/);
   assert.match(block.document.querySelector('.objectives').textContent, /Nessuna unità Learn dedicata/);
   assert.equal(block.document.querySelectorAll('.state.done').length, 0);
@@ -124,7 +133,7 @@ test('Review collections filter real published material and have an honest empty
   emptyPage.dom.window.close();
   const { dom, document } = open('#ripasso', data => {
     data.materials = [
-      { id: 'test-note', kind: 'notes', block_id: 'S01', title: 'Appunti di test', published_on: '2026-10-15', html: '<p>Fixture</p>' },
+      { id: 'test-note', kind: 'notes', block_id: 'LP-IDENTITY', title: 'Appunti di test', published_on: '2026-10-15', html: '<p>Fixture</p>' },
       { id: 'test-map', kind: 'map', block_id: 'S02', title: 'Mappa di test', published_on: '2026-10-15', html: '<p>Fixture</p>' }
     ];
   });
@@ -137,7 +146,7 @@ test('Review collections filter real published material and have an honest empty
 
 test('Flashcards reveal answers on demand, reset on navigation, and record no progress', () => {
   const { dom, window, document, originalProgress } = open('#materiale/carte-test', data => {
-    data.materials = [{ id: 'carte-test', kind: 'flashcards', block_id: 'S00', title: 'Fixture di test', published_on: '2026-10-15', cards: [{ question: 'Prima domanda', answer: 'Prima risposta' }, { question: 'Seconda domanda', answer: 'Seconda risposta' }] }];
+    data.materials = [{ id: 'carte-test', kind: 'flashcards', block_id: 'LP-PREREQ', title: 'Fixture di test', published_on: '2026-10-15', cards: [{ question: 'Prima domanda', answer: 'Prima risposta' }, { question: 'Seconda domanda', answer: 'Seconda risposta' }] }];
   });
   assert.equal(document.querySelector('#card-answer').hidden, true);
   document.querySelector('#reveal-answer').click();
