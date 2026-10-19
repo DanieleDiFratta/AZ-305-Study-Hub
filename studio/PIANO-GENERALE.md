@@ -1,8 +1,8 @@
 # Piano generale AZ-305
 
-## Stato corrente — 15 ottobre 2026
+## Stato corrente — 19 ottobre 2026
 
-Biblioteca verificabile, copertura del programma e percorso didattico predisposti nella prima fase. Dashboard statica implementata su richiesta dell’utente: panoramica, blocchi, biblioteca e raccolta di ripasso. Gli esiti della ricerca sono in [audit-summary.json](../data/audit-summary.json); il [rapporto](../docs/RAPPORTO-RICERCA.md) ne esplicita i limiti. Nessuna lezione completa, mappa, flashcard o nota definitiva prodotta. **Nessuna sessione di studio svolta e nessun obiettivo personale completato.**
+Biblioteca, copertura del programma e dashboard statica disponibili; baseline e limiti nel [rapporto di ricerca](../docs/RAPPORTO-RICERCA.md). **Sessione del 19 ottobre 2026 chiusa su richiesta dell’utente.** Primo modulo di LP-PREREQ, unità 1–5: lettura dichiarata, spiegazione e caso originale svolti. Confermati nel richiamo lo scope della policy in A e la dipendenza dell’applicazione oltre alla replica del database. Motivazione discriminante e compromessi di A/B ancora da approfondire. Nessun obiettivo AZ-305 completo, modulo o intero learning path verificato. Salvati appunti approfonditi, mappa testuale e otto flashcard del blocco in studio/materiali.json.
 
 Profilo dichiarato: esperienza professionale con Azure, .NET, microservizi, AKS, Functions, App Service, Cosmos DB, Key Vault e Azure DevOps; studio AZ-104. Possesso della certificazione AZ-104/Azure Administrator Associate non dichiarato. Esame indicato dall’utente: **1 dicembre 2026**. Tempo settimanale e lingua d’esame ancora non concordati.
 
@@ -28,17 +28,17 @@ Profilo dichiarato: esperienza professionale con Azure, .NET, microservizi, AKS,
 
 ## Punto di ripresa preciso
 
-**LP-PREREQ → M-describe-core-architectural-components-of-azure → unità 1–5**, proposte il 15 ottobre 2026. Iniziare dall’[Introduction](https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/1-introduction), poi seguire l’ordine fino a Describe Azure management infrastructure. Fonti riaperte online; dettagli nel [registro di avvio](sessioni/2026-10-15-LP-PREREQ-M01.md). Stima: 30–40 minuti; tempo disponibile non dichiarato.
+**LP-PREREQ → M-describe-core-architectural-components-of-azure → unità 1–5 lette**, dichiarazione dell’utente «fatto» del 19 ottobre 2026 in risposta al blocco assegnato. Ultima unità: Describe Azure management infrastructure. Proposta e fonti nel [registro del blocco](sessioni/2026-10-15-LP-PREREQ-M01.md); avanzamento nel [riepilogo del 19 ottobre](sessioni/2026-10-19-LP-PREREQ-M01.md). Durata effettiva non dichiarata.
 
-Attendere lettura autonoma e dubbi prima della spiegazione e della verifica. Seguiranno Module assessment e Summary del medesimo modulo, poi il secondo modulo dei prerequisiti. Nessuna lettura, discussione tecnica, esercitazione o comprensione personale ancora registrata. S01-A è superata e non deve essere riproposta come lettura corrente.
+Prossima azione, alla ripresa: [Module assessment](https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/8-knowledge-check), poi [Summary](https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/9-summary) del medesimo modulo. Nessun esito o lettura di queste due unità ancora dichiarati. La risposta finale «alla subscription» e la spiegazione dell’indisponibilità applicativa sono corrette nel caso circoscritto. Conservare per il modulo governance la motivazione e le rinunce della scelta A/B; non richiedere di nuovo le due risposte già corrette soltanto per riorganizzare il percorso. Nessun impegno di ripasso datato concordato.
 
 ## Manutenzione e dubbi aperti
 
 - Primo controllo periodico: 14 novembre 2026 per programma e lifecycle; altre date per risorsa nel catalogo.
 - Lacune didattiche note: unità dedicata sull’accesso on-premises assente; tre placeholder dei casi. Fonti di compensazione e attività future nel [registro](../docs/LACUNE-E-AGGIORNAMENTI.md).
 - La lingua italiana delle risorse non è stata verificata; baseline tecnica inglese. Confermare la preferenza quando utile alla prima sessione.
-- Nessuna capacità personale marcata come acquisita, nessun errore personale ancora osservato.
+- Nessun obiettivo completo marcato acquisito; due risposte circoscritte confermate. Motivazione A/B ancora da approfondire; evidenze nel registro errori.
 
 ## Avvio di una nuova chat
 
-> Questa chat riguarda AZ-305. Leggi AGENTS.md, studio/PIANO-GENERALE.md, docs/METODO.md e la scheda del dominio pertinente. Segui i learning path Microsoft Learn nell’ordine del syllabus, poi moduli e unità nell’ordine originale; diagnosi S00 saltata, prerequisiti Learn inclusi. Riprendi dal punto registrato, usando le fonti verificate e distinguendo lettura, discussione, esercizi e comprensione. La dashboard statica è implementata; lo studio non è ancora iniziato. A fine sessione salva riepilogo, appunti/mappe/flashcard del blocco trattato, stati distinti e punto di ripresa anche nei dati della dashboard. Segui docs/DASHBOARD.md; commit e push soltanto quando autorizzati.
+> Questa chat riguarda AZ-305. Leggi AGENTS.md, studio/PIANO-GENERALE.md, docs/METODO.md e la scheda del dominio pertinente. Segui i learning path Microsoft Learn nell’ordine del syllabus, poi moduli e unità nell’ordine originale; diagnosi S00 saltata, prerequisiti Learn inclusi. Riprendi dal punto registrato, usando le fonti verificate e distinguendo lettura, discussione, esercizi e comprensione. Le unità 1–5 del primo modulo dei prerequisiti sono dichiarate lette e spiegate il 19 ottobre 2026; sessione chiusa, richiamo finale corretto su due punti; riprendere da Module assessment e Summary. Motivazione A/B ancora da approfondire nel modulo governance. A fine sessione salva riepilogo, appunti/mappe/flashcard del blocco trattato, stati distinti e punto di ripresa anche nei dati della dashboard. Segui docs/DASHBOARD.md; commit e push soltanto quando autorizzati.

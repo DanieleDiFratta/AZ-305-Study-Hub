@@ -2,9 +2,9 @@
 
 Peso ufficiale: 15–20%. Obiettivi: 3.1.1–3.1.4, 3.2.1–3.2.3. Vedere [matrice](../../docs/MATRICE-COPERTURA.md).
 
-## Stato — 15 ottobre 2026
+## Stato — 19 ottobre 2026
 
-Non iniziato. Nessun test di restore/failover eseguito e nessun livello di preparazione personale attribuito.
+Percorso specifico LP-BCDR non iniziato. Nei prerequisiti l’utente ha dichiarato lette le unità 1–5 del primo modulo il 19 ottobre 2026, inclusa l’introduzione all’infrastruttura fisica Azure, contesto per 3.2.1. Nel richiamo finale l’utente ha spiegato correttamente che la replica del database non risolve l’indisponibilità dell’applicazione rimasta nella regione persa. Piano DR completo non verificato. Nessun test di restore/failover eseguito e nessun livello di preparazione personale attribuito.
 
 ## Fonti e collocazione
 
@@ -14,11 +14,11 @@ S09 segue compute, rete e dati. Fonti: `LP-BCDR`, WAF Reliability, `BCDR-OBJECTI
 
 ## Ripresa
 
-Seguire il [piano Learn](../../docs/PIANO-DIDATTICO.md): ordine del syllabus, poi moduli e unità nell’ordine originale. Diagnosi S00 saltata; partenza da LP-PREREQ, primo modulo, unità 1–5, come nel [registro corrente](../sessioni/2026-10-15-LP-PREREQ-M01.md). Questo dominio verrà affrontato nel percorso `LP-BCDR`. Le collocazioni S01–S11 sopra sono riferimenti tematici della pianificazione precedente, non l’ordine attivo. Nessun blocco specifico del dominio attualmente assegnato; nessun risultato personale registrato.
+Seguire il [piano Learn](../../docs/PIANO-DIDATTICO.md). Diagnosi S00 saltata; unità 1–5 del primo modulo LP-PREREQ dichiarate lette, come nel [registro corrente](../sessioni/2026-10-19-LP-PREREQ-M01.md). Dopo «chiaro» dell’utente è stata fornita la spiegazione integrata; prima risposta al caso originale ricevuta e valutata; richiamo finale corretto sullo scope della policy in A e sulla dipendenza applicativa. Sessione chiusa su richiesta; motivazione A/B da approfondire nel modulo governance. Assessment e riepilogo del modulo ancora da svolgere. Questo dominio verrà affrontato nel percorso `LP-BCDR`. Le collocazioni S01–S11 sopra sono riferimenti della pianificazione precedente. Nessun obiettivo del dominio completato o verificato.
 
 | Blocco | Proposto | Letto dall’utente | Discusso | Esercitato | Comprensione verificata |
 | --- | --- | --- | --- | --- | --- |
-| Nessuno | — | — | — | — | — |
+| LP-PREREQ, modulo 1, unità 1–5: fondamenti per 3.2.1 | 2026-10-15 | 2026-10-19 | 2026-10-19 | 2026-10-19, caso originale | Due punti circoscritti confermati; obiettivo completo non verificato |
 
 ## Punti da verificare con i casi
 

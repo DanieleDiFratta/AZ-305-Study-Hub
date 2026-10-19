@@ -1,0 +1,34 @@
+[
+  {
+    "question": "Caso originale A: una subscription con gruppi sviluppo e produzione. Dove assegni una policy comune?",
+    "answer": "Alla subscription: l’assegnazione può applicarsi ai due gruppi. Fonte: ARM, Understand scope, consultata il 19 ottobre 2026."
+  },
+  {
+    "question": "Perché l’ereditarietà da sola non giustifica B rispetto ad A nel nostro esercizio?",
+    "answer": "Entrambe permettono regole comuni. Va espresso un requisito discriminante e un compromesso; questa motivazione personale resta da consolidare."
+  },
+  {
+    "question": "Nel caso B, gli sviluppatori amministrano solo sviluppo: quale limite dare ai permessi?",
+    "answer": "Scope della sola subscription sviluppo, oppure più ristretto se basta. Fonte: RBAC scope overview, consultata il 19 ottobre 2026."
+  },
+  {
+    "question": "Availability zone e regione sono lo stesso ambito di guasto?",
+    "answer": "No: le zone separano infrastrutture dentro una regione. Fonte: Availability zones overview, consultata il 19 ottobre 2026."
+  },
+  {
+    "question": "Una region pair rende automaticamente disponibile l’applicazione altrove?",
+    "answer": "No. Il recupero dipende dal progetto e dalle funzionalità dei servizi. Fonte: Region pairs, consultata il 19 ottobre 2026."
+  },
+  {
+    "question": "Caso originale: database replicato, applicazione soltanto nella regione indisponibile. Perché il servizio può restare offline?",
+    "answer": "La disponibilità dei dati non rende eseguibile l’applicazione altrove. Distinzione confermata nel richiamo del 19 ottobre 2026."
+  },
+  {
+    "question": "Quale criterio lega le risorse di un resource group?",
+    "answer": "Il ciclo di vita condiviso è il criterio raccomandato. Fonte: ARM, What is a resource group?, consultata il 19 ottobre 2026."
+  },
+  {
+    "question": "La location del resource group replica le risorse? I suoi tag sono ereditati automaticamente?",
+    "answer": "No in entrambi i casi. Fonte: ARM overview, consultata il 19 ottobre 2026."
+  }
+]

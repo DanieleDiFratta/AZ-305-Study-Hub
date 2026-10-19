@@ -1,24 +1,42 @@
 {
   "schema_version": 1,
-  "updated_on": "2026-10-15",
+  "updated_on": "2026-10-19",
   "exam_date": "2026-12-01",
   "resume": {
     "block_id": "LP-PREREQ",
-    "summary": "Percorso completo secondo Microsoft Learn: diagnosi S00 saltata, prerequisiti Learn inclusi. Primo modulo proposto, in attesa di lettura.",
-    "next_action": "Leggere le unità 1–5 di Describe the core architectural components of Azure, nell’ordine Learn; poi riportare i dubbi. Seguiranno Module assessment e Summary. Dettagli in studio/sessioni/2026-10-15-LP-PREREQ-M01.md.",
-    "source_id": "U-describe-core-architectural-components-of-azure-01",
-    "section": "Modulo 1, unità 1: Introduction; proseguire fino all’unità 5: Describe Azure management infrastructure"
+    "summary": "Sessione del 19 ottobre chiusa su richiesta: primo modulo, unità 1–5 lette, discusse ed esercitate. Richiamo corretto su scope della policy e dipendenza applicativa; motivazione A/B ancora da approfondire.",
+    "next_action": "Alla ripresa svolgere Module assessment e leggere Summary del primo modulo, riportando esito ed eventuali dubbi. Riprendere la motivazione e i compromessi di A/B nel modulo governance. Non considerare completati il modulo, il learning path o gli obiettivi AZ-305.",
+    "source_id": "U-describe-core-architectural-components-of-azure-06",
+    "section": "Prossima unità: Module assessment; poi Summary. Lettura ed esito di queste due unità non ancora dichiarati."
   },
   "blocks": {
     "LP-PREREQ": {
       "proposed": {
         "on": "2026-10-15",
         "evidence": "Proposte soltanto le unità 1–5 del primo modulo M-describe-core-architectural-components-of-azure, nell’ordine Learn. Fonti riaperte online il 15 ottobre 2026. Stima: 30–40 minuti. S01-A sostituita su chiarimento dell’utente; nessuna lettura o comprensione dichiarata."
+      },
+      "read": {
+        "on": "2026-10-19",
+        "evidence": "L’utente ha risposto «fatto» al blocco assegnato: soltanto le unità 1–5 di M-describe-core-architectural-components-of-azure (Introduction, What is Microsoft Azure, Get started with Azure accounts, Describe Azure physical infrastructure, Describe Azure management infrastructure). Non è una dichiarazione di lettura dell’intero learning path. Assessment, riepilogo, discussione, esercizi e comprensione non ancora dichiarati o verificati."
+      },
+      "discussed": {
+        "on": "2026-10-19",
+        "evidence": "Limitatamente alle unità 1–5 di M-describe-core-architectural-components-of-azure: dopo «chiaro» dell’utente, spiegazione integrata su regioni e zone, gerarchia di gestione, ciclo di vita dei resource group, scope ed ereditarietà; precisato che region pair non implica replica o failover automatico. Fonti Microsoft riaperte il 19 ottobre 2026. Caso originale proposto, risposta e comprensione ancora da valutare; nessun completamento dell’intero percorso."
+      },
+      "practiced": {
+        "on": "2026-10-19",
+        "evidence": "Svolto il caso originale su sviluppo/produzione e guasto regionale. Risposte: «1.B per ereditare regole aziendali. 2. nel managment group le regole, a livello di subscription permessi 3. la region pair». Scope coerenti con B se i permessi sono limitati alla subscription sviluppo. Motivazione di B non discriminante rispetto ad A; pianificazione DR non esplicitata oltre al pairing. Correzione fornita, breve richiamo ancora da rispondere. Nessun laboratorio o assessment svolto e nessuna verifica completa del learning path. Richiamo finale dell’utente: «alla subscription. perchè l’applicazione nonessendo replicata in caso di failover della prima regione rimarrebbe offline». Corrette l’ereditarietà nella soluzione A e l’insufficienza della sola replica del database. Non verificata la motivazione discriminante A/B né un piano DR completo. Sessione chiusa su richiesta; nessun badge verified per l’intero percorso."
       }
     }
   },
   "objectives": {},
-  "sessions": [],
+  "sessions": [
+    {
+      "date": "2026-10-19",
+      "block_id": "LP-PREREQ",
+      "summary": "Sessione chiusa su richiesta il 19 ottobre: unità 1–5 del primo modulo lette e discusse; caso originale e richiamo svolti. Confermati scope comune della policy in A e indisponibilità applicativa non risolta dalla sola replica del database. Motivazione A/B ancora da approfondire. Appunti, mappa testuale e 8 flashcard salvati in studio/ripasso/LP-PREREQ-M01 e registrati nel manifesto. Assessment e Summary da svolgere. Nessun obiettivo completo o intero percorso verificato."
+    }
+  ],
   "doubts": [],
   "reviews": []
 }

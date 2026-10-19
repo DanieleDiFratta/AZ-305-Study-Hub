@@ -2,7 +2,7 @@
 
 Baseline: **17 aprile 2026**. Le etichette sono parafrasi originali concise: il testo Microsoft integrale resta nella [Study Guide](https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-305). Sezione e posizione del bullet sono conservate nei dati.
 
-Verifica: **2026-10-15**. Copertura documentale: **49/49**. Una fonte deve essere pubblica, pertinente, revisionata sullo stesso hash e non scaduta. Fonti generiche, assessment, placeholder e soli diagrammi non chiudono un obiettivo.
+Verifica: **2026-10-19**. Copertura documentale: **49/49**. Una fonte deve essere pubblica, pertinente, revisionata sullo stesso hash e non scaduta. Fonti generiche, assessment, placeholder e soli diagrammi non chiudono un obiettivo.
 
 La copertura riguarda la biblioteca, non la preparazione personale. Tutti gli obiettivi personali sono `not_started`.
 

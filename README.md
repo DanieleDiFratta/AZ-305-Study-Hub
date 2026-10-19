@@ -2,7 +2,7 @@
 
 Biblioteca e percorso personale per preparare **AZ-305** attraverso decisioni architetturali motivate. Repository: [DanieleDiFratta/AZ-305-Study-Hub](https://github.com/DanieleDiFratta/AZ-305-Study-Hub).
 
-**Fase attuale: dashboard statica implementata.** Percorso, biblioteca, progressi e raccolta di ripasso consultabili anche da telefono. Studio personale non ancora iniziato: nessuna lezione completa, flashcard, mappa o raccolta di appunti definitivi prodotta.
+**Fase attuale: studio avviato sui prerequisiti Microsoft Learn.** Sessione del 19 ottobre 2026 chiusa: unità 1–5 del primo modulo lette, discusse ed esercitate; due punti circoscritti confermati nel richiamo. Disponibili appunti, mappa e otto flashcard del blocco. Assessment e Summary ancora da svolgere; nessun obiettivo AZ-305 completo o intero percorso verificato.
 
 ## Aprire la dashboard
 
@@ -13,7 +13,7 @@ python -B scripts/build_site.py
 python -m http.server 8000 --bind 127.0.0.1 --directory _site
 ```
 
-Aprire `http://127.0.0.1:8000`, oppure direttamente `_site/index.html`. La dashboard mostra il punto di ripresa, i sei learning path Microsoft Learn con moduli e unità in ordine, i 49 obiettivi e le fonti ricercabili. Appunti, mappe e flashcard compariranno dopo le sessioni effettive. Esame indicato dall’utente: **1 dicembre 2026**.
+Aprire `http://127.0.0.1:8000`, oppure direttamente `_site/index.html`. La dashboard mostra il punto di ripresa, i sei learning path Microsoft Learn con moduli e unità in ordine, i 49 obiettivi e le fonti ricercabili. La raccolta di ripasso contiene i primi materiali del blocco effettivamente studiato. Esame indicato dall’utente: **1 dicembre 2026**.
 
 Pubblicazione prevista su GitHub Pages pubblico con il workflow incluso; progressi ed elaborati inclusi nel sito saranno pubblici. Non ci sono database o salvataggi dal browser. Per attivazione Pages e aggiornamenti leggere [DASHBOARD.md](docs/DASHBOARD.md). Nessuna impostazione remota è stata cambiata dall’implementazione locale.
 

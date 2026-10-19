@@ -1,4 +1,32 @@
 {
   "schema_version": 1,
-  "items": []
+  "items": [
+    {
+      "id": "lp-prereq-m01-appunti",
+      "kind": "notes",
+      "title": "Modulo 1 — Fondamenti Azure e precisazioni della sessione",
+      "block_id": "LP-PREREQ",
+      "published_on": "2026-10-19",
+      "summary": "Unità 1–5: distribuzione fisica, gerarchia gestionale, caso A/B e limiti della verifica personale.",
+      "path": "studio/ripasso/LP-PREREQ-M01/appunti.md"
+    },
+    {
+      "id": "lp-prereq-m01-mappa",
+      "kind": "map",
+      "title": "Modulo 1 — Mappa di collocazione, scope e recupero",
+      "block_id": "LP-PREREQ",
+      "published_on": "2026-10-19",
+      "summary": "Mappa testuale originale dei concetti trattati e dei punti confermati o da riprendere.",
+      "path": "studio/ripasso/LP-PREREQ-M01/mappa.md"
+    },
+    {
+      "id": "lp-prereq-m01-flashcard",
+      "kind": "flashcards",
+      "title": "Modulo 1 — Otto flashcard del blocco studiato",
+      "block_id": "LP-PREREQ",
+      "published_on": "2026-10-19",
+      "summary": "Richiamo dei concetti e delle correzioni, con fonti e limiti personali espliciti.",
+      "path": "studio/ripasso/LP-PREREQ-M01/flashcard.json"
+    }
+  ]
 }

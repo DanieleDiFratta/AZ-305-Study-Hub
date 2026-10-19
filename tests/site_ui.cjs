@@ -17,6 +17,14 @@ function open(hash = '#home', change = () => {}, now = '2026-10-15T18:00:00Z') {
   window.scrollTo = () => {};
   window.HTMLElement.prototype.scrollIntoView = () => {};
   window.eval(dataset);
+  // Personal study updates must not change the synthetic states exercised by UI tests.
+  window.STUDY_DATA.progress = {
+    schema_version: 1, updated_on: '2026-10-15', exam_date: '2026-12-01',
+    resume: { block_id: 'LP-PREREQ', summary: 'Fixture', next_action: 'Leggere il primo modulo', source_id: null, section: null },
+    blocks: { 'LP-PREREQ': { proposed: { on: '2026-10-15', evidence: 'Proposta sintetica di test' } } },
+    objectives: {}, sessions: [], doubts: [], reviews: []
+  };
+  window.STUDY_DATA.materials = [];
   change(window.STUDY_DATA);
   const originalProgress = JSON.stringify(window.STUDY_DATA.progress);
   window.eval(app);

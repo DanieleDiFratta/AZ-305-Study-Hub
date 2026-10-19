@@ -1,6 +1,6 @@
 # Materiali delle sessioni
 
-Questa cartella accoglie gli elaborati originali prodotti durante lo studio. Non contiene ancora appunti, mappe o flashcard: nessuna sessione è stata svolta.
+Questa cartella accoglie gli elaborati originali prodotti durante lo studio. Dal 19 ottobre 2026 contiene appunti, una mappa testuale e otto flashcard del primo blocco effettivamente studiato, sotto LP-PREREQ-M01.
 
 La dashboard pubblica esclusivamente i materiali dichiarati in [materiali.json](../materiali.json). Aggiungere un file qui non basta a pubblicarlo. Tutti i materiali elencati sono pubblici, come i progressi mostrati dal sito.
 
@@ -16,13 +16,13 @@ Ogni voce di `studio/materiali.json` contiene:
 
 ```json
 {
-  "id": "s01-appunti",
+  "id": "lp-prereq-m01-appunti",
   "kind": "notes",
   "title": "Titolo del materiale effettivamente sviluppato",
-  "block_id": "S01",
+  "block_id": "LP-PREREQ",
   "published_on": "2026-10-15",
   "summary": "Descrizione del contenuto studiato",
-  "path": "studio/ripasso/S01/appunti.md"
+  "path": "studio/ripasso/LP-PREREQ-M01/appunti.md"
 }
 ```
 

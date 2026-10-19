@@ -1,6 +1,6 @@
 # Biblioteca delle fonti
 
-Catalogo verificato il 2026-10-15: 381 record, inclusi tre placeholder esplicitamente segnalati. Le 206 unità sono elencate separatamente in [PERCORSI-LEARN.md](PERCORSI-LEARN.md); ogni record completo è in [catalog.json](../data/catalog.json).
+Catalogo verificato il 2026-10-19: 381 record, inclusi tre placeholder esplicitamente segnalati. Le 206 unità sono elencate separatamente in [PERCORSI-LEARN.md](PERCORSI-LEARN.md); ogni record completo è in [catalog.json](../data/catalog.json).
 
 Tutti i titoli delle pagine sono rilevati dalla fonte. I criteri di selezione e le associazioni agli obiettivi sono redazionali. Lingua `en-us` scelta come baseline; le traduzioni italiane non sono state verificate. `public_content` significa corpo leggibile tramite GET anonimo, non esecuzione di laboratori, video o funzioni autenticati.
 

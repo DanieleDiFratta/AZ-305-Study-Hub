@@ -74,6 +74,8 @@ Le vecchie stime S01–S11 non si applicano a questa sequenza. Calibrare i tempi
 
 ## Punto di partenza
 
+Aggiornamento del 19 ottobre 2026: sessione chiusa, unità 1–5 lette e discusse; caso originale svolto e richiamo corretto su due punti circoscritti. Prossime unità: Module assessment e Summary, ancora da svolgere. Motivazione A/B da approfondire nel modulo governance. Ripresa nel [registro corrente](../studio/sessioni/2026-10-19-LP-PREREQ-M01.md).
+
 `LP-PREREQ` → **Describe the core architectural components of Azure** → unità 1–5, dall’introduzione fino a **Describe Azure management infrastructure**. Proposta: 30–40 minuti di lettura, stima redazionale con annotazione dei dubbi. Poi confronto; seguono Module assessment e Summary nello stesso modulo. Dettagli nel [registro di avvio](../studio/sessioni/2026-10-15-LP-PREREQ-M01.md).
 
 ## Ripasso e stati

@@ -2,9 +2,9 @@
 
 Peso ufficiale: 25–30%. Obiettivi: 1.1.1–1.1.3, 1.2.1–1.2.5, 1.3.1–1.3.3. Vedere [matrice](../../docs/MATRICE-COPERTURA.md) e [inventario Learn](../../docs/PERCORSI-LEARN.md).
 
-## Stato — 15 ottobre 2026
+## Stato — 19 ottobre 2026
 
-Non iniziato. Fonti raccolte dall’assistente; nessuna lettura, discussione o verifica personale dell’utente. Nessun dubbio o errore personale ancora osservato.
+Percorso specifico LP-IDENTITY non iniziato. Nei prerequisiti l’utente ha dichiarato lette le unità 1–5 del primo modulo il 19 ottobre 2026, inclusa l’introduzione alla gerarchia Azure, contesto per 1.3.1. Spiegazione integrata fornita il 19 ottobre sui fondamenti letti; caso originale e richiamo svolti. Confermata l’assegnazione della policy comune alla subscription in A; motivazione discriminante A/B ancora da approfondire. Nel caso originale gli scope sono coerenti con B, ma la sola ereditarietà non distingue B da A; richiamo sulla policy in A risposto correttamente; non ancora argomentata la motivazione discriminante A/B.
 
 ## Fonti e collocazione
 
@@ -15,11 +15,11 @@ Non iniziato. Fonti raccolte dall’assistente; nessuna lettura, discussione o v
 
 ## Ripresa
 
-Seguire il [piano Learn](../../docs/PIANO-DIDATTICO.md): ordine del syllabus, poi moduli e unità nell’ordine originale. Diagnosi S00 saltata; partenza da LP-PREREQ, primo modulo, unità 1–5, come nel [registro corrente](../sessioni/2026-10-15-LP-PREREQ-M01.md). Questo dominio verrà affrontato nel percorso `LP-IDENTITY`. Le collocazioni S01–S11 sopra sono riferimenti tematici della pianificazione precedente, non l’ordine attivo. Nessun blocco specifico del dominio attualmente assegnato; nessun risultato personale registrato.
+Seguire il [piano Learn](../../docs/PIANO-DIDATTICO.md). Diagnosi S00 saltata; unità 1–5 del primo modulo LP-PREREQ dichiarate lette, come nel [registro corrente](../sessioni/2026-10-19-LP-PREREQ-M01.md). Dopo «chiaro» dell’utente è stata fornita la spiegazione integrata; prima risposta al caso originale ricevuta e valutata; richiamo finale corretto sullo scope della policy in A e sulla dipendenza applicativa. Sessione chiusa su richiesta; motivazione A/B da approfondire nel modulo governance. Assessment e riepilogo del modulo ancora da svolgere. Questo dominio verrà affrontato nel percorso `LP-IDENTITY`. Le collocazioni S01–S11 sopra sono riferimenti della pianificazione precedente. Nessun obiettivo del dominio completato o verificato.
 
 | Blocco | Proposto | Letto dall’utente | Discusso | Esercitato | Comprensione verificata |
 | --- | --- | --- | --- | --- | --- |
-| Nessuno attivo; S01-A superato | — | — | — | — | — |
+| LP-PREREQ, modulo 1, unità 1–5: fondamenti per 1.3.1 | 2026-10-15 | 2026-10-19 | 2026-10-19 | 2026-10-19, caso originale | Due punti circoscritti confermati; obiettivo completo non verificato |
 
 ## Da aggiornare nelle sessioni
 
